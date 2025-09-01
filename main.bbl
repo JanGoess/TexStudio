@@ -1,0 +1,63 @@
+\begin{thebibliography}{9}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Brida et~al.(2006)Brida, Genovese, and Zappa]{Brida2006}
+Giuliano Brida, Massimo Genovese, and Franco Zappa.
+\newblock Twin-photon techniques for photodetector calibration.
+\newblock \emph{Laser Physics Letters}, 3:\penalty0 115--123, 2006.
+\newblock \doi{10.1002/lapl.200510077}.
+
+\bibitem[\etal(2008)]{Avenhaus2008}
+Avenhaus \etal.
+\newblock Photon number statistics of multimode parametric down-conversion.
+\newblock \emph{Physical Review Letters}, 101:\penalty0 053601, 2008.
+\newblock \doi{10.1103/PhysRevLett.101.053601}.
+
+\bibitem[\etal(2009)]{Blauensteiner2009}
+Blauensteiner \etal.
+\newblock Photon bunching in parametric down-conversion with continuous-wave
+  excitation.
+\newblock \emph{Physical Review A}, 79:\penalty0 063846, 2009.
+\newblock \doi{10.1103/PhysRevA.79.063846}.
+
+\bibitem[\etal(2011)]{Christ2011}
+Christ \etal.
+\newblock Probing multimode squeezing with correlation functions.
+\newblock \emph{New Journal of Physics}, 13:\penalty0 033027, 2011.
+\newblock \doi{10.1088/1367-2630/13/3/033027}.
+
+\bibitem[\etal(2024)]{Defienne2024}
+Defienne \etal.
+\newblock Advances in quantum imaging.
+\newblock \emph{arXiv preprint arXiv:2411.08415}, 2024.
+
+\bibitem[\etal(2019)]{Moreau2019}
+Moreau \etal.
+\newblock Imaging with quantum states of light.
+\newblock 1\penalty0 (6):\penalty0 367--380, 2019.
+
+\bibitem[\etal(2013)]{Spring2013}
+Spring \etal.
+\newblock Boson sampling on a photonic chip.
+\newblock \emph{Science}, 339:\penalty0 798--801, 2013.
+\newblock \doi{10.1126/science.1231692}.
+
+\bibitem[Guo et~al.(2017)Guo, Zou, Schuck, Jung, Cheng, and Tang]{Guo2017}
+Xiang Guo, Chang-Ling Zou, Carsten Schuck, Hojoong Jung, Risheng Cheng, and
+  Hong~X. Tang.
+\newblock Parametric down-conversion photon-pair source on a nanophotonic chip.
+\newblock \emph{Light: Science \& Applications}, 6:\penalty0 e16249, 2017.
+\newblock \doi{10.1038/lsa.2016.249}.
+
+\bibitem[Ma et~al.(2023)Ma, Chen, Garikapati, Li, Tang, Su, and
+  Huang]{Fang2023}
+Zhaohui Ma, Jia-Yang Chen, Malvika Garikapati, Zhan Li, Chao Tang, Yong-Meng
+  Su, and Yu-Ping Huang.
+\newblock A highly efficient and pure few-photon source on chip.
+\newblock \emph{arXiv preprint arXiv:2309.15233}, 2023.
+
+\end{thebibliography}

@@ -1,0 +1,256 @@
+\documentclass[
+    11pt,
+    a4paper,
+    sfdefaults=false,
+    toc=chapterentrywithdots,
+    twoside,openright,
+    titlepage,
+    parskip=half,
+    headings=normal,  % reduces heading size
+    listof=totoc,
+    bibliography=totoc,
+    index=totoc,
+    captions=tableheading,  % caption below table
+    chapterprefix,
+    listof=flat,
+    final
+]{scrbook}
+
+
+% details about your thesis
+\newcommand{\titel}{Parameter estimation of correlated photon pairs}
+\newcommand{\artderarbeit}{Bachelor thesis}  % {Bachelorarbeit,Masterarbeit}
+\newcommand{\autor}{Jan Gößwein}
+\newcommand{\studiengang}{AMP}  % {Informatik,Wirtschaftsinformatik,Medieninformatik}
+\newcommand{\matrikelnr}{212968}
+\newcommand{\erstgutachter}{Prof.\,Dr.~Norbert Koch}
+\newcommand{\zweitgutachter}{Prof.\,Dr.~Michael Mayle}
+\newcommand{\betreuer}{Masoud Safari}
+\newcommand{\unternehmen}{Insitute of Applied Physics}
+\newcommand{\logo}{figures/TH-Nuernberg-RGB.png}
+\newcommand{\keywords}{hot, fuzz}
+ 
+
+% custom head and foot
+\usepackage[automark,markcase=noupper]{scrlayer-scrpage}
+\pagestyle{scrheadings}
+\ihead{\headmark}
+\chead{}
+\ohead{\pagemark}
+%\renewcommand*{\chaptermarkformat}{\thechapter. \ }
+\renewcommand*\chaptermarkformat{\chapappifchapterprefix{\ }%
+\thechapter.\enskip}
+
+\RedeclareSectionCommand[tocindent=0pt]{section}
+\RedeclareSectionCommand[tocindent=0pt]{subsection}
+%\RedeclareSectionCommand[tocnumwidth=70pt]{chapter}
+
+\usepackage{scrhack}
+
+% other packages
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,relsize,textcomp,csquotes}
+\usepackage{amsmath,amsfonts}
+\usepackage[english]{babel}  % flip for German thesis ;ngerman
+\usepackage[final]{graphicx}
+\usepackage{setspace,geometry,xcolor}
+\usepackage{makeidx}
+\usepackage{paralist,ifthen,todonotes}
+\usepackage{url}
+\usepackage[toc,shortcuts,nogroupskip]{glossaries} % nonumberlist
+\usepackage{pdfpages}
+\usepackage{mathtools}
+\usepackage{lettrine}
+\usepackage{svg}
+\usepackage[numbers]{natbib}
+
+\usepackage{datetime}
+\usepackage[intoc]{nomencl}
+\usepackage{siunitx}
+
+%% This will add the units
+%----------------------------------------------
+\newcommand{\nomunit}[1]{%
+\renewcommand{\nomentryend}{\hspace*{\fill}#1}}
+%----------------------------------------------
+
+\usepackage{booktabs}
+\newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
+
+% plot packages
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\usepgfplotslibrary{groupplots}
+%\usepgfplotslibrary{errorbars} % Required: for error bars
+\usepgfplotslibrary{statistics} % Optional: for box plots, etc.
+\usepgfplotslibrary{units} % Optional: for unit formatting
+\usepgfplotslibrary{colorbrewer} % Optional: for color schemes
+\pgfplotsset{compat=newest}
+\pgfplotsset{
+    colormap name=viridis,
+}
+% Set global styles for PGFPlots
+\pgfplotsset{
+    every axis/.append style={
+        every axis x label/.style={
+            font=\bfseries,
+            at={(axis description cs:0.5,-0.1)}, % Adjust the position as needed
+            anchor=north,
+        },
+        every axis y label/.style={
+            font=\bfseries,
+            at={(axis description cs:-0.1,0.5)}, % Adjust the position as needed
+            anchor=south,
+            rotate=90
+        },
+    }
+}
+
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows, calc,spy,3d,backgrounds}
+\usetikzlibrary{positioning}
+
+
+
+\usepackage{caption}
+\usepackage{subcaption}
+
+% packages for icons and shapes
+% https://latexdraw.com/fontawesome-ready-icons-to-use-in-latex/
+\usepackage{fontawesome5}
+
+\newlength{\twosubht}
+\newsavebox{\twosubbox}
+% table setup
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{ragged2e}
+\usepackage{lscape}
+\usepackage{comment}
+
+% pdf hyperref
+\usepackage[
+    bookmarks=true,
+    bookmarksopen=true,
+    bookmarksnumbered=true,
+    bookmarksopenlevel=1,
+    pdftitle={\titel},
+    pdfauthor={\autor},
+    pdfcreator={\autor},
+    pdfsubject={\titel},
+    pdfkeywords={\keywords},
+    pdfpagelabels=true,
+    colorlinks=true,
+    linkcolor=red,
+    urlcolor=magenta,
+    anchorcolor=black,
+    citecolor=cyan,
+    filecolor=magenta,
+    menucolor=red,
+    plainpages=false,
+    hypertexnames=true,
+    linktocpage=true,
+]{hyperref}
+\usepackage{hyperref}
+% configure your listings style
+\usepackage{listings}
+\lstset{
+	tabsize=3,
+	extendedchars=true,
+	frame=single,
+	showstringspaces=true,
+	numbers=left,
+	numberstyle=\small,
+	breakautoindent=true
+}
+	
+\usepackage[noabbrev]{cleveref}
+% page setup
+% \setlength{\topskip}{\ht\strutbox}
+\geometry{paper=a4paper,left=2.5cm,top=3.0cm,bindingoffset=.8cm}
+\onehalfspacing
+\frenchspacing
+\clubpenalty = 10000
+\widowpenalty = 10000 
+\displaywidowpenalty = 10000
+
+% some commands
+\newcommand{\ua}{\mbox{u.\,a.\ }}
+\newcommand{\zB}{\mbox{z.\,B.\ }}
+\newcommand{\dahe}{\mbox{d.\,h.,\ }}
+\newcommand{\bzw}{\mbox{bzw.\ }}
+\newcommand{\bzgl}{\mbox{bzgl.\ }}
+\newcommand{\eg}{\mbox{e.\,g.\ }}
+\newcommand{\ie}{\mbox{i.\,e.\ }}
+\newcommand{\wrt}{\mbox{w.\,r.\,t.\ }}
+\newcommand{\etal}{\mbox{\emph{et.\,al.\ }}}
+
+\hyphenation{com-pu-ting}
+
+% load glossary entries
+%\makenoidxglossaries
+%\loadglsentries{glossary}
+\usepackage{glossary-longbooktabs}
+%\usepackage[acronym]{glossaries}
+%\usepackage[shortcuts]{glossaries}
+\setglossarystyle{long3col-booktabs}
+\setlength{\glspagelistwidth}{0.08\linewidth}
+%\renewcommand*{\pagelistname}{Page}
+\renewcommand*{\glossaryheader}{%
+    \toprule
+    \textbf{Notation} & \textbf{Description} & \textbf{Page} \tabularnewline\midrule\endhead
+    \bottomrule\endfoot
+ }%
+
+
+
+% -------------------------------
+\usetikzlibrary {arrows.meta} 
+
+\begin{document}
+
+% define layers in pgf plots
+\pgfplotsset{
+        % define the layers you need.
+        % (Don't forget to add `main' somewhere in that list!!)
+        layers/my layer set/.define layer set={
+            background,
+            main,
+            foreground
+        }{
+            % you could state styles here which should be moved to
+            % corresponding layers, but that is not necessary here.
+            % That is why we don't state anything here
+        },
+        % activate the newly created layer set
+        set layers=my layer set,
+    }
+
+\setcounter{secnumdepth}{3}   % Keep numbering down to subsubsection
+\setcounter{tocdepth}{2}      % TOC depth
+\renewcommand{\thechapter}{}  % Remove chapter number
+\renewcommand{\thesection}{\arabic{section}}
+
+% \frontmatter
+\include{cover}
+
+\tableofcontents
+\printglossaries
+
+\mainmatter
+
+\input{content/1_Introduction}
+\newpage
+\input{content/2_Theory}
+\input{content/3_Experimental}
+\input{content/4_Results}
+\input{content/5_Conclusion}
+\input{testChat}
+
+%\addcontentsline{toc}{section}{References}
+%\bibliographystyle{ieeetr}
+
+%\bibliography{refs}
+
+\end{document}

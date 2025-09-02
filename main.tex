@@ -63,11 +63,12 @@
 \usepackage{mathtools}
 \usepackage{lettrine}
 \usepackage{svg}
-\usepackage[numbers]{natbib}
+% \usepackage[numbers]{natbib}
 
 \usepackage{datetime}
 \usepackage[intoc]{nomencl}
 \usepackage{siunitx}
+
 
 %% This will add the units
 %----------------------------------------------
@@ -110,7 +111,22 @@
 \usepackage{tikz}
 \usetikzlibrary{shapes.geometric, arrows, calc,spy,3d,backgrounds}
 \usetikzlibrary{positioning}
+%\tikzexternalize[prefix=tikz/] % Stores the files in a 'tikz' directory ,external
 
+% define tikz shapes
+\tikzstyle{element} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm,text centered, draw=black, fill=red!30]
+%\tikzstyle{arrow} = [line width =3pt,->,>=stealth]
+\tikzset{arrow/.style={line width=2pt, ->, >=stealth}}
+
+
+\tikzstyle{block} = [rectangle, draw, fill=blue!20, 
+    text width=12em, text centered, rounded corners, minimum height=3em]
+\tikzstyle{line} = [draw,line width=2.5pt]
+\tikzstyle{data}=[trapezium, draw, text centered, trapezium left angle=60, trapezium right angle=120, minimum height=2em, fill=blue!30]
+\tikzstyle{decision} = [diamond, draw, text centered, minimum height=2em, fill=green!30]
+\tikzstyle{process} = [rectangle, draw, text centered, minimum height=2em, fill=orange!30]
+\tikzstyle{terminator} = [rectangle, draw, text centered, rounded corners, minimum height=2em, fill=red!30]
+\tikzstyle{arrow} = [thick,->,>=stealth,line width=2.5pt]
 
 
 \usepackage{caption}
@@ -128,6 +144,11 @@
 \usepackage{ragged2e}
 \usepackage{lscape}
 \usepackage{comment}
+
+
+\usepackage[backend=biber,style=numeric-comp]{biblatex}
+\addbibresource{references.bib}
+
 
 % pdf hyperref
 \usepackage[
@@ -208,6 +229,7 @@
 % -------------------------------
 \usetikzlibrary {arrows.meta} 
 
+
 \begin{document}
 
 % define layers in pgf plots
@@ -247,7 +269,7 @@
 \input{content/4_Results}
 \input{content/5_Conclusion}
 \input{testChat}
-
+\printbibliography
 %\addcontentsline{toc}{section}{References}
 %\bibliographystyle{ieeetr}
 

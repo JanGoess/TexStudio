@@ -9,5 +9,7 @@
 \contentsline {section}{\numberline {4}Results}{3}{section.0.4}%
 \contentsline {section}{\numberline {5}Conclusion}{3}{section.0.5}%
 \contentsline {section}{\numberline {6}Summary}{3}{section.0.6}%
-\contentsline {chapter}{\nonumberline Bibliography}{5}{chapter*.9}%
+\contentsline {chapter}{\nonumberline List of Figures}{5}{chapter*.9}%
+\contentsline {chapter}{\nonumberline List of Tables}{7}{chapter*.10}%
+\contentsline {chapter}{\nonumberline Bibliography}{9}{chapter*.11}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

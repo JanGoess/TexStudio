@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.27)  2 SEP 2025 16:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.27)  2 SEP 2025 17:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2175,11 +2175,11 @@ ound'...
 \openout2 = `cover.aux'.
 
  (cover.tex
-<Images/ACP_Logo.jpeg, id=6, 1927.2pt x 1076.02pt>
-File: Images/ACP_Logo.jpeg Graphic file (type jpg)
-<use Images/ACP_Logo.jpeg>
-Package pdftex.def Info: Images/ACP_Logo.jpeg  used on input line 8.
-(pdftex.def)             Requested size: 211.99266pt x 118.36256pt.
+<Images/Logo IAP.png, id=6, 301.125pt x 126.4725pt>
+File: Images/Logo IAP.png Graphic file (type png)
+<use Images/Logo IAP.png>
+Package pdftex.def Info: Images/Logo IAP.png  used on input line 8.
+(pdftex.def)             Requested size: 180.67638pt x 75.88408pt.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 9
 .
 
@@ -2220,7 +2220,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 9.
 (C:\Users\goesswein\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<Images/FSU_Logo.jpg, id=7, 803.0pt x 269.005pt>
+<Images/FSU_Logo.jpg, id=8, 803.0pt x 269.005pt>
 File: Images/FSU_Logo.jpg Graphic file (type jpg)
 <use Images/FSU_Logo.jpg>
 Package pdftex.def Info: Images/FSU_Logo.jpg  used on input line 13.
@@ -2250,7 +2250,7 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 {C:/Users/goesswein/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/
 goesswein/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/
 goesswein/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc} <./Image
-s/ACP_Logo.jpeg> <./Images/FSU_Logo.jpg>])
+s/Logo IAP.png> <./Images/FSU_Logo.jpg>])
 
 [2
 
@@ -2281,7 +2281,7 @@ s/ACP_Logo.jpeg> <./Images/FSU_Logo.jpg>])
 ] (content/1_Introduction.tex)
 
 [1] (content/2_Theory.tex) (content/3_Experimental.tex
-<Images/bitmap.pdf, id=78, 554.07pt x 184.69pt>
+<Images/bitmap.pdf, id=84, 554.07pt x 184.69pt>
 File: Images/bitmap.pdf Graphic file (type pdf)
 <use Images/bitmap.pdf>
 Package pdftex.def Info: Images/bitmap.pdf  used on input line 8.
@@ -2291,7 +2291,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 44.
 ) (content/4_Results.tex
-<Images/mmBE_Test.pdf, id=79, 490.35136pt x 344.9431pt>
+<Images/mmBE_Test.pdf, id=85, 490.35136pt x 344.9431pt>
 File: Images/mmBE_Test.pdf Graphic file (type pdf)
 <use Images/mmBE_Test.pdf>
 Package pdftex.def Info: Images/mmBE_Test.pdf  used on input line 5.
@@ -2305,28 +2305,52 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [2 <./Images/bitmap.pdf>]
 
 [3{C:/Users/goesswein/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathi
-t.enc}{C:/Users/goesswein/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-r
-m.enc}{C:/Users/goesswein/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-m
-athsy.enc} <./Images/mmBE_Test.pdf>])
+t.enc} <./Images/mmBE_Test.pdf>])
 
-[4]
-chapter without number
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
-88.
-(C:\Users\goesswein\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-Overfull \hbox (19.99855pt too wide) in paragraph at lines 291--291
-[]\T1/lmr/m/n/10.95 M. Aven-haus et al. ^^P  Pho-ton Num-ber Statis-tics of Mul
--ti-mode Para-met-ric Down-Conversion^^Q.
- []
+[4{C:/Users/goesswein/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.en
+c}{C:/Users/goesswein/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-maths
+y.enc}] (main.lof)
+\tf@lof=\write10
+\openout10 = `main.lof'.
 
 
 
 [5
 
 
-] (main.aux (cover.aux))
+
+
+]
+
+[6
+
+
+] (main.lot)
+\tf@lot=\write11
+\openout11 = `main.lot'.
+
+
+
+[7]
+
+[8
+
+
+]
+chapter without number
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
+94.
+(C:\Users\goesswein\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Overfull \hbox (19.99855pt too wide) in paragraph at lines 297--297
+[]\T1/lmr/m/n/10.95 M. Aven-haus et al. ^^P  Pho-ton Num-ber Statis-tics of Mul
+-ti-mode Para-met-ric Down-Conversion^^Q.
+ []
+
+
+
+[9] (main.aux (cover.aux))
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -2336,13 +2360,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 71492 strings out of 468133
- 1714462 string characters out of 5428783
- 2904769 words of memory out of 5000000
- 99090 multiletter control sequences out of 15000+600000
+ 71530 strings out of 468133
+ 1715029 string characters out of 5428783
+ 2903901 words of memory out of 5000000
+ 99116 multiletter control sequences out of 15000+600000
  698969 words of font info for 90 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 108i,19n,117p,10901b,2026s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,20n,117p,10901b,2026s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/goesswein/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx1
 0.pfb><C:/Users/goesswein/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/l
 mbx12.pfb><C:/Users/goesswein/AppData/Local/Programs/MiKTeX/fonts/type1/public/
@@ -2356,9 +2380,9 @@ X/fonts/type1/public/lm/lmri10.pfb><C:/Users/goesswein/AppData/Local/Programs/M
 iKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/goesswein/AppData/Local/Progra
 ms/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/goesswein/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
-Output written on main.pdf (11 pages, 673841 bytes).
+Output written on main.pdf (15 pages, 580358 bytes).
 PDF statistics:
- 420 PDF objects out of 1000 (max. 8388607)
- 40 named destinations out of 1000 (max. 500000)
- 129 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 453 PDF objects out of 1000 (max. 8388607)
+ 46 named destinations out of 1000 (max. 500000)
+ 145 words of extra memory for PDF output out of 10000 (max. 10000000)
 

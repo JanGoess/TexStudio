@@ -213,7 +213,7 @@
 %\makenoidxglossaries
 %\loadglsentries{glossary}
 \usepackage{glossary-longbooktabs}
-%\usepackage[acronym]{glossaries}
+%\usepkage[]{glossaries}
 %\usepackage[shortcuts]{glossaries}
 \setglossarystyle{long3col-booktabs}
 \setlength{\glspagelistwidth}{0.08\linewidth}
@@ -223,6 +223,19 @@
     \textbf{Notation} & \textbf{Description} & \textbf{Page} \tabularnewline\midrule\endhead
     \bottomrule\endfoot
  }%
+\makenomenclature
+
+
+
+
+\newacronym{spdc}{SPDC}{Spontaneous parametric down-conversion}
+\newacronym{snspd}{SNSPD}{Superconducting nanowire single-photon detector}
+
+
+
+
+
+\makeglossaries
 
 
 
@@ -254,10 +267,13 @@
 \renewcommand{\thechapter}{}  % Remove chapter number
 \renewcommand{\thesection}{\arabic{section}}
 
-% \frontmatter
+\frontmatter
 \include{cover}
 
+
 \tableofcontents
+
+
 \printglossaries
 
 \mainmatter

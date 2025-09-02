@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.27)  1 SEP 2025 12:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.27)  2 SEP 2025 16:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1984,6 +1984,16 @@ Package: glossary-longbooktabs 2025/05/14 v4.7 (NLCT)
 lossary-longragged.sty
 Package: glossary-longragged 2025/05/14 v4.7 (NLCT)
 ))
+\@nomenclaturefile=\write6
+\openout6 = `main.nlo'.
+
+Package nomencl Info: Writing nomenclature file main.nlo on input line 226.
+\glswrite=\write7
+\glo@main@file=\write8
+\openout8 = `main.glo'.
+
+Package glossaries Info: Writing glossary file main.glo on input line 238.
+
 (C:\Users\goesswein\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgf
 libraryarrows.meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -2003,7 +2013,7 @@ Class scrbook Info: loading recommended package `bookmark'.
 (scrbook)           `bookmarkpackage=false' before \begin{document} and
 (scrbook)           you can avoid this message adding:
 (scrbook)             \usepackage{bookmark}
-(scrbook)           before \begin{document} on input line 233.
+(scrbook)           before \begin{document} on input line 246.
 
 (C:\Users\goesswein\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.s
 ty
@@ -2015,41 +2025,41 @@ File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO
 )
 \BKM@id=\count586
 ))
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 23
-3.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 24
+6.
  (C:\Users\goesswein\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (main.aux (cover.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 233.
-LaTeX Font Info:    ... okay on input line 233.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 233.
-LaTeX Font Info:    ... okay on input line 233.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 233.
-LaTeX Font Info:    ... okay on input line 233.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 233.
-LaTeX Font Info:    ... okay on input line 233.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 233.
-LaTeX Font Info:    ... okay on input line 233.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 233.
-LaTeX Font Info:    ... okay on input line 233.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 233.
-LaTeX Font Info:    ... okay on input line 233.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 233.
-LaTeX Font Info:    ... okay on input line 233.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 233.
-LaTeX Font Info:    ... okay on input line 233.
-Package scrbase Info: activating english \partname on input line 233.
-Package scrbase Info: activating english \chaptername on input line 233.
-Package scrbase Info: activating english \appendixname on input line 233.
-Package scrbase Info: activating english \figurename on input line 233.
-Package scrbase Info: activating english \tablename on input line 233.
-Package scrbase Info: activating english \contentsname on input line 233.
-Package scrbase Info: activating english \listfigurename on input line 233.
-Package scrbase Info: activating english \listtablename on input line 233.
-Package scrbase Info: activating english \bibname on input line 233.
-Package scrbase Info: activating english \indexname on input line 233.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 246.
+LaTeX Font Info:    ... okay on input line 246.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 246.
+LaTeX Font Info:    ... okay on input line 246.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 246.
+LaTeX Font Info:    ... okay on input line 246.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 246.
+LaTeX Font Info:    ... okay on input line 246.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 246.
+LaTeX Font Info:    ... okay on input line 246.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 246.
+LaTeX Font Info:    ... okay on input line 246.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 246.
+LaTeX Font Info:    ... okay on input line 246.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 246.
+LaTeX Font Info:    ... okay on input line 246.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 246.
+LaTeX Font Info:    ... okay on input line 246.
+Package scrbase Info: activating english \partname on input line 246.
+Package scrbase Info: activating english \chaptername on input line 246.
+Package scrbase Info: activating english \appendixname on input line 246.
+Package scrbase Info: activating english \figurename on input line 246.
+Package scrbase Info: activating english \tablename on input line 246.
+Package scrbase Info: activating english \contentsname on input line 246.
+Package scrbase Info: activating english \listfigurename on input line 246.
+Package scrbase Info: activating english \listtablename on input line 246.
+Package scrbase Info: activating english \bibname on input line 246.
+Package scrbase Info: activating english \indexname on input line 246.
 
 (C:\Users\goesswein\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pd
 f.mkii
@@ -2128,7 +2138,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 233.
+or `english'. on input line 246.
 
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
@@ -2152,15 +2162,15 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 233.
-Package biblatex Info: Reference segment=0 on input line 233.
-Package hyperref Info: Link coloring ON on input line 233.
+Package biblatex Info: Reference section=0 on input line 246.
+Package biblatex Info: Reference segment=0 on input line 246.
+Package hyperref Info: Link coloring ON on input line 246.
 \c@lstlisting=\count593
-Package tocbasic Info: setting babel extension for `lol' on input line 233.
+Package tocbasic Info: setting babel extension for `lol' on input line 246.
 \scr@dte@lstlisting@maxnumwidth=\skip132
 \pgf@layerbox@foreground=\box100
 \pgf@layerboxsaved@foreground=\box101
-Package pgfplots info on input line 250: Setting layers 'background,main,foregr
+Package pgfplots info on input line 263: Setting layers 'background,main,foregr
 ound'...
 \openout2 = `cover.aux'.
 
@@ -2230,6 +2240,10 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 
 [1
 
+\openout7 = `main.ist'.
+
+
+
 
 
 
@@ -2244,28 +2258,30 @@ s/ACP_Logo.jpeg> <./Images/FSU_Logo.jpg>])
 
 
 ] (main.toc)
-\tf@toc=\write6
-\openout6 = `main.toc'.
+\tf@toc=\write9
+\openout9 = `main.toc'.
 
-
-No file main.gls.
-
+ (main.gls
 
 [3]
 
 [4
 
 
+])
+
+[5
+
+
+]
+
+[6
+
+
 ] (content/1_Introduction.tex)
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.266 \newpage
-               [1] (content/2_Theory.tex) (content/3_Experimental.tex
-<Images/bitmap.pdf, id=66, 554.07pt x 184.69pt>
+[1] (content/2_Theory.tex) (content/3_Experimental.tex
+<Images/bitmap.pdf, id=78, 554.07pt x 184.69pt>
 File: Images/bitmap.pdf Graphic file (type pdf)
 <use Images/bitmap.pdf>
 Package pdftex.def Info: Images/bitmap.pdf  used on input line 8.
@@ -2274,9 +2290,8 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <17.28> on input line 44.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 44.
-)
-(content/4_Results.tex
-<Images/mmBE_Test.pdf, id=67, 490.35136pt x 344.9431pt>
+) (content/4_Results.tex
+<Images/mmBE_Test.pdf, id=79, 490.35136pt x 344.9431pt>
 File: Images/mmBE_Test.pdf Graphic file (type pdf)
 <use Images/mmBE_Test.pdf>
 Package pdftex.def Info: Images/mmBE_Test.pdf  used on input line 5.
@@ -2287,39 +2302,21 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ) (content/5_Conclusion.tex) (testChat.tex
 
+[2 <./Images/bitmap.pdf>]
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.7 
-     [2 <./Images/bitmap.pdf>]
+[3{C:/Users/goesswein/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathi
+t.enc}{C:/Users/goesswein/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-r
+m.enc}{C:/Users/goesswein/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-m
+athsy.enc} <./Images/mmBE_Test.pdf>])
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.9 
-     [3{C:/Users/goesswein/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-
-mathit.enc}{C:/Users/goesswein/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm
-/lm-rm.enc}{C:/Users/goesswein/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm
-/lm-mathsy.enc} <./Images/mmBE_Test.pdf>])
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.275 
-       [4]
+[4]
 chapter without number
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
-72.
+88.
 (C:\Users\goesswein\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Overfull \hbox (19.99855pt too wide) in paragraph at lines 275--275
+Overfull \hbox (19.99855pt too wide) in paragraph at lines 291--291
 []\T1/lmr/m/n/10.95 M. Aven-haus et al. ^^P  Pho-ton Num-ber Statis-tics of Mul
 -ti-mode Para-met-ric Down-Conversion^^Q.
  []
@@ -2339,10 +2336,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 71410 strings out of 468133
- 1713232 string characters out of 5428783
- 2904371 words of memory out of 5000000
- 99022 multiletter control sequences out of 15000+600000
+ 71492 strings out of 468133
+ 1714462 string characters out of 5428783
+ 2904769 words of memory out of 5000000
+ 99090 multiletter control sequences out of 15000+600000
  698969 words of font info for 90 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  108i,19n,117p,10901b,2026s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2359,9 +2356,9 @@ X/fonts/type1/public/lm/lmri10.pfb><C:/Users/goesswein/AppData/Local/Programs/M
 iKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/goesswein/AppData/Local/Progra
 ms/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/goesswein/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
-Output written on main.pdf (9 pages, 669246 bytes).
+Output written on main.pdf (11 pages, 673841 bytes).
 PDF statistics:
- 403 PDF objects out of 1000 (max. 8388607)
- 32 named destinations out of 1000 (max. 500000)
+ 420 PDF objects out of 1000 (max. 8388607)
+ 40 named destinations out of 1000 (max. 500000)
  129 words of extra memory for PDF output out of 10000 (max. 10000000)
 

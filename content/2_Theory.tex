@@ -1,5 +1,20 @@
 \section{Theory}
 \subsection{Spontaneous parametric down-conversion }
+To exploit the advantages of quantum imaging and sensing, one needs to create correlated biphoton states of light. The most efficient technology to create such quantum states are \acrfull{spdc} sources. \newline
+The underlying process is as follows: an incident pump photon with frequency $\omega_{\text{p}}$ causes a nonlinear material response resulting in the spontaneous emission of a photon pair with lower frequencies $\omega_{\text{s}}$ and $\omega_{\text{i}}$. The subscripts $i$ and $s$ represent the signal and idler photons, as they are usually referred to. \newline
+Most experiments use crystals, such as \acrfull{ktp} and \acrfull{bbo}, or \acrfull{ln} based optical waveguides, because they exhibit second-order nonlinearity \cite{fiorentinoSpontaneousParametricDownconversion2007,kwiatUltrabrightSourcePolarizationentangled1999,tanzilliHighlyEfficientPhotonpair2000}.
+To achieve efficient \acrshort{spdc} processes, the energy and momentum must be conserved. This means that the photon pair must interfere constructively and fulfill the phase-matching conditions of the wave vector $k$ \cite{gilabertebassetPerspectivesApplicationsQuantum2019} : 
+\begin{equation}
+	\begin{aligned}
+		\omega_{\text{p}} &= \omega_{\text{s}} + \omega_{\text{i}} \\
+		\vec{k_{\text{p}}} &= k_{\text{s}} + k_{\text{i}} - \Delta k
+	\end{aligned}
+\end{equation}
+where the indices p, s and i refer to the pump, signal and idler photon. $\Delta k$ represents the phase mismatch caused by dispersion, which results in zero produced photon pairs. There are two approaches to compensate for the mismatch. \newline
+One is called \acrfull{qpm} and exploits that in periodically poled crystals, e.g. \acrshort{ktp} or \acrshort{ln}, the nonlinear response also changes periodically, resulting in a phase mismatch of $\Delta k = 0$. It allows for a process called type-0 \acrshort{spdc} to happen, which means that all three photons (pump, signal, idler) have the same polarization direction. \newline
+Another way to compensate the mismatch is called \acrfull{bpm} and uses anisotropic materials, such as \acrshort{bbo}, as the refractive index changes with the polarization of the incident photon. The effect of using \acrshort{bpm} is that the extraordinary photon is always polarized perpendicular to the pump. Therefore, no type-0 \acrshort{spdc} can be achieved with this approach. The two other possible cases are called type-I \acrshort{spdc}, which means that the signal and idler photons share the same polarization and are polarized perpendicular to the pump. Type-II \acrshort{spdc} means that the signal and idler photons are polarized perpendicular to each other \cite{boydNonlinearOptics2008}. 
+
+ 
 \subsection{Coherent light}
 \subsection{Thermal light}
 \begin{itemize}

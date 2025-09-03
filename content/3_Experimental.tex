@@ -16,18 +16,18 @@
     \tikzstyle{every node}=[font=\LARGE]
 
     \pgfmathsetmacro{\yTop}{12.5}
-    \pgfmathsetmacro{\yBottom}{8.25}
+    \pgfmathsetmacro{\yBottom}{9.25}
     \pgfmathsetmacro{\yMid}{\yBottom + 0.6*(\yTop - \yBottom)}
     \pgfmathsetmacro{\pLab}{\yBottom + 0.5*(\yTop - \yBottom)}
     \pgfmathsetmacro{\sLab}{\yBottom + 0.3*(\yTop - \yBottom)}
     \pgfmathsetmacro{\iLab}{\yBottom + 0.8*(\yTop - \yBottom)}
     
     
-    \draw [line width=2.5pt] (3.5,8.25) -- (12.5,8.25);
-    \draw [ color={rgb,255:red,0; green,0; blue,255}, line width=2pt,-{Latex[length=4mm]}] (5,8.25) -- (5,\yTop);
+    \draw [line width=2.5pt] (3.5,\yBottom) -- (12.5,\yBottom);
+    \draw [ color={rgb,255:red,0; green,0; blue,255}, line width=2pt,-{Latex[length=4mm]}] (5,\yBottom) -- (5,\yTop);
     \draw [line width=2.3pt, dashed] (3.75,\yTop) -- (12.5,\yTop);
     \draw [ color={rgb,255:red,255; green,0; blue,0}, line width=2pt,-{Latex[length=4mm]}] (10,\yTop) -- (10,\yMid);
-    \draw [ color=black!40!green, line width=2pt,-{Latex[length=4mm]}] (10,\yMid) -- (10,8.25);
+    \draw [ color=black!40!green, line width=2pt,-{Latex[length=4mm]}] (10,\yMid) -- (10,\yBottom);
     \node [font=\LARGE, color={rgb,255:red,0; green,0; blue,255}] at (4.25,\pLab) {$\omega_{\text{p}}$};
     \node [font=\LARGE, color={rgb,255:red,255; green,0; blue,0}] at (10.5,\iLab) {$\omega_{\text{i}}$};
     \node [font=\LARGE, color=black!40!green] at (10.5,\sLab) {$\omega_{\text{s}}$};
@@ -39,6 +39,30 @@
     \node [font=\LARGE, color=black!40!green] at (19.5,12) {$k_{\text{s}}$};
     \node [font=\LARGE] at (8,13.75) {$Energy\,\,conservation$};
     \node [font=\LARGE] at (18,13.75) {$Momentum\,\,conservation$};
+    
+    % Coordinates
+    \coordinate (A) at (8,6.5);
+    \coordinate (B) at (10.5,6.5);
+    %
+    \coordinate (B') at (14.5,7);
+    \coordinate (B'') at (14.6,6);
+    \coordinate (C') at (18,7);
+    \coordinate (C'') at (18,6);
+    
+    %Rectangle
+    \draw[thick, fill=black!10] (10.5,5.8) rectangle (14.5,7.2);	
+    \node at (12.2,6.5) {$\chi^2$};
+    % Rays
+    \draw[very thick, rayE2,color=blue] (A) -- (B);
+    
+    %% Bottom Ray
+    \draw[very thick, rayE2,color=green] (B') -- (C');
+    \draw[very thick, rayE2,color=red] (B'') -- (C'');
+    
+    % Nodes
+    \node at (1.2,2.4) [color=blue] {\small $\lambda_{\text{p}}$};
+    \node at (6.8,2.9) [color=green] {\small $\lambda_{\text{i}}$};
+    \node at (6.8,0.4) [color=red] {\small $\lambda_{\text{s}}$};
     
 \end{tikzpicture}
 }%

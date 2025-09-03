@@ -58,7 +58,7 @@
 \usepackage{makeidx}
 \usepackage{paralist,ifthen,todonotes}
 \usepackage{url}
-\usepackage[toc,shortcuts,nogroupskip]{glossaries} % nonumberlist
+
 \usepackage{pdfpages}
 \usepackage{mathtools}
 \usepackage{lettrine}
@@ -173,7 +173,7 @@
     hypertexnames=true,
     linktocpage=true,
 ]{hyperref}
-\usepackage{hyperref}
+
 % configure your listings style
 \usepackage{listings}
 \lstset{
@@ -212,6 +212,7 @@
 % load glossary entries
 %\makenoidxglossaries
 %\loadglsentries{glossary}
+\usepackage[toc,shortcuts,nogroupskip]{glossaries} % nonumberlist
 \usepackage{glossary-longbooktabs}
 %\usepkage[]{glossaries}
 %\usepackage[shortcuts]{glossaries}
@@ -226,13 +227,13 @@
 \makenomenclature
 
 
-
-
 \newacronym{spdc}{SPDC}{Spontaneous parametric down-conversion}
 \newacronym{snspd}{SNSPD}{Superconducting nanowire single-photon detector}
-
-
-
+\newacronym{ktp}{KTP}{potassium titanyl phosphate}
+\newacronym{bbo}{BBO}{beta-barium borate}
+\newacronym{ln}{LN}{lithium niobate}
+\newacronym{qpm}{QPM}{quasi phase matching}
+\newacronym{bpm}{BPM}{birefringent phase matching}
 
 
 \makeglossaries
@@ -240,8 +241,27 @@
 
 
 % -------------------------------
-\usetikzlibrary {arrows.meta} 
+\usetikzlibrary{angles, quotes, shapes, decorations.markings, calc, arrows.meta}
 
+% Styles
+%% Node Style in Order Text to Get Center Alignment
+\tikzset{every text node part/.style={align=center}}
+%% Bottom Ray Outside Box
+\tikzset{rayE2/.style = {postaction=decorate,decoration={markings,
+			mark=at position .52 with \arrow{stealth},
+			mark=between positions 0.1 and 0.4 step 0.54cm with with{
+				\draw[black, {Latex[length=1.3mm, width=1.5mm]}-{Latex[length=1.3mm, width=1.5mm]}] (0,-10pt) -- (0,10pt);
+				\draw[fill=white, draw = white] circle[radius=1pt];},
+			mark=between positions 0.6 and 0.9 step 0.5cm with with{
+				\draw[black, {Latex[length=1.3mm, width=1.5mm]}-{Latex[length=1.3mm, width=1.5mm]}] (0,-10pt) -- (0,10pt);
+				\draw[fill=white, draw = white] circle[radius=1pt];}
+		}
+	}
+}
+
+
+\newcommand{\vo}{\vec{o}\@ifnextchar{^}{\,}{}}
+\numberwithin{equation}{section}
 
 \begin{document}
 

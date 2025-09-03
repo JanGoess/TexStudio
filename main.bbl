@@ -146,6 +146,39 @@
       \verb C:\Users\goesswein\Downloads\ZoteroPortable\Data\profile\storage\DJ6FZ29G\Blauensteiner et al. - 2009 - Photon bunching in parametric down-conversion with continuous-wave excitation.pdf
       \endverb
     \endentry
+    \entry{boydNonlinearOptics2008}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=5deda664a6cf03ea0cb9cb40c827addd}{%
+           family={Boyd},
+           familyi={B\bibinitperiod},
+           given={Robert\bibnamedelima W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Burlington, MA}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press}%
+      }
+      \strng{namehash}{5deda664a6cf03ea0cb9cb40c827addd}
+      \strng{fullhash}{5deda664a6cf03ea0cb9cb40c827addd}
+      \strng{fullhashraw}{5deda664a6cf03ea0cb9cb40c827addd}
+      \strng{bibnamehash}{5deda664a6cf03ea0cb9cb40c827addd}
+      \strng{authorbibnamehash}{5deda664a6cf03ea0cb9cb40c827addd}
+      \strng{authornamehash}{5deda664a6cf03ea0cb9cb40c827addd}
+      \strng{authorfullhash}{5deda664a6cf03ea0cb9cb40c827addd}
+      \strng{authorfullhashraw}{5deda664a6cf03ea0cb9cb40c827addd}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Nonlinear optics is the study of the interaction of intense laser light with matter. The book introduces the entire field of optical physics and specifically the area of nonlinear optics. It focuses on fundamental issues including the electromagnetic origin of optical phenomena, the quantum mechanical description of the optical properties of matter, the role of spatial symmetries in determining the optical response, causality and Kramers Kronig relations, and ultrafast and high intensity optical effects. The book also covers applied aspects of nonlinear optics such as harmonic generation, the operation of parametric oscillators, optical switching, photonics, materials issues in nonlinear optics, and processes such as laser damage that can restrict the use of nonlinear optics. This edition contains new material on: applications of harmonic generation including applications within the fields of microscopy and biophotonics; electromagnetically-induced transparency; spectroscopy based on coherent anti-Stokes Raman scattering (CARS).--From publisher description}
+      \field{edition}{3rd ed}
+      \field{isbn}{978-0-12-369470-6}
+      \field{langid}{english}
+      \field{title}{Nonlinear Optics}
+      \field{year}{2008}
+    \endentry
     \entry{bridaTwinphotonTechniquesPhotodetector2006}{article}{}{}
       \name{author}{3}{}{%
         {{hash=d86ac65efa1cea750682ee58ea26c70e}{%
@@ -339,6 +372,144 @@
       \endverb
       \keyw{Quantum Physics}
     \endentry
+    \entry{fiorentinoSpontaneousParametricDownconversion2007}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=19f9ef395f153965fa57cbb5620a2f05}{%
+           family={Fiorentino},
+           familyi={F\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+        {{hash=32dde084a4c479cdb21ddaaa33b7f432}{%
+           family={Spillane},
+           familyi={S\bibinitperiod},
+           given={Sean\bibnamedelima M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=141562361a16ab7039bcf56a4014a17e}{%
+           family={Beausoleil},
+           familyi={B\bibinitperiod},
+           given={Raymond\bibnamedelima G.},
+           giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=90f1e082b52aac1cd1f09ab34af7a4cb}{%
+           family={Roberts},
+           familyi={R\bibinitperiod},
+           given={Tony\bibnamedelima D.},
+           giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=ab3006ff40d7a76b031d5ae1c42df582}{%
+           family={Battle},
+           familyi={B\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod}}}%
+        {{hash=76f5c3d7521706abc33aa5205db465ca}{%
+           family={Munro},
+           familyi={M\bibinitperiod},
+           given={Mark\bibnamedelima W.},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Optica Publishing Group}%
+      }
+      \strng{namehash}{83241d1016211959a9f58f0bbf4646a7}
+      \strng{fullhash}{c48e86735062c55b50c66a711ced2132}
+      \strng{fullhashraw}{c48e86735062c55b50c66a711ced2132}
+      \strng{bibnamehash}{83241d1016211959a9f58f0bbf4646a7}
+      \strng{authorbibnamehash}{83241d1016211959a9f58f0bbf4646a7}
+      \strng{authornamehash}{83241d1016211959a9f58f0bbf4646a7}
+      \strng{authorfullhash}{c48e86735062c55b50c66a711ced2132}
+      \strng{authorfullhashraw}{c48e86735062c55b50c66a711ced2132}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We present a theoretical and experimental comparison of spontaneous parametric down-conversion in periodically poled waveguides and bulk KTP crystals. We measured a waveguide pair generation rate of 2.9{$\bullet$}106 pairs/s per mW of pump in a 1-nm band: more than 50 times higher than the bulk crystal generation rate.}
+      \field{issn}{1094-4087}
+      \field{journaltitle}{Optics Express}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{12}
+      \field{title}{Spontaneous Parametric Down-Conversion in Periodically Poled {{KTP}} Waveguides and Bulk Crystals}
+      \field{urlday}{3}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{15}
+      \field{year}{2007}
+      \field{urldateera}{ce}
+      \field{pages}{7479\bibrangedash 7488}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1364/OE.15.007479
+      \endverb
+      \verb{file}
+      \verb C:\Users\goesswein\Downloads\ZoteroPortable\Data\profile\storage\NADUXUTA\Fiorentino et al. - 2007 - Spontaneous parametric down-conversion in periodically poled KTP waveguides and bulk crystals.pdf
+      \endverb
+      \keyw{Beam splitters,CrystalSPDC,Periodically poled lithium niobate,Photonic entanglement,Quantum information,Quantum key distribution,Second harmonic generation}
+    \endentry
+    \entry{gilabertebassetPerspectivesApplicationsQuantum2019}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=f3e8d2ac987cf9494bf103096d19c49b}{%
+           family={Gilaberte\bibnamedelima Basset},
+           familyi={G\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Marta},
+           giveni={M\bibinitperiod}}}%
+        {{hash=92dee5d71661a042970362b44ca8da51}{%
+           family={Setzpfandt},
+           familyi={S\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod}}}%
+        {{hash=c615e55a724e504ad8a8db80a4f9575a}{%
+           family={Steinlechner},
+           familyi={S\bibinitperiod},
+           given={Fabian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=aa1d5aa50e21729049b0fecab294317c}{%
+           family={Beckert},
+           familyi={B\bibinitperiod},
+           given={Erik},
+           giveni={E\bibinitperiod}}}%
+        {{hash=0d411d100deef50f2d5bf00364790bb7}{%
+           family={Pertsch},
+           familyi={P\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=9fec501ca459fd968f88b89e16d58298}{%
+           family={Gräfe},
+           familyi={G\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{c20cff0b033bdec3f349fd4c2cd6e0dd}
+      \strng{fullhash}{ec9219b7b8c47df9d8612aa722b34f03}
+      \strng{fullhashraw}{ec9219b7b8c47df9d8612aa722b34f03}
+      \strng{bibnamehash}{c20cff0b033bdec3f349fd4c2cd6e0dd}
+      \strng{authorbibnamehash}{c20cff0b033bdec3f349fd4c2cd6e0dd}
+      \strng{authornamehash}{c20cff0b033bdec3f349fd4c2cd6e0dd}
+      \strng{authorfullhash}{ec9219b7b8c47df9d8612aa722b34f03}
+      \strng{authorfullhashraw}{ec9219b7b8c47df9d8612aa722b34f03}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Quantum imaging is a multifaceted field of research that promises highly efficient imaging in extreme spectral ranges as well as ultralow-light microscopy. Since the first proof-of-concept experiments over 30 years ago, the field has evolved from highly fascinating academic research to the verge of demonstrating practical technological enhancements in imaging and microscopy. Here, the aim is to give researchers from outside the quantum optical community, in particular those applying imaging technology, an overview of several promising quantum imaging approaches and evaluate both the quantum benefit and the prospects for practical usage in the near future. Several use case scenarios are discussed and a careful analysis of related technology requirements and necessary developments toward practical and commercial application is provided.}
+      \field{issn}{1863-8899}
+      \field{journaltitle}{Laser \& Photonics Reviews}
+      \field{langid}{english}
+      \field{number}{10}
+      \field{title}{Perspectives for {{Applications}} of {{Quantum Imaging}}}
+      \field{urlday}{3}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{13}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{1900097}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1002/lpor.201900097
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\goesswein\\Downloads\\ZoteroPortable\\Data\\profile\\storage\\WKVSMFW5\\Gilaberte Basset et al. - 2019 - Perspectives for Applications of Quantum Imaging.pdf;C\:\\Users\\goesswein\\Downloads\\ZoteroPortable\\Data\\profile\\storage\\4TPITMLB\\lpor.html
+      \endverb
+      \keyw{entangled photon pairs,ghost imaging,quantum imaging,quantum microscopy}
+    \endentry
     \entry{guoParametricDownconversionPhotonpair2016}{article}{}{}
       \name{author}{6}{}{%
         {{hash=b894fd1a7f9613451ac9e9fc8d6175e9}{%
@@ -404,6 +575,70 @@
       \verb{file}
       \verb C:\Users\goesswein\Downloads\ZoteroPortable\Data\profile\storage\888M7B5G\Guo et al. - 2016 - Parametric down-conversion photon-pair source on a nanophotonic chip.pdf
       \endverb
+    \endentry
+    \entry{kwiatUltrabrightSourcePolarizationentangled1999}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=4bd79d972ae669e316feea3db72e9a3e}{%
+           family={Kwiat},
+           familyi={K\bibinitperiod},
+           given={Paul\bibnamedelima G.},
+           giveni={P\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=1fc5faec305bcd591e0e69fae7d47298}{%
+           family={Waks},
+           familyi={W\bibinitperiod},
+           given={Edo},
+           giveni={E\bibinitperiod}}}%
+        {{hash=4ece0708934ec596fed3f2a05b5382e6}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={Andrew\bibnamedelima G.},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=4839d5f97ccd2f0a601ab94509b92dc3}{%
+           family={Appelbaum},
+           familyi={A\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+        {{hash=5a482388e8bf4bab922a91d482add3b0}{%
+           family={Eberhard},
+           familyi={E\bibinitperiod},
+           given={Philippe\bibnamedelima H.},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{005d6478048109a38f0b279b24bb49a3}
+      \strng{fullhash}{069b4bdadf062a653b0677117841b7dd}
+      \strng{fullhashraw}{069b4bdadf062a653b0677117841b7dd}
+      \strng{bibnamehash}{005d6478048109a38f0b279b24bb49a3}
+      \strng{authorbibnamehash}{005d6478048109a38f0b279b24bb49a3}
+      \strng{authornamehash}{005d6478048109a38f0b279b24bb49a3}
+      \strng{authorfullhash}{069b4bdadf062a653b0677117841b7dd}
+      \strng{authorfullhashraw}{069b4bdadf062a653b0677117841b7dd}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Using the process of spontaneous parametric down-conversion in a two-crystal geometry, we have generated a source of polarization-entangled photon pairs that is more than ten times brighter, per unit of pump power, than previous sources, with another factor of 30 to 75 expected to be readily achievable. We have measured a high level of entanglement between photons emitted over a relatively large collection angle, and over a 10-nm bandwidth. As a demonstration of the source capabilities, we obtained a 242-{$\sigma$} violation of Bell's inequalities in less than three minutes, and observed near-perfect photon correlations when the collection efficiency was reduced. In addition, both the degree of entanglement and the state purity should be readily tunable.}
+      \field{journaltitle}{Physical Review A}
+      \field{month}{8}
+      \field{number}{2}
+      \field{title}{Ultrabright Source of Polarization-Entangled Photons}
+      \field{urlday}{3}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{60}
+      \field{year}{1999}
+      \field{urldateera}{ce}
+      \field{pages}{R773\bibrangedash R776}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1103/PhysRevA.60.R773
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\goesswein\\Downloads\\ZoteroPortable\\Data\\profile\\storage\\JXCRS7QR\\Kwiat et al. - 1999 - Ultrabright source of polarization-entangled photons.pdf;C\:\\Users\\goesswein\\Downloads\\ZoteroPortable\\Data\\profile\\storage\\36Z899QV\\PhysRevA.60.html
+      \endverb
+      \keyw{CrystalSPDC}
     \endentry
     \entry{moreauImagingQuantumStates2019}{article}{}{}
       \name{author}{4}{}{%
@@ -567,6 +802,89 @@
       \verb{file}
       \verb C:\Users\goesswein\Downloads\ZoteroPortable\Data\profile\storage\KMHVY5QJ\Spring et al. - 2013 - Boson Sampling on a Photonic Chip.pdf
       \endverb
+    \endentry
+    \entry{tanzilliHighlyEfficientPhotonpair2000}{misc}{}{}
+      \name{author}{8}{}{%
+        {{hash=17affbb5c46ad6120540609873d670eb}{%
+           family={Tanzilli},
+           familyi={T\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=fab87abe9e26c357a6a6d9c0d98660b9}{%
+           family={Riedmatten},
+           familyi={R\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=fb8727b7c64889ef032ec35d2a4dc2ba}{%
+           family={Tittel},
+           familyi={T\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=22bb5d38302c08971f86dc7bae217ee5}{%
+           family={Zbinden},
+           familyi={Z\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=823553d4024b825bc9474468d5ad8421}{%
+           family={Baldi},
+           familyi={B\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=0238b2a1ca180a7fe0049ad36f8e419b}{%
+           family={Micheli},
+           familyi={M\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=65d0724a0d3468cfe79db9e996de8f35}{%
+           family={Ostrowsky},
+           familyi={O\bibinitperiod},
+           given={D.\bibnamedelimi B.},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=6c7d3bafdfe6e75582eb9c11259e7402}{%
+           family={Gisin},
+           familyi={G\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{b7d03538af4fba53bb0429aa23ab821d}
+      \strng{fullhash}{e6acef35ecb934841bba5bb5bd73bd1c}
+      \strng{fullhashraw}{e6acef35ecb934841bba5bb5bd73bd1c}
+      \strng{bibnamehash}{b7d03538af4fba53bb0429aa23ab821d}
+      \strng{authorbibnamehash}{b7d03538af4fba53bb0429aa23ab821d}
+      \strng{authornamehash}{b7d03538af4fba53bb0429aa23ab821d}
+      \strng{authorfullhash}{e6acef35ecb934841bba5bb5bd73bd1c}
+      \strng{authorfullhashraw}{e6acef35ecb934841bba5bb5bd73bd1c}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We report on a new kind of correlated photon-pair source based on a waveguide integrated on a Periodically Poled Lithium Niobate substrate. Using a pump laser of a few micro-Watts at 657 nm, we generate degenerate photon-pairs at 1314 nm. Detecting about 1500 coincidences per second, we can infer a conversion rate of 10-6 pairs per pump photon, which is four orders of magnitude higher than that obtained with previous bulk sources. These results are very promising for the realization of sources for quantum communication and quantum metrology experiments requiring a high signal-to-noise ratio or working with more than one photon-pair at a time.}
+      \field{eprinttype}{arXiv}
+      \field{month}{12}
+      \field{number}{arXiv:quant-ph/0012053}
+      \field{title}{Highly Efficient Photon-Pair Source Using a {{Periodically Poled Lithium Niobate Waveguide}}}
+      \field{urlday}{3}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{year}{2000}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.quant-ph/0012053
+      \endverb
+      \verb{eprint}
+      \verb quant-ph/0012053
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\goesswein\\Downloads\\ZoteroPortable\\Data\\profile\\storage\\D2XLXPTW\\Tanzilli et al. - 2000 - Highly efficient photon-pair source using a Periodically Poled Lithium Niobate Waveguide.pdf;C\:\\Users\\goesswein\\Downloads\\ZoteroPortable\\Data\\profile\\storage\\U5ZU23F4\\0012053.html
+      \endverb
+      \keyw{CrystalSPDC,Quantum Physics}
     \endentry
   \enddatalist
 \endrefsection

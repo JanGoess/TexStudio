@@ -51,14 +51,14 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern,relsize,textcomp,csquotes}
-\usepackage{amsmath,amsfonts}
+\usepackage{amsmath,amsfonts,accents}
 \usepackage[english]{babel}  % flip for German thesis ;ngerman
 \usepackage[final]{graphicx}
 \usepackage{setspace,geometry,xcolor}
 \usepackage{makeidx}
 \usepackage{paralist,ifthen,todonotes}
 \usepackage{url}
-
+\usepackage{harpoon}
 \usepackage{pdfpages}
 \usepackage{mathtools}
 \usepackage{lettrine}
@@ -69,7 +69,7 @@
 \usepackage[intoc]{nomencl}
 \usepackage{siunitx}
 
-
+\newcommand{\myvect}[1]{\accentset{\rightharpoonup}{#1}}
 %% This will add the units
 %----------------------------------------------
 \newcommand{\nomunit}[1]{%
@@ -250,11 +250,17 @@
 \tikzset{rayE2/.style = {postaction=decorate,decoration={markings,
 			mark=at position .52 with \arrow{stealth},
 			mark=between positions 0.1 and 0.4 step 0.54cm with with{
-				\draw[black, {Latex[length=1.3mm, width=1.5mm]}-{Latex[length=1.3mm, width=1.5mm]}] (0,-10pt) -- (0,10pt);
-				\draw[fill=white, draw = white] circle[radius=1pt];},
+				\draw[black, line width=1pt, 
+				{Latex[length=1.3mm, width=1.5mm]}-{Latex[length=1.3mm, width=1.5mm]}] 
+				(0,-12pt) -- (0,12pt);
+				},
+				% \draw[fill=white, draw = white] circle[radius=1pt];
 			mark=between positions 0.6 and 0.9 step 0.5cm with with{
-				\draw[black, {Latex[length=1.3mm, width=1.5mm]}-{Latex[length=1.3mm, width=1.5mm]}] (0,-10pt) -- (0,10pt);
-				\draw[fill=white, draw = white] circle[radius=1pt];}
+				\draw[black, line width=1pt, 
+				{Latex[length=1.3mm, width=1.5mm]}-{Latex[length=1.3mm, width=1.5mm]}] 
+				(0,-12pt) -- (0,12pt);
+			}
+				%\draw[fill=white, draw = white] circle[radius=1pt];
 		}
 	}
 }

@@ -41,28 +41,28 @@
     \node [font=\LARGE] at (18,13.75) {$Momentum\,\,conservation$};
     
     % Coordinates
-    \coordinate (A) at (8,6.5);
+    \coordinate (A) at (7,6.5);
     \coordinate (B) at (10.5,6.5);
     %
     \coordinate (B') at (14.5,7);
-    \coordinate (B'') at (14.6,6);
+    \coordinate (B'') at (14.5,6);
     \coordinate (C') at (18,7);
     \coordinate (C'') at (18,6);
     
     %Rectangle
     \draw[thick, fill=black!10] (10.5,5.8) rectangle (14.5,7.2);	
-    \node at (12.2,6.5) {$\chi^2$};
+    \node at (12.6,6.5) {$\chi^2$};
     % Rays
-    \draw[very thick, rayE2,color=blue] (A) -- (B);
+    \draw[line width=2.5pt, rayE2,color=blue] (A) -- (B);
     
     %% Bottom Ray
-    \draw[very thick, rayE2,color=green] (B') -- (C');
-    \draw[very thick, rayE2,color=red] (B'') -- (C'');
+    \draw[line width=2.5pt, rayE2,color=green] (B') -- (C');
+    \draw[line width=2.5pt, rayE2,color=red] (B'') -- (C'');
     
     % Nodes
-    \node at (1.2,2.4) [color=blue] {\small $\lambda_{\text{p}}$};
-    \node at (6.8,2.9) [color=green] {\small $\lambda_{\text{i}}$};
-    \node at (6.8,0.4) [color=red] {\small $\lambda_{\text{s}}$};
+    %\node at (1.2,2.4) [color=blue] {\small $\lambda_{\text{p}}$};
+    %\node at (6.8,2.9) [color=green] {\small $\lambda_{\text{i}}$};
+    %\node at (6.8,0.4) [color=red] {\small $\lambda_{\text{s}}$};
     
 \end{tikzpicture}
 }%

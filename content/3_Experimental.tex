@@ -1,72 +1,13 @@
 \section{Experimental Setup}
-\begin{itemize}
-    \item experimental setup
-    \item measurement procedure
-\end{itemize}
-\begin{figure}
+To establish a consistent model that predicts conditions in which the coincidence approach shows in more precise results compared to the conventional, the assumptions for the different unknown parameters (e.g., the variance of coincidence and accidental counts) must align with the results obtained in an experimental setup. Therefore, the following section explains the setup used to measure the photon statistics in more detail. \newline
+A sketch of the setup is shown in \autoref{fig:setup}. It consists of a \acrshort{bbo} crystal that produces temporally correlated photon pairs through type-I \acrshort{spdc}. The idler photon lies in the infrared range at a wavelength of $\lambda_{\text{i}} = 1400$nm, while the signal photon is in the visible spectrum at a wavelength of $\lambda_{\text{s}} = 650$nm??. The crystal is pumped by a diode laser operating at $\lambda_{\text{p}} = 405$nm. \newline
+The signal and idler photons are separated by a dichroic mirror. The signal photons are then focused into a fiber coupling device with a plano-convex lens that has a focal length of 30 mm. The same process is used for the idler photons, but the plano-convex lens has a focal length of 15 mm. \newline
+Both signal and idler photons are coupled to single photon detectors using multi-mode fibers. Both detectors are connected to a time-tagging unit to obtain the arrival time of the photons in each arm and find the coincidence events.  
+\begin{figure}[tb!]
     \centering
-    \includegraphics[width=\linewidth]{Images/bitmap.pdf}
-    \caption{Caption}
-    \label{fig:placeholder}
+    \includegraphics[width=.8\linewidth]{Images/DupishSetupNew.pdf}
+    \caption[Experimental setup]{Experimental setup: DM: dichroic mirror, FC: fiber coupling, MMF: multi-mode fiber, PC-L: plano-convex lens, Sam: sample, SPD: single photon detector, TT: time tagging unit}
+    \label{fig:setup}
 \end{figure}
-\begin{figure}[!ht]
-\centering
-\resizebox{.9\textwidth}{!}{%
-\begin{tikzpicture}
-    \tikzstyle{every node}=[font=\LARGE]
+\todo[inline]{Where is the pump going?}
 
-    \pgfmathsetmacro{\yTop}{12.5}
-    \pgfmathsetmacro{\yBottom}{9.25}
-    \pgfmathsetmacro{\yMid}{\yBottom + 0.6*(\yTop - \yBottom)}
-    \pgfmathsetmacro{\pLab}{\yBottom + 0.5*(\yTop - \yBottom)}
-    \pgfmathsetmacro{\sLab}{\yBottom + 0.3*(\yTop - \yBottom)}
-    \pgfmathsetmacro{\iLab}{\yBottom + 0.8*(\yTop - \yBottom)}
-    
-    
-    \draw [line width=2.5pt] (3.5,\yBottom) -- (12.5,\yBottom);
-    \draw [ color={rgb,255:red,0; green,0; blue,255}, line width=2pt,-{Latex[length=4mm]}] (5,\yBottom) -- (5,\yTop);
-    \draw [line width=2.3pt, dashed] (3.75,\yTop) -- (12.5,\yTop);
-    \draw [ color={rgb,255:red,255; green,0; blue,0}, line width=2pt,-{Latex[length=4mm]}] (10,\yTop) -- (10,\yMid);
-    \draw [ color=black!40!green, line width=2pt,-{Latex[length=4mm]}] (10,\yMid) -- (10,\yBottom);
-    \node [font=\LARGE, color={rgb,255:red,0; green,0; blue,255}] at (4.25,\pLab) {$\omega_{\text{p}}$};
-    \node [font=\LARGE, color={rgb,255:red,255; green,0; blue,0}] at (10.5,\iLab) {$\omega_{\text{i}}$};
-    \node [font=\LARGE, color=black!40!green] at (10.5,\sLab) {$\omega_{\text{s}}$};
-    \draw [ color={rgb,255:red,0; green,0; blue,255}, line width=2pt, -{Latex[length=4mm]}] (15,10.25) -- (21.25,10.25);
-    \draw [ color={rgb,255:red,255; green,0; blue,0}, line width=2pt, -{Latex[length=4mm]}] (15,11.5) -- (17.5,11.5);
-    \draw [ color=black!40!green, line width=2pt, -{Latex[length=4mm]}] (17.5,11.5) -- (21.25,11.5);
-    \node [font=\LARGE, color={rgb,255:red,0; green,0; blue,255}] at (18,9.5) {$k_{\text{p}}$};
-    \node [font=\LARGE, color={rgb,255:red,255; green,0; blue,0}] at (16.25,12) {$k_{\text{i}}$};
-    \node [font=\LARGE, color=black!40!green] at (19.5,12) {$k_{\text{s}}$};
-    \node [font=\LARGE] at (8,13.75) {$Energy\,\,conservation$};
-    \node [font=\LARGE] at (18,13.75) {$Momentum\,\,conservation$};
-    
-    % Coordinates
-    \coordinate (A) at (7,6.5);
-    \coordinate (B) at (10.5,6.5);
-    %
-    \coordinate (B') at (14.5,7);
-    \coordinate (B'') at (14.5,6);
-    \coordinate (C') at (18,7);
-    \coordinate (C'') at (18,6);
-    
-    %Rectangle
-    \draw[thick, fill=black!10] (10.5,5.8) rectangle (14.5,7.2);	
-    \node at (12.6,6.5) {$\chi^2$};
-    % Rays
-    \draw[line width=2.5pt, rayE2,color=blue] (A) -- (B);
-    
-    %% Bottom Ray
-    \draw[line width=2.5pt, rayE2,color=green] (B') -- (C');
-    \draw[line width=2.5pt, rayE2,color=red] (B'') -- (C'');
-    
-    % Nodes
-    %\node at (1.2,2.4) [color=blue] {\small $\lambda_{\text{p}}$};
-    %\node at (6.8,2.9) [color=green] {\small $\lambda_{\text{i}}$};
-    %\node at (6.8,0.4) [color=red] {\small $\lambda_{\text{s}}$};
-    
-\end{tikzpicture}
-}%
-
-\label{fig:SPDC}
-\caption{Conservation processes of collinear Type-0 SPDC}
-\end{figure}

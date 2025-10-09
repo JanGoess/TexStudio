@@ -2379,34 +2379,28 @@
     <bcf:citekey order="1" intorder="1">defienneAdvancesQuantumImaging2024</bcf:citekey>
     <bcf:citekey order="1" intorder="2">moreauImagingQuantumStates2019</bcf:citekey>
     <bcf:citekey order="2" intorder="1">moreauImagingQuantumStates2019</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">defienneAdvancesQuantumImaging2024</bcf:citekey>
-    <bcf:citekey order="3" intorder="2">moreauImagingQuantumStates2019</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">gilabertebassetPerspectivesApplicationsQuantum2019</bcf:citekey>
+    <bcf:citekey order="3" intorder="2">lemosQuantumImagingUndetected2014</bcf:citekey>
     <bcf:citekey order="4" intorder="1">moreauImagingQuantumStates2019</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">fiorentinoSpontaneousParametricDownconversion2007</bcf:citekey>
-    <bcf:citekey order="5" intorder="2">kwiatUltrabrightSourcePolarizationentangled1999</bcf:citekey>
-    <bcf:citekey order="5" intorder="3">tanzilliHighlyEfficientPhotonpair2000</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">katoLabelfreeVisualizationPhotosynthetic2023</bcf:citekey>
+    <bcf:citekey order="5" intorder="2">ishiganeLabelfreeMidinfraredPhotothermal2023</bcf:citekey>
     <bcf:citekey order="6" intorder="1">gilabertebassetPerspectivesApplicationsQuantum2019</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">boydNonlinearOptics2008</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">christProbingMultimodeSqueezing2011</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">avenhausPhotonNumberStatistics2008</bcf:citekey>
-    <bcf:citekey order="9" intorder="2">christProbingMultimodeSqueezing2011</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">blauensteinerPhotonBunchingParametric2009</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">guoParametricDownconversionPhotonpair2016</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">christProbingMultimodeSqueezing2011</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">christProbingMultimodeSqueezing2011</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">avenhausPhotonNumberStatistics2008</bcf:citekey>
-    <bcf:citekey order="14" intorder="2">christProbingMultimodeSqueezing2011</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">fiorentinoSpontaneousParametricDownconversion2007</bcf:citekey>
+    <bcf:citekey order="7" intorder="2">kwiatUltrabrightSourcePolarizationentangled1999</bcf:citekey>
+    <bcf:citekey order="7" intorder="3">tanzilliHighlyEfficientPhotonpair2000</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">boydNonlinearOptics2008</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">kuNotesUsePropagation1966</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">hayatTheoryPhotonCoincidence1999</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">hayatTheoryPhotonCoincidence1999</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">foxQuantumOpticsIntroduction2006</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">foxQuantumOpticsIntroduction2006</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">foxQuantumOpticsIntroduction2006</bcf:citekey>
     <bcf:citekey order="15" intorder="1">avenhausPhotonNumberStatistics2008</bcf:citekey>
-    <bcf:citekey order="15" intorder="2">christProbingMultimodeSqueezing2011</bcf:citekey>
-    <bcf:citekey order="16" intorder="1">springBosonSamplingPhotonic2013</bcf:citekey>
-    <bcf:citekey order="17" intorder="1">bridaTwinphotonTechniquesPhotodetector2006</bcf:citekey>
-    <bcf:citekey order="17" intorder="2">avenhausPhotonNumberStatistics2008</bcf:citekey>
-    <bcf:citekey order="18" intorder="1">guoParametricDownconversionPhotonpair2016</bcf:citekey>
-    <bcf:citekey order="18" intorder="2">christProbingMultimodeSqueezing2011</bcf:citekey>
-    <bcf:citekey order="19" intorder="1">guoParametricDownconversionPhotonpair2016</bcf:citekey>
-    <bcf:citekey order="19" intorder="2">christProbingMultimodeSqueezing2011</bcf:citekey>
-    <bcf:citekey order="20" intorder="1">avenhausPhotonNumberStatistics2008</bcf:citekey>
-    <bcf:citekey order="20" intorder="2">christProbingMultimodeSqueezing2011</bcf:citekey>
+    <bcf:citekey order="15" intorder="2">schneelochIntroductionAbsoluteBrightness2019</bcf:citekey>
+    <bcf:citekey order="15" intorder="3">kimPhotoncountingStatisticsbasedSupport2022</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">foxQuantumOpticsIntroduction2006</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">mandelOpticalCoherenceQuantum1995</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">kimPhotoncountingStatisticsbasedSupport2022</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

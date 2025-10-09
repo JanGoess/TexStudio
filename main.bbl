@@ -82,68 +82,7 @@
       \verb 10.1103/PhysRevLett.101.053601
       \endverb
       \verb{file}
-      \verb C:\Users\goesswein\Downloads\ZoteroPortable\Data\profile\storage\GT8RCK4K\Avenhaus et al. - 2008 - Photon Number Statistics of Multimode Parametric Down-Conversion.pdf
-      \endverb
-    \endentry
-    \entry{blauensteinerPhotonBunchingParametric2009}{article}{}{}
-      \name{author}{5}{}{%
-        {{hash=46186e38e0043e74c1208dd0e1cf4ce4}{%
-           family={Blauensteiner},
-           familyi={B\bibinitperiod},
-           given={Bibiane},
-           giveni={B\bibinitperiod}}}%
-        {{hash=d192105de282f9fc74262223f282d642}{%
-           family={Herbauts},
-           familyi={H\bibinitperiod},
-           given={Isabelle},
-           giveni={I\bibinitperiod}}}%
-        {{hash=3f760392bb77a437fb8505011c62a75d}{%
-           family={Bettelli},
-           familyi={B\bibinitperiod},
-           given={Stefano},
-           giveni={S\bibinitperiod}}}%
-        {{hash=efd89576248ddf48d0102bd31fbc2ad8}{%
-           family={Poppe},
-           familyi={P\bibinitperiod},
-           given={Andreas},
-           giveni={A\bibinitperiod}}}%
-        {{hash=b343f1240dd177551f79026d15a0a726}{%
-           family={Hübel},
-           familyi={H\bibinitperiod},
-           given={Hannes},
-           giveni={H\bibinitperiod}}}%
-      }
-      \strng{namehash}{92dab17f214f12bf86623050e24f5209}
-      \strng{fullhash}{baaa0c4bbc5e1f5844905a87e4c57c7d}
-      \strng{fullhashraw}{baaa0c4bbc5e1f5844905a87e4c57c7d}
-      \strng{bibnamehash}{92dab17f214f12bf86623050e24f5209}
-      \strng{authorbibnamehash}{92dab17f214f12bf86623050e24f5209}
-      \strng{authornamehash}{92dab17f214f12bf86623050e24f5209}
-      \strng{authorfullhash}{baaa0c4bbc5e1f5844905a87e4c57c7d}
-      \strng{authorfullhashraw}{baaa0c4bbc5e1f5844905a87e4c57c7d}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1050-2947, 1094-1622}
-      \field{journaltitle}{Physical Review A}
-      \field{langid}{english}
-      \field{month}{6}
-      \field{number}{6}
-      \field{title}{Photon Bunching in Parametric Down-Conversion with Continuous-Wave Excitation}
-      \field{urlday}{28}
-      \field{urlmonth}{8}
-      \field{urlyear}{2025}
-      \field{volume}{79}
-      \field{year}{2009}
-      \field{urldateera}{ce}
-      \field{pages}{063846}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1103/PhysRevA.79.063846
-      \endverb
-      \verb{file}
-      \verb C:\Users\goesswein\Downloads\ZoteroPortable\Data\profile\storage\DJ6FZ29G\Blauensteiner et al. - 2009 - Photon bunching in parametric down-conversion with continuous-wave excitation.pdf
+      \verb C:\Users\jan07\Zotero\storage\GT8RCK4K\Avenhaus et al. - 2008 - Photon Number Statistics of Multimode Parametric Down-Conversion.pdf
       \endverb
     \endentry
     \entry{boydNonlinearOptics2008}{book}{}{}
@@ -178,117 +117,6 @@
       \field{langid}{english}
       \field{title}{Nonlinear Optics}
       \field{year}{2008}
-    \endentry
-    \entry{bridaTwinphotonTechniquesPhotodetector2006}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=d86ac65efa1cea750682ee58ea26c70e}{%
-           family={Brida},
-           familyi={B\bibinitperiod},
-           given={G},
-           giveni={G\bibinitperiod}}}%
-        {{hash=1c42344d94d364a4cdc07338cba254c7}{%
-           family={Genovese},
-           familyi={G\bibinitperiod},
-           given={M},
-           giveni={M\bibinitperiod}}}%
-        {{hash=336afd3c57982866fad252f0fe9ecc1a}{%
-           family={Gramegna},
-           familyi={G\bibinitperiod},
-           given={M},
-           giveni={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{ebf6aa7b3a56a09f0499a667deed6e19}
-      \strng{fullhash}{ebf6aa7b3a56a09f0499a667deed6e19}
-      \strng{fullhashraw}{ebf6aa7b3a56a09f0499a667deed6e19}
-      \strng{bibnamehash}{ebf6aa7b3a56a09f0499a667deed6e19}
-      \strng{authorbibnamehash}{ebf6aa7b3a56a09f0499a667deed6e19}
-      \strng{authornamehash}{ebf6aa7b3a56a09f0499a667deed6e19}
-      \strng{authorfullhash}{ebf6aa7b3a56a09f0499a667deed6e19}
-      \strng{authorfullhashraw}{ebf6aa7b3a56a09f0499a667deed6e19}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{The aim of this review paper is to enlighten some recent progresses in quantum optical metrology in the part of quantum efficiency measurements of photo-detectors performed with bi-photon states. The intrinsic correlated nature of entangled photons from Spontaneous Parametric Down Conversion phenomenon has opened wide horizons to a new approach for the absolute measurement of photo-detector quantum efficiency, outgoing the requirement for conventional standards of optical radiation; in particular the simultaneous feature of the creation of conjugated photons led to a well known technique of coincidence measurement, deeply understood and implemented for standard uses. On the other hand, based on manipulation of entanglement developed for Quantum Information protocols implementations, a new method has been proposed for quantum efficiency measurement, exploiting polarisation entanglement in addition to energy-momentum and time ones, that is based on conditioned polarisation state manipulation. In this review, after a general discussion on absolute photo-detector calibration, we compare these different methods, in order to give an accurate operational sketch of the absolute quantum efficiency measurement state of the art.}
-      \field{issn}{1612-2011, 1612-202X}
-      \field{journaltitle}{Laser Physics Letters}
-      \field{month}{3}
-      \field{number}{3}
-      \field{title}{Twin-Photon Techniques for Photo-Detector Calibration}
-      \field{urlday}{28}
-      \field{urlmonth}{8}
-      \field{urlyear}{2025}
-      \field{volume}{3}
-      \field{year}{2006}
-      \field{urldateera}{ce}
-      \field{pages}{115\bibrangedash 123}
-      \range{pages}{9}
-      \verb{doi}
-      \verb 10.1002/lapl.200510077
-      \endverb
-      \verb{file}
-      \verb C:\Users\goesswein\Downloads\ZoteroPortable\Data\profile\storage\RBHETEPQ\Brida et al. - 2006 - Twin-photon techniques for photo-detector calibration.pdf
-      \endverb
-    \endentry
-    \entry{christProbingMultimodeSqueezing2011}{article}{}{}
-      \name{author}{5}{}{%
-        {{hash=77b0bc000d6d5bbb31cef689e6fbbd53}{%
-           family={Christ},
-           familyi={C\bibinitperiod},
-           given={Andreas},
-           giveni={A\bibinitperiod}}}%
-        {{hash=924bf233cd2f863ce722e9f52973496f}{%
-           family={Laiho},
-           familyi={L\bibinitperiod},
-           given={Kaisa},
-           giveni={K\bibinitperiod}}}%
-        {{hash=066d78f084e07a58a070bd80f85ddcdd}{%
-           family={Eckstein},
-           familyi={E\bibinitperiod},
-           given={Andreas},
-           giveni={A\bibinitperiod}}}%
-        {{hash=adeeffe20b2d19cffd738a9392b828e5}{%
-           family={Cassemiro},
-           familyi={C\bibinitperiod},
-           given={Katiúscia\bibnamedelima N},
-           giveni={K\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
-        {{hash=505dfc238f41868266afbcc1513d8ecb}{%
-           family={Silberhorn},
-           familyi={S\bibinitperiod},
-           given={Christine},
-           giveni={C\bibinitperiod}}}%
-      }
-      \strng{namehash}{e2cb6a0be111e34bc3054eedc34d2c32}
-      \strng{fullhash}{c6df7b7043e78b3b3d2185edf0e2c44a}
-      \strng{fullhashraw}{c6df7b7043e78b3b3d2185edf0e2c44a}
-      \strng{bibnamehash}{e2cb6a0be111e34bc3054eedc34d2c32}
-      \strng{authorbibnamehash}{e2cb6a0be111e34bc3054eedc34d2c32}
-      \strng{authornamehash}{e2cb6a0be111e34bc3054eedc34d2c32}
-      \strng{authorfullhash}{c6df7b7043e78b3b3d2185edf0e2c44a}
-      \strng{authorfullhashraw}{c6df7b7043e78b3b3d2185edf0e2c44a}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1367-2630}
-      \field{journaltitle}{New Journal of Physics}
-      \field{month}{3}
-      \field{number}{3}
-      \field{title}{Probing Multimode Squeezing with Correlation Functions}
-      \field{urlday}{28}
-      \field{urlmonth}{8}
-      \field{urlyear}{2025}
-      \field{volume}{13}
-      \field{year}{2011}
-      \field{urldateera}{ce}
-      \field{pages}{033027}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1088/1367-2630/13/3/033027
-      \endverb
-      \verb{file}
-      \verb C:\Users\goesswein\Downloads\ZoteroPortable\Data\profile\storage\U8MTJVJK\Christ et al. - 2011 - Probing multimode squeezing with correlation functions.pdf
-      \endverb
     \endentry
     \entry{defienneAdvancesQuantumImaging2024}{article}{}{}
       \name{author}{8}{}{%
@@ -368,7 +196,7 @@
       \verb 2411.08415
       \endverb
       \verb{file}
-      \verb C\:\\Users\\goesswein\\Downloads\\ZoteroPortable\\Data\\profile\\storage\\7HHZSQCL\\Defienne et al. - 2024 - Advances in quantum imaging.pdf;C\:\\Users\\goesswein\\Downloads\\ZoteroPortable\\Data\\profile\\storage\\CU88BMRR\\2411.html
+      \verb C\:\\Users\\jan07\\Zotero\\storage\\7HHZSQCL\\Defienne et al. - 2024 - Advances in quantum imaging.pdf;C\:\\Users\\jan07\\Zotero\\storage\\CU88BMRR\\2411.html
       \endverb
       \keyw{Quantum Physics}
     \endentry
@@ -439,9 +267,43 @@
       \verb 10.1364/OE.15.007479
       \endverb
       \verb{file}
-      \verb C:\Users\goesswein\Downloads\ZoteroPortable\Data\profile\storage\NADUXUTA\Fiorentino et al. - 2007 - Spontaneous parametric down-conversion in periodically poled KTP waveguides and bulk crystals.pdf
+      \verb C:\Users\jan07\Zotero\storage\NADUXUTA\Fiorentino et al. - 2007 - Spontaneous parametric down-conversion in periodically poled KTP waveguides and bulk crystals.pdf
       \endverb
       \keyw{Beam splitters,CrystalSPDC,Periodically poled lithium niobate,Photonic entanglement,Quantum information,Quantum key distribution,Second harmonic generation}
+    \endentry
+    \entry{foxQuantumOpticsIntroduction2006}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=680093a59b4a8752bda6dd5544fc97b4}{%
+           family={Fox},
+           familyi={F\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Oxford ; New York}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{680093a59b4a8752bda6dd5544fc97b4}
+      \strng{fullhash}{680093a59b4a8752bda6dd5544fc97b4}
+      \strng{fullhashraw}{680093a59b4a8752bda6dd5544fc97b4}
+      \strng{bibnamehash}{680093a59b4a8752bda6dd5544fc97b4}
+      \strng{authorbibnamehash}{680093a59b4a8752bda6dd5544fc97b4}
+      \strng{authornamehash}{680093a59b4a8752bda6dd5544fc97b4}
+      \strng{authorfullhash}{680093a59b4a8752bda6dd5544fc97b4}
+      \strng{authorfullhashraw}{680093a59b4a8752bda6dd5544fc97b4}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-0-19-856672-4 978-0-19-856673-1}
+      \field{number}{15}
+      \field{series}{Oxford Master Series in Physics}
+      \field{shorttitle}{Quantum Optics}
+      \field{title}{Quantum Optics: An Introduction}
+      \field{year}{2006}
+      \keyw{Quantum optics}
     \endentry
     \entry{gilabertebassetPerspectivesApplicationsQuantum2019}{article}{}{}
       \name{author}{6}{}{%
@@ -506,74 +368,309 @@
       \verb 10.1002/lpor.201900097
       \endverb
       \verb{file}
-      \verb C\:\\Users\\goesswein\\Downloads\\ZoteroPortable\\Data\\profile\\storage\\WKVSMFW5\\Gilaberte Basset et al. - 2019 - Perspectives for Applications of Quantum Imaging.pdf;C\:\\Users\\goesswein\\Downloads\\ZoteroPortable\\Data\\profile\\storage\\4TPITMLB\\lpor.html
+      \verb C\:\\Users\\jan07\\Zotero\\storage\\WKVSMFW5\\Gilaberte Basset et al. - 2019 - Perspectives for Applications of Quantum Imaging.pdf;C\:\\Users\\jan07\\Zotero\\storage\\4TPITMLB\\lpor.html
       \endverb
       \keyw{entangled photon pairs,ghost imaging,quantum imaging,quantum microscopy}
     \endentry
-    \entry{guoParametricDownconversionPhotonpair2016}{article}{}{}
-      \name{author}{6}{}{%
-        {{hash=b894fd1a7f9613451ac9e9fc8d6175e9}{%
-           family={Guo},
-           familyi={G\bibinitperiod},
-           given={Xiang},
-           giveni={X\bibinitperiod}}}%
-        {{hash=73e88daf90871b369aa93c94c2d4ef74}{%
-           family={Zou},
-           familyi={Z\bibinitperiod},
-           given={Chang-ling},
-           giveni={C\bibinithyphendelim l\bibinitperiod}}}%
-        {{hash=222f449612d99cf99643bbf845581393}{%
-           family={Schuck},
-           familyi={S\bibinitperiod},
-           given={Carsten},
-           giveni={C\bibinitperiod}}}%
-        {{hash=e98e0d850aeb2842fcacb12cff473967}{%
-           family={Jung},
-           familyi={J\bibinitperiod},
-           given={Hojoong},
-           giveni={H\bibinitperiod}}}%
-        {{hash=aa73ca2a64fafcbe1f98a5374c04a5d2}{%
-           family={Cheng},
-           familyi={C\bibinitperiod},
-           given={Risheng},
-           giveni={R\bibinitperiod}}}%
-        {{hash=a49c9213e488b8255f456ef27a225991}{%
-           family={Tang},
+    \entry{hayatTheoryPhotonCoincidence1999}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=61434a13fba36228c7d5f4c27f2aab05}{%
+           family={Hayat},
+           familyi={H\bibinitperiod},
+           given={Majeed\bibnamedelima M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=c6e34a05e10ec51d4175f018e708d051}{%
+           family={Torres},
            familyi={T\bibinitperiod},
-           given={Hong\bibnamedelima X},
-           giveni={H\bibinitperiod\bibinitdelim X\bibinitperiod}}}%
+           given={Sergio\bibnamedelima N.},
+           giveni={S\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=7dadcf78604c09cde6200ed114b44f92}{%
+           family={Pedrotti},
+           familyi={P\bibinitperiod},
+           given={Leno\bibnamedelima M.},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
       }
-      \strng{namehash}{bc73540fba633a186215b592c506b3b0}
-      \strng{fullhash}{0dd9fde9322f43d32c842eb39d83b093}
-      \strng{fullhashraw}{0dd9fde9322f43d32c842eb39d83b093}
-      \strng{bibnamehash}{bc73540fba633a186215b592c506b3b0}
-      \strng{authorbibnamehash}{bc73540fba633a186215b592c506b3b0}
-      \strng{authornamehash}{bc73540fba633a186215b592c506b3b0}
-      \strng{authorfullhash}{0dd9fde9322f43d32c842eb39d83b093}
-      \strng{authorfullhashraw}{0dd9fde9322f43d32c842eb39d83b093}
-      \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \strng{namehash}{af85ae19ff1de65bb8ae47a0a2ae8eeb}
+      \strng{fullhash}{af85ae19ff1de65bb8ae47a0a2ae8eeb}
+      \strng{fullhashraw}{af85ae19ff1de65bb8ae47a0a2ae8eeb}
+      \strng{bibnamehash}{af85ae19ff1de65bb8ae47a0a2ae8eeb}
+      \strng{authorbibnamehash}{af85ae19ff1de65bb8ae47a0a2ae8eeb}
+      \strng{authornamehash}{af85ae19ff1de65bb8ae47a0a2ae8eeb}
+      \strng{authorfullhash}{af85ae19ff1de65bb8ae47a0a2ae8eeb}
+      \strng{authorfullhashraw}{af85ae19ff1de65bb8ae47a0a2ae8eeb}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{abstract}{The statistics of photon coincidence counting in photon-correlated beams is thoroughly investigated considering the effect of the finite coincidence resolving time. The correlated beams are assumed to be generated using parametric downconversion, and the photon streams in the correlated beams are modeled by two partially correlated Poisson point processes. An exact expression for the mean rate of coincidence registration is developed using techniques from renewal theory. It is shown that the use of the traditional approximate rate, in certain situations, leads to the overestimation of the actual rate. The error between the exact and approximate coincidence rates increases as the coincidence-noise parameter, defined as the mean number of uncorrelated photons detected per coincidence resolving time, increases. The use of the exact statistics of the coincidence becomes crucial when the background noise is high or in cases when high precision measurement of coincidence is required. Such cases arise whenever the coincidence-noise parameter is even slightly in excess of zero. It is also shown that the probability distribution function of the time between consecutive coincidence registration can be well approximated by an exponential distribution function. The well-known and experimentally verified Poissonian model of the coincidence registration process is therefore theoretically justified. The theory is applied to an on-off keying communication system proposed by Mandel which has been shown to perform well in extremely noisy conditions. It is shown that the bit-error rate (BER) predicted by the approximate coincidence-rate theory can be significantly lower than the actual BER obtained using the exact theory.}
+      \field{issn}{0030-4018}
+      \field{journaltitle}{Optics Communications}
+      \field{month}{10}
+      \field{number}{1}
+      \field{title}{Theory of Photon Coincidence Statistics in Photon-Correlated Beams}
+      \field{urlday}{5}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{169}
+      \field{year}{1999}
+      \field{urldateera}{ce}
+      \field{pages}{275\bibrangedash 287}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1016/S0030-4018(99)00384-3
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\jan07\\Zotero\\storage\\VRMI8WAW\\Hayat et al. - 1999 - Theory of photon coincidence statistics in photon-correlated beams.pdf;C\:\\Users\\jan07\\Zotero\\storage\\5882N7UW\\S0030401899003843.html
+      \endverb
+      \keyw{Accidental coincidence,Bit-error rate,Correlated photons,parametric downconversion,Photon coincidence,Renewal theory}
+    \endentry
+    \entry{ishiganeLabelfreeMidinfraredPhotothermal2023}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=eb5e52c6790b025a1b9d74f8271de620}{%
+           family={Ishigane},
+           familyi={I\bibinitperiod},
+           given={Genki},
+           giveni={G\bibinitperiod}}}%
+        {{hash=8ebfe3f3785b4bbe0aa65e2775997562}{%
+           family={Toda},
+           familyi={T\bibinitperiod},
+           given={Keiichiro},
+           giveni={K\bibinitperiod}}}%
+        {{hash=59b098e804f5de6023f87e7f3b01c0cb}{%
+           family={Tamamitsu},
+           familyi={T\bibinitperiod},
+           given={Miu},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d188a77c61866571a891ac4b9f7854b4}{%
+           family={Shimada},
+           familyi={S\bibinitperiod},
+           given={Hiroyuki},
+           giveni={H\bibinitperiod}}}%
+        {{hash=6b81a92dc6e6c26362b88620ff88ecf3}{%
+           family={Badarla},
+           familyi={B\bibinitperiod},
+           given={Venkata\bibnamedelima Ramaiah},
+           giveni={V\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=465b55c3f51b5065a5113bb27f5621b3}{%
+           family={Ideguchi},
+           familyi={I\bibinitperiod},
+           given={Takuro},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{01baa9f6c91e2b7c46dd076e02df3104}
+      \strng{fullhash}{92fa2550bace12f74a79235260524db2}
+      \strng{fullhashraw}{92fa2550bace12f74a79235260524db2}
+      \strng{bibnamehash}{01baa9f6c91e2b7c46dd076e02df3104}
+      \strng{authorbibnamehash}{01baa9f6c91e2b7c46dd076e02df3104}
+      \strng{authornamehash}{01baa9f6c91e2b7c46dd076e02df3104}
+      \strng{authorfullhash}{92fa2550bace12f74a79235260524db2}
+      \strng{authorfullhashraw}{92fa2550bace12f74a79235260524db2}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Advancement in mid-infrared (MIR) technology has led to promising biomedical applications of MIR spectroscopy, such as liquid biopsy or breath diagnosis. On the contrary, MIR microscopy has been rarely used for live biological samples in an aqueous environment due to the lack of spatial resolution and the large water absorption background. Recently, mid-infrared photothermal (MIP) imaging has proven to be applicable to 2D and 3D single-cell imaging with high spatial resolution inherited from visible light. However, the maximum measurement rate has been limited to several frames s-1, limiting its range of use. Here, we develop a significantly improved wide-field MIP quantitative phase microscope with two orders-of-magnitude higher signal-to-noise ratio than previous MIP imaging techniques and demonstrate live-cell imaging beyond video rate. We first derive optimal system design by numerically simulating thermal conduction following the photothermal effect. Then, we develop the designed system with a homemade nanosecond MIR optical parametric oscillator and a high full-well-capacity image sensor. Our high-speed and high-spatial-resolution MIR microscope has great potential to become a new tool for life science, in particular for live-cell analysis.}
       \field{issn}{2047-7538}
       \field{journaltitle}{Light: Science \& Applications}
       \field{langid}{english}
-      \field{month}{11}
-      \field{number}{5}
-      \field{title}{Parametric Down-Conversion Photon-Pair Source on a Nanophotonic Chip}
-      \field{urlday}{28}
-      \field{urlmonth}{8}
+      \field{month}{7}
+      \field{number}{1}
+      \field{title}{Label-Free Mid-Infrared Photothermal Live-Cell Imaging beyond Video Rate}
+      \field{urlday}{10}
+      \field{urlmonth}{9}
       \field{urlyear}{2025}
-      \field{volume}{6}
-      \field{year}{2016}
+      \field{volume}{12}
+      \field{year}{2023}
       \field{urldateera}{ce}
-      \field{pages}{e16249\bibrangedash e16249}
-      \range{pages}{-1}
+      \field{pages}{174}
+      \range{pages}{1}
       \verb{doi}
-      \verb 10.1038/lsa.2016.249
+      \verb 10.1038/s41377-023-01214-2
       \endverb
       \verb{file}
-      \verb C:\Users\goesswein\Downloads\ZoteroPortable\Data\profile\storage\888M7B5G\Guo et al. - 2016 - Parametric down-conversion photon-pair source on a nanophotonic chip.pdf
+      \verb C:\Users\jan07\Zotero\storage\DQC75EYH\Ishigane et al. - 2023 - Label-free mid-infrared photothermal live-cell imaging beyond video rate.pdf
+      \endverb
+      \keyw{Mid-infrared photonics,NoDamageMIR,Phase-contrast microscopy}
+    \endentry
+    \entry{katoLabelfreeVisualizationPhotosynthetic2023}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=e882199bac1749cf537936a1f30c6fbd}{%
+           family={Kato},
+           familyi={K\bibinitperiod},
+           given={Ryo},
+           giveni={R\bibinitperiod}}}%
+        {{hash=4289ba08f267c72b0d98e159c2ed1684}{%
+           family={Maeda},
+           familyi={M\bibinitperiod},
+           given={Kaisei},
+           giveni={K\bibinitperiod}}}%
+        {{hash=d8103850d14cf27c9a696623a6f7c54f}{%
+           family={Yano},
+           familyi={Y\bibinitperiod},
+           given={Taka-aki},
+           giveni={T\bibinithyphendelim a\bibinitperiod}}}%
+        {{hash=1320271da9ede4c7e25a49641f548ef2}{%
+           family={Tanaka},
+           familyi={T\bibinitperiod},
+           given={Kan},
+           giveni={K\bibinitperiod}}}%
+        {{hash=3b5e3efc2483413f31800ccbea17c544}{%
+           family={Tanaka},
+           familyi={T\bibinitperiod},
+           given={Takuo},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The Royal Society of Chemistry}%
+      }
+      \strng{namehash}{e7b1e83b2ee9d8450d64815c252e8a68}
+      \strng{fullhash}{0f8a1333e261cc37b1054f12859fa4ac}
+      \strng{fullhashraw}{0f8a1333e261cc37b1054f12859fa4ac}
+      \strng{bibnamehash}{e7b1e83b2ee9d8450d64815c252e8a68}
+      \strng{authorbibnamehash}{e7b1e83b2ee9d8450d64815c252e8a68}
+      \strng{authornamehash}{e7b1e83b2ee9d8450d64815c252e8a68}
+      \strng{authorfullhash}{0f8a1333e261cc37b1054f12859fa4ac}
+      \strng{authorfullhashraw}{0f8a1333e261cc37b1054f12859fa4ac}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The formation of photosynthetic microbial biofilms comprising multispecies biomolecules, such as extracellular polymeric substances (EPSs), and microbial cells play pivotal roles in maintaining or stimulating their biological functions. Although there are numerous studies on photosynthetic microbial biofilms, the spatial distribution of EPS components that are vital for microbial biofilm formation, such as exopolysaccharides and proteins, is not well understood. Visualization of photosynthetic microbial biofilms requires label-free methods, because labelling EPSs results in structural changes or aggregation. Raman spectroscopy is useful for label-free visualization of biofilm constituents based on chemical contrast. However, interference resulting from the bright autofluorescence of photosynthetic molecules and the low detection efficiency of Raman scattering make visualization a challenge. Herein, we visualized photosynthetic microbial biofilms in a label-free manner using a super-resolution optical infrared absorption imaging technique, called mid-infrared photothermal (MIP) microscopy. By leveraging the advantages of MIP microscopy, such as its sub-micrometer spatial resolution, autofluorescence-free features, and high detection sensitivity, the distribution of cyanobacteria and their extracellular polysaccharides in the biofilm matrix were successfully visualized. This showed that cyanobacterial cells were aligned along acidic/sulfated polysaccharides in the extracellular environment. Furthermore, spectroscopic analyses elucidated that during formation of biofilms, sulfated polysaccharides initially form linear structures followed by entrapment of cyanobacterial cells. The present study provides the foundation for further studies on the formation, structure, and biological functions of microbial biofilms.}
+      \field{issn}{1364-5528}
+      \field{journaltitle}{Analyst}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{24}
+      \field{title}{Label-Free Visualization of Photosynthetic Microbial Biofilms Using Mid-Infrared Photothermal and Autofluorescence Imaging}
+      \field{urlday}{10}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{148}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{6241\bibrangedash 6247}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1039/D3AN01453C
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\jan07\\Zotero\\storage\\26BBLEFB\\Kato et al. - 2023 - Label-free visualization of photosynthetic microbial biofilms using mid-infrared photothermal and au.pdf;C\:\\Users\\jan07\\Zotero\\storage\\6D48IUN6\\Kato et al. - 2023 - Label-free visualization of photosynthetic microbial biofilms using mid-infrared photothermal and au.pdf
+      \endverb
+      \keyw{NoDamageMIR}
+    \endentry
+    \entry{kimPhotoncountingStatisticsbasedSupport2022}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=3626b0048e2dbdd62887e8dbd840fb42}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Jin-Woo},
+           giveni={J\bibinithyphendelim W\bibinitperiod}}}%
+        {{hash=93327a52f759bb7e43acf7793959bc2e}{%
+           family={Cho},
+           familyi={C\bibinitperiod},
+           given={Jeong-Sik},
+           giveni={J\bibinithyphendelim S\bibinitperiod}}}%
+        {{hash=9131adde33d09304624133a89c324878}{%
+           family={Sacarelo},
+           familyi={S\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=5f7d61da6ea39195b998e2fe4f52da04}{%
+           family={Fitri},
+           familyi={F\bibinitperiod},
+           given={Nur\bibnamedelimb Duwi\bibnamedelima Fat},
+           giveni={N\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=39598010222ab5f5b4c566422e0ead38}{%
+           family={Hwang},
+           familyi={H\bibinitperiod},
+           given={Ju-Seong},
+           giveni={J\bibinithyphendelim S\bibinitperiod}}}%
+        {{hash=8a2756957e7b45040c9a3bccd5714f7c}{%
+           family={Rhee},
+           familyi={R\bibinitperiod},
+           given={June-Koo\bibnamedelima Kevin},
+           giveni={J\bibinithyphendelim K\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{43faa28f6cf223f19fd5765a8a410db1}
+      \strng{fullhash}{b74370adf88ca426a2b7018d36b32e22}
+      \strng{fullhashraw}{b74370adf88ca426a2b7018d36b32e22}
+      \strng{bibnamehash}{43faa28f6cf223f19fd5765a8a410db1}
+      \strng{authorbibnamehash}{43faa28f6cf223f19fd5765a8a410db1}
+      \strng{authornamehash}{43faa28f6cf223f19fd5765a8a410db1}
+      \strng{authorfullhash}{b74370adf88ca426a2b7018d36b32e22}
+      \strng{authorfullhashraw}{b74370adf88ca426a2b7018d36b32e22}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We propose a photon-counting-statistics-based imaging process for quantum imaging where background photon noise can be distinguished and eliminated by photon mode estimation from the multi-mode Bose--Einstein distribution. Photon-counting statistics show multi-mode behavior in a practical, low-cost single-photon-level quantum imaging system with a short coherence time and a long measurement time interval. Different mode numbers in photon-counting probability distributions from single-photon illumination and background photon noise can be classified by a machine learning technique such as a support vector machine (SVM). The proposed photon-counting statistics-based support vector machine (PSSVM) learns the difference in the photon-counting distribution of each pixel to distinguish between photons from the source and the background photon noise to improve the image quality. We demonstrated quantum imaging of a binary-image object with photon illumination from a spontaneous parametric down-conversion (SPDC) source. The experiment results show that the PSSVM applied quantum image improves a peak signal-to-noise ratio (PSNR) gain of 2.89dB and a structural similarity index measure (SSIM) gain of 27.7\% compared to the conventional direct single-photon imaging.}
+      \field{issn}{2045-2322}
+      \field{journaltitle}{Scientific Reports}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{1}
+      \field{title}{Photon-Counting Statistics-Based Support Vector Machine with Multi-Mode Photon Illumination for Quantum Imaging}
+      \field{urlday}{9}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{12}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{16594}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41598-022-20501-3
+      \endverb
+      \verb{file}
+      \verb C:\Users\jan07\Zotero\storage\3FL38IGK\Kim et al. - 2022 - Photon-counting statistics-based support vector machine with multi-mode photon illumination for quan.pdf
+      \endverb
+      \keyw{CoherentSPDC,Optics and photonics,Physics}
+    \endentry
+    \entry{kuNotesUsePropagation1966}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=59c74110f1da282524532534d8c41039}{%
+           family={Ku},
+           familyi={K\bibinitperiod},
+           given={H.H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{59c74110f1da282524532534d8c41039}
+      \strng{fullhash}{59c74110f1da282524532534d8c41039}
+      \strng{fullhashraw}{59c74110f1da282524532534d8c41039}
+      \strng{bibnamehash}{59c74110f1da282524532534d8c41039}
+      \strng{authorbibnamehash}{59c74110f1da282524532534d8c41039}
+      \strng{authornamehash}{59c74110f1da282524532534d8c41039}
+      \strng{authorfullhash}{59c74110f1da282524532534d8c41039}
+      \strng{authorfullhashraw}{59c74110f1da282524532534d8c41039}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0022-4316}
+      \field{journaltitle}{Journal of Research of the National Bureau of Standards, Section C: Engineering and Instrumentation}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{4}
+      \field{title}{Notes on the Use of Propagation of Error Formulas}
+      \field{urlday}{5}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{70C}
+      \field{year}{1966}
+      \field{urldateera}{ce}
+      \field{pages}{263}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.6028/jres.070C.025
+      \endverb
+      \verb{file}
+      \verb C:\Users\jan07\Zotero\storage\TUXU9ZLJ\Ku - 1966 - Notes on the use of propagation of error formulas.pdf
       \endverb
     \endentry
     \entry{kwiatUltrabrightSourcePolarizationentangled1999}{article}{}{}
@@ -636,9 +733,123 @@
       \verb 10.1103/PhysRevA.60.R773
       \endverb
       \verb{file}
-      \verb C\:\\Users\\goesswein\\Downloads\\ZoteroPortable\\Data\\profile\\storage\\JXCRS7QR\\Kwiat et al. - 1999 - Ultrabright source of polarization-entangled photons.pdf;C\:\\Users\\goesswein\\Downloads\\ZoteroPortable\\Data\\profile\\storage\\36Z899QV\\PhysRevA.60.html
+      \verb C\:\\Users\\jan07\\Zotero\\storage\\JXCRS7QR\\Kwiat et al. - 1999 - Ultrabright source of polarization-entangled photons.pdf;C\:\\Users\\jan07\\Zotero\\storage\\36Z899QV\\PhysRevA.60.html
       \endverb
       \keyw{CrystalSPDC}
+    \endentry
+    \entry{lemosQuantumImagingUndetected2014}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=3f5db945ef4810dc33e0248cb601dfa5}{%
+           family={Lemos},
+           familyi={L\bibinitperiod},
+           given={Gabriela\bibnamedelima Barreto},
+           giveni={G\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=f6c250488249a8a0537a7d49f3a8cbc6}{%
+           family={Borish},
+           familyi={B\bibinitperiod},
+           given={Victoria},
+           giveni={V\bibinitperiod}}}%
+        {{hash=29c02b53a21a42f95b987346820b17cf}{%
+           family={Cole},
+           familyi={C\bibinitperiod},
+           given={Garrett\bibnamedelima D.},
+           giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=ee1fe52e9b4c67526d43eb9fa0a88c25}{%
+           family={Ramelow},
+           familyi={R\bibinitperiod},
+           given={Sven},
+           giveni={S\bibinitperiod}}}%
+        {{hash=7cec48a311758e61bc3eb1c45aa829f3}{%
+           family={Lapkiewicz},
+           familyi={L\bibinitperiod},
+           given={Radek},
+           giveni={R\bibinitperiod}}}%
+        {{hash=a961661d22885d8f3bcba104deec38f0}{%
+           family={Zeilinger},
+           familyi={Z\bibinitperiod},
+           given={Anton},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{1d6cde1e62f5ff6b96e47ef3cb04bd99}
+      \strng{fullhash}{cb4bcac22ba52800fddfcf4f7c423531}
+      \strng{fullhashraw}{cb4bcac22ba52800fddfcf4f7c423531}
+      \strng{bibnamehash}{1d6cde1e62f5ff6b96e47ef3cb04bd99}
+      \strng{authorbibnamehash}{1d6cde1e62f5ff6b96e47ef3cb04bd99}
+      \strng{authornamehash}{1d6cde1e62f5ff6b96e47ef3cb04bd99}
+      \strng{authorfullhash}{cb4bcac22ba52800fddfcf4f7c423531}
+      \strng{authorfullhashraw}{cb4bcac22ba52800fddfcf4f7c423531}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A new quantum imaging experiment demonstrates images made with light that does not encounter the object; one of a pair of photons created at two crystals illuminates the object but is never detected, and the other photon, which is in a joint quantum state with the first and does not interact with the object, forms an image of the object on a camera.}
+      \field{issn}{1476-4687}
+      \field{journaltitle}{Nature}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{number}{7515}
+      \field{title}{Quantum Imaging with Undetected Photons}
+      \field{urlday}{10}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{512}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{409\bibrangedash 412}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1038/nature13586
+      \endverb
+      \keyw{GhostImaging,Quantum optics}
+    \endentry
+    \entry{mandelOpticalCoherenceQuantum1995}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=dc6966f2c95f08c3017246a5e4de7957}{%
+           family={Mandel},
+           familyi={M\bibinitperiod},
+           given={Leonard},
+           giveni={L\bibinitperiod}}}%
+        {{hash=4f3da79454ab0edb86f37a6038d1998f}{%
+           family={Wolf},
+           familyi={W\bibinitperiod},
+           given={Emil},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{8de37a2b95c6de5877b00fe3ea99a1cf}
+      \strng{fullhash}{8de37a2b95c6de5877b00fe3ea99a1cf}
+      \strng{fullhashraw}{8de37a2b95c6de5877b00fe3ea99a1cf}
+      \strng{bibnamehash}{8de37a2b95c6de5877b00fe3ea99a1cf}
+      \strng{authorbibnamehash}{8de37a2b95c6de5877b00fe3ea99a1cf}
+      \strng{authornamehash}{8de37a2b95c6de5877b00fe3ea99a1cf}
+      \strng{authorfullhash}{8de37a2b95c6de5877b00fe3ea99a1cf}
+      \strng{authorfullhashraw}{8de37a2b95c6de5877b00fe3ea99a1cf}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This book presents a systematic account of optical coherence theory within the framework of classical optics, as applied to such topics as radiation from sources of different states of coherence, foundations of radiometry, effects of source coherence on the spectra of radiated fields, coherence theory of laser modes, and scattering of partially coherent light by random media. The book starts with a full mathematical introduction to the subject area and each chapter concludes with a set of exercises. The authors are renowned scientists and have made substantial contributions to many of the topics treated in the book. Much of the book is based on courses given by them at universities, scientific meetings and laboratories throughout the world. This book will undoubtedly become an indispensable aid to scientists and engineers concerned with modern optics, as well as to teachers and graduate students of physics and engineering.}
+      \field{isbn}{978-0-521-41711-2}
+      \field{title}{Optical {{Coherence}} and {{Quantum Optics}}}
+      \field{urlday}{9}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{year}{1995}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1017/CBO9781139644105
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\jan07\\Zotero\\storage\\PUN44AY8\\Mandel and Wolf - 1995 - Optical Coherence and Quantum Optics.pdf;C\:\\Users\\jan07\\Zotero\\storage\\36WCD3JI\\F8CB94C70FA64CD3FB60890CA2048168.html
+      \endverb
     \endentry
     \entry{moreauImagingQuantumStates2019}{article}{}{}
       \name{author}{4}{}{%
@@ -693,115 +904,94 @@
       \verb 10.1038/s42254-019-0056-0
       \endverb
       \verb{file}
-      \verb C:\Users\goesswein\Downloads\ZoteroPortable\Data\profile\storage\ZRB3JMG7\Moreau et al. - 2019 - Imaging with quantum states of light.pdf
+      \verb C:\Users\jan07\Zotero\storage\ZRB3JMG7\Moreau et al. - 2019 - Imaging with quantum states of light.pdf
       \endverb
     \endentry
-    \entry{springBosonSamplingPhotonic2013}{article}{}{}
-      \name{author}{14}{}{%
-        {{hash=2480730a91f381309d115a727004be9e}{%
-           family={Spring},
+    \entry{schneelochIntroductionAbsoluteBrightness2019}{article}{}{}
+      \name{author}{9}{}{%
+        {{hash=40e6b679a56fd4a9c0e65dccb8331523}{%
+           family={Schneeloch},
            familyi={S\bibinitperiod},
-           given={Justin\bibnamedelima B.},
-           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
-        {{hash=49fe3757156d4de1f18e59ff012526c2}{%
-           family={Metcalf},
-           familyi={M\bibinitperiod},
-           given={Benjamin\bibnamedelima J.},
-           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=93dd68e8b5de6eb89d2f17d1179f3752}{%
-           family={Humphreys},
-           familyi={H\bibinitperiod},
-           given={Peter\bibnamedelima C.},
-           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=6896c9b54e51b2cd8f213dd936300838}{%
-           family={Kolthammer},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f8ea7fbba2479024bd56877569402e16}{%
+           family={Knarr},
            familyi={K\bibinitperiod},
-           given={W.\bibnamedelimi Steven},
-           giveni={W\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{hash=0d2e33750840b5a93689e31424ec6440}{%
-           family={Jin},
-           familyi={J\bibinitperiod},
-           given={Xian-Min},
-           giveni={X\bibinithyphendelim M\bibinitperiod}}}%
-        {{hash=1d3fe4a9944528b1e88968c6b18d9e70}{%
-           family={Barbieri},
+           given={Samuel\bibnamedelima H},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=61164405fd0943196b24792b03221826}{%
+           family={Bogorin},
            familyi={B\bibinitperiod},
-           given={Marco},
-           giveni={M\bibinitperiod}}}%
-        {{hash=6f589b7b037f75414e67e845ee50714f}{%
-           family={Datta},
-           familyi={D\bibinitperiod},
-           given={Animesh},
-           giveni={A\bibinitperiod}}}%
-        {{hash=797c32d653f4fd46aea8c5a28737023d}{%
-           family={{Thomas-Peter}},
-           familyi={T\bibinitperiod},
-           given={Nicholas},
-           giveni={N\bibinitperiod}}}%
-        {{hash=0cbb3ee5afbc3c78f60150c337bfbd63}{%
-           family={Langford},
+           given={Daniela\bibnamedelima F},
+           giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=722368746f5f7e8010323d39dd9c305d}{%
+           family={Levangie},
            familyi={L\bibinitperiod},
-           given={Nathan\bibnamedelima K.},
-           giveni={N\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
-        {{hash=5e4c2d456657d3a1563d85ed723aa92e}{%
-           family={Kundys},
-           familyi={K\bibinitperiod},
-           given={Dmytro},
-           giveni={D\bibinitperiod}}}%
-        {{hash=1312b040673984f30db4ae3da2f011c3}{%
-           family={Gates},
-           familyi={G\bibinitperiod},
-           given={James\bibnamedelima C.},
-           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=6dcd9edcc6805693059fbd2b2f81c74e}{%
-           family={Smith},
-           familyi={S\bibinitperiod},
-           given={Brian\bibnamedelima J.},
-           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=416a088a2ad825743bc73a9ed8a881b4}{%
-           family={Smith},
-           familyi={S\bibinitperiod},
-           given={Peter\bibnamedelimb G.\bibnamedelimi R.},
-           giveni={P\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-        {{hash=c35bfd8c6d60baabd124c2a1a8d16b13}{%
-           family={Walmsley},
-           familyi={W\bibinitperiod},
-           given={Ian\bibnamedelima A.},
-           giveni={I\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+           given={Mackenzie\bibnamedelima L},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=c4f2d540a66c06c8a196a6d62cd8d7cf}{%
+           family={Tison},
+           familyi={T\bibinitperiod},
+           given={Christopher\bibnamedelima C},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=79764769af9e8bffe959dbe1109c8397}{%
+           family={Frank},
+           familyi={F\bibinitperiod},
+           given={Rebecca},
+           giveni={R\bibinitperiod}}}%
+        {{hash=d1f499573299c061f7ca21fde3035b57}{%
+           family={Howland},
+           familyi={H\bibinitperiod},
+           given={Gregory\bibnamedelima A},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=08fbf05a615d3cb3a3097903d9bc3c89}{%
+           family={Fanto},
+           familyi={F\bibinitperiod},
+           given={Michael\bibnamedelima L},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=dfec29c083cc12d36a62421abdedd67c}{%
+           family={Alsing},
+           familyi={A\bibinitperiod},
+           given={Paul\bibnamedelima M},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
       }
-      \strng{namehash}{f58989b9132ec8c0e66714ccd9a9e162}
-      \strng{fullhash}{8a034cd9e27c1198dfc2bbc14ebff443}
-      \strng{fullhashraw}{8a034cd9e27c1198dfc2bbc14ebff443}
-      \strng{bibnamehash}{f58989b9132ec8c0e66714ccd9a9e162}
-      \strng{authorbibnamehash}{f58989b9132ec8c0e66714ccd9a9e162}
-      \strng{authornamehash}{f58989b9132ec8c0e66714ccd9a9e162}
-      \strng{authorfullhash}{8a034cd9e27c1198dfc2bbc14ebff443}
-      \strng{authorfullhashraw}{8a034cd9e27c1198dfc2bbc14ebff443}
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{c1d7de1df159b4a9d121f742c526b192}
+      \strng{fullhash}{8ec89789cde984fdc9359fd3a0a3c3a4}
+      \strng{fullhashraw}{8ec89789cde984fdc9359fd3a0a3c3a4}
+      \strng{bibnamehash}{c1d7de1df159b4a9d121f742c526b192}
+      \strng{authorbibnamehash}{c1d7de1df159b4a9d121f742c526b192}
+      \strng{authornamehash}{c1d7de1df159b4a9d121f742c526b192}
+      \strng{authorfullhash}{8ec89789cde984fdc9359fd3a0a3c3a4}
+      \strng{authorfullhashraw}{8ec89789cde984fdc9359fd3a0a3c3a4}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Computing Power of Quantum Mechanics There is much interest in developing quantum computers in order to perform certain tasks much faster than, or that are intractable for, a classical computer. A general quantum computer, however, requires the fabrication and operation a number of quantum logic devices (see the Perspective by Franson ). Broome et al. (p. 794 , published online 20 December) and Spring et al. (p. 798 , published online 20 December) describe experiments in which single photons and quantum interference were used to perform a calculation (the permanent of a matrix) that is very difficult on a classical computer. Similar to random walks, quantum walks on a graph describe the movement of a walker on a set of predetermined paths; instead of flipping a coin to decide which way to go at each point, a quantum walker can take several paths at once. Childs et al. (p. 791 ) propose an architecture for a quantum computer, based on quantum walks of multiple interacting walkers. The system is capable of performing any quantum operation using a subset of its nodes, with the size of the subset scaling favorably with the complexity of the operation. , Optical circuits are used to demonstrate a quantum-enhanced calculation. [Also see Perspective by Franson ] , Although universal quantum computers ideally solve problems such as factoring integers exponentially more efficiently than classical machines, the formidable challenges in building such devices motivate the demonstration of simpler, problem-specific algorithms that still promise a quantum speedup. We constructed a quantum boson-sampling machine (QBSM) to sample the output distribution resulting from the nonclassical interference of photons in an integrated photonic circuit, a problem thought to be exponentially hard to solve classically. Unlike universal quantum computation, boson sampling merely requires indistinguishable photons, linear state evolution, and detectors. We benchmarked our QBSM with three and four photons and analyzed sources of sampling inaccuracy. Scaling up to larger devices could offer the first definitive quantum-enhanced computation.}
-      \field{issn}{0036-8075, 1095-9203}
-      \field{journaltitle}{Science}
+      \field{abstract}{As a tutorial, we examine the absolute brightness and number statistics of photon pairs generated in spontaneous parametric down-conversion (SPDC) from first principles. In doing so, we demonstrate how the diverse implementations of SPDC can be understood through a single common framework, and use this to derive straightforward formulas for the biphoton generation rate (pairs per second) in a variety of different circumstances. In particular, we consider the common cases of both collimated and focused Gaussian pump beams in a bulk nonlinear crystal, as well as in nonlinear waveguides and micro-ring resonators. Furthermore, we examine the number statistics of down-converted light using a non-perturbative approximation (the multi-mode squeezed vacuum), to provide quantitative formulas for the relative likelihood of multi-pair production events, and explore how the quantum state of the pump affects the subsequent statistics of the down-converted light. Following this, we consider the limits of the undepleted pump approximation, and conclude by performing experiments to test the effectiveness of our theoretical predictions for the biphoton generation rate in a variety of different sources.}
+      \field{issn}{2040-8986}
+      \field{journaltitle}{Journal of Optics}
       \field{langid}{english}
       \field{month}{2}
-      \field{number}{6121}
-      \field{title}{Boson {{Sampling}} on a {{Photonic Chip}}}
-      \field{urlday}{28}
-      \field{urlmonth}{8}
+      \field{number}{4}
+      \field{title}{Introduction to the Absolute Brightness and Number Statistics in Spontaneous Parametric Down-Conversion}
+      \field{urlday}{9}
+      \field{urlmonth}{9}
       \field{urlyear}{2025}
-      \field{volume}{339}
-      \field{year}{2013}
+      \field{volume}{21}
+      \field{year}{2019}
       \field{urldateera}{ce}
-      \field{pages}{798\bibrangedash 801}
-      \range{pages}{4}
+      \field{pages}{043501}
+      \range{pages}{1}
       \verb{doi}
-      \verb 10.1126/science.1231692
+      \verb 10.1088/2040-8986/ab05a8
       \endverb
       \verb{file}
-      \verb C:\Users\goesswein\Downloads\ZoteroPortable\Data\profile\storage\KMHVY5QJ\Spring et al. - 2013 - Boson Sampling on a Photonic Chip.pdf
+      \verb C:\Users\jan07\Zotero\storage\VZ4TBZ43\Schneeloch et al. - 2019 - Introduction to the absolute brightness and number statistics in spontaneous parametric down-convers.pdf
       \endverb
+      \keyw{CoherentSPDC}
     \endentry
     \entry{tanzilliHighlyEfficientPhotonpair2000}{misc}{}{}
       \name{author}{8}{}{%
@@ -882,7 +1072,7 @@
       \verb quant-ph/0012053
       \endverb
       \verb{file}
-      \verb C\:\\Users\\goesswein\\Downloads\\ZoteroPortable\\Data\\profile\\storage\\D2XLXPTW\\Tanzilli et al. - 2000 - Highly efficient photon-pair source using a Periodically Poled Lithium Niobate Waveguide.pdf;C\:\\Users\\goesswein\\Downloads\\ZoteroPortable\\Data\\profile\\storage\\U5ZU23F4\\0012053.html
+      \verb C\:\\Users\\jan07\\Zotero\\storage\\D2XLXPTW\\Tanzilli et al. - 2000 - Highly efficient photon-pair source using a Periodically Poled Lithium Niobate Waveguide.pdf;C\:\\Users\\jan07\\Zotero\\storage\\U5ZU23F4\\0012053.html
       \endverb
       \keyw{CrystalSPDC,Quantum Physics}
     \endentry

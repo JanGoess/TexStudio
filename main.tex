@@ -1,19 +1,19 @@
 \documentclass[
-    11pt,
-    a4paper,
-    sfdefaults=false,
-    toc=chapterentrywithdots,
-    twoside,openright,
-    titlepage,
-    parskip=half,
-    headings=normal,  % reduces heading size
-    listof=totoc,
-    bibliography=totoc,
-    index=totoc,
-    captions=tableheading,  % caption below table
-    chapterprefix,
-    listof=flat,
-    final
+11pt,
+a4paper,
+sfdefaults=false,
+toc=chapterentrywithdots,
+twoside,openright,
+titlepage,
+parskip=half,
+headings=normal,  % reduces heading size
+listof=totoc,
+bibliography=totoc,
+index=totoc,
+captions=tableheading,  % caption below table
+chapterprefix,
+listof=flat,
+final
 ]{scrbook}
 
 
@@ -25,21 +25,27 @@
 \newcommand{\matrikelnr}{212968}
 \newcommand{\erstgutachter}{Prof.\,Dr.~Norbert Koch}
 \newcommand{\zweitgutachter}{Prof.\,Dr.~Michael Mayle}
-\newcommand{\betreuer}{Masoud Safari}
+\newcommand{\betreuer}{Masoud Safari Arabi}
 \newcommand{\unternehmen}{Insitute of Applied Physics}
 \newcommand{\logo}{figures/TH-Nuernberg-RGB.png}
 \newcommand{\keywords}{hot, fuzz}
- 
+
 
 % custom head and foot
 \usepackage[automark,markcase=noupper]{scrlayer-scrpage}
 \pagestyle{scrheadings}
-\ihead{\headmark}
-\chead{}
-\ohead{\pagemark}
-%\renewcommand*{\chaptermarkformat}{\thechapter. \ }
-\renewcommand*\chaptermarkformat{\chapappifchapterprefix{\ }%
-\thechapter.\enskip}
+
+% Header content
+\ihead{\headmark}      % inner header: section (even pages) / subsection (odd pages)
+\chead{}               % no center header
+\ohead{\pagemark}      % outer header: page number
+
+% Footer stays empty by default unless you add \ifoot, \cfoot, \ofoot
+
+% Define how marks are written:
+\automark[section]{section}         % put section titles into \headmark (even pages)
+\automark*[subsection]{subsection}  % put subsection titles into \rightmark (odd pages)
+
 
 \RedeclareSectionCommand[tocindent=0pt]{section}
 \RedeclareSectionCommand[tocindent=0pt]{subsection}
@@ -64,7 +70,8 @@
 \usepackage{lettrine}
 \usepackage{svg}
 % \usepackage[numbers]{natbib}
-
+\usepackage{pdfpages}
+\usepackage{enumitem}
 \usepackage{datetime}
 \usepackage[intoc]{nomencl}
 \usepackage{siunitx}
@@ -73,7 +80,7 @@
 %% This will add the units
 %----------------------------------------------
 \newcommand{\nomunit}[1]{%
-\renewcommand{\nomentryend}{\hspace*{\fill}#1}}
+	\renewcommand{\nomentryend}{\hspace*{\fill}#1}}
 %----------------------------------------------
 
 \usepackage{booktabs}
@@ -89,23 +96,23 @@
 \usepgfplotslibrary{colorbrewer} % Optional: for color schemes
 \pgfplotsset{compat=newest}
 \pgfplotsset{
-    colormap name=viridis,
+	colormap name=viridis,
 }
 % Set global styles for PGFPlots
 \pgfplotsset{
-    every axis/.append style={
-        every axis x label/.style={
-            font=\bfseries,
-            at={(axis description cs:0.5,-0.1)}, % Adjust the position as needed
-            anchor=north,
-        },
-        every axis y label/.style={
-            font=\bfseries,
-            at={(axis description cs:-0.1,0.5)}, % Adjust the position as needed
-            anchor=south,
-            rotate=90
-        },
-    }
+	every axis/.append style={
+		every axis x label/.style={
+			font=\bfseries,
+			at={(axis description cs:0.5,-0.1)}, % Adjust the position as needed
+			anchor=north,
+		},
+		every axis y label/.style={
+			font=\bfseries,
+			at={(axis description cs:-0.1,0.5)}, % Adjust the position as needed
+			anchor=south,
+			rotate=90
+		},
+	}
 }
 
 \usepackage{tikz}
@@ -120,7 +127,7 @@
 
 
 \tikzstyle{block} = [rectangle, draw, fill=blue!20, 
-    text width=12em, text centered, rounded corners, minimum height=3em]
+text width=12em, text centered, rounded corners, minimum height=3em]
 \tikzstyle{line} = [draw,line width=2.5pt]
 \tikzstyle{data}=[trapezium, draw, text centered, trapezium left angle=60, trapezium right angle=120, minimum height=2em, fill=blue!30]
 \tikzstyle{decision} = [diamond, draw, text centered, minimum height=2em, fill=green!30]
@@ -144,7 +151,8 @@
 \usepackage{ragged2e}
 \usepackage{lscape}
 \usepackage{comment}
-
+\usepackage{todonotes}
+\usepackage[toc,page]{appendix}
 
 \usepackage[backend=biber,style=numeric-comp]{biblatex}
 \addbibresource{references.bib}
@@ -152,26 +160,26 @@
 
 % pdf hyperref
 \usepackage[
-    bookmarks=true,
-    bookmarksopen=true,
-    bookmarksnumbered=true,
-    bookmarksopenlevel=1,
-    pdftitle={\titel},
-    pdfauthor={\autor},
-    pdfcreator={\autor},
-    pdfsubject={\titel},
-    pdfkeywords={\keywords},
-    pdfpagelabels=true,
-    colorlinks=true,
-    linkcolor=red,
-    urlcolor=magenta,
-    anchorcolor=black,
-    citecolor=cyan,
-    filecolor=magenta,
-    menucolor=red,
-    plainpages=false,
-    hypertexnames=true,
-    linktocpage=true,
+bookmarks=true,
+bookmarksopen=true,
+bookmarksnumbered=true,
+bookmarksopenlevel=1,
+pdftitle={\titel},
+pdfauthor={\autor},
+pdfcreator={\autor},
+pdfsubject={\titel},
+pdfkeywords={\keywords},
+pdfpagelabels=true,
+colorlinks=true,
+linkcolor=red,
+urlcolor=magenta,
+anchorcolor=black,
+citecolor=cyan,
+filecolor=magenta,
+menucolor=red,
+plainpages=false,
+hypertexnames=true,
+linktocpage=true,
 ]{hyperref}
 
 % configure your listings style
@@ -185,7 +193,7 @@
 	numberstyle=\small,
 	breakautoindent=true
 }
-	
+
 \usepackage[noabbrev]{cleveref}
 % page setup
 % \setlength{\topskip}{\ht\strutbox}
@@ -220,21 +228,24 @@
 \setlength{\glspagelistwidth}{0.08\linewidth}
 %\renewcommand*{\pagelistname}{Page}
 \renewcommand*{\glossaryheader}{%
-    \toprule
-    \textbf{Abbreviation} & \textbf{Description} & \textbf{Page} \tabularnewline\midrule\endhead
-    \bottomrule\endfoot
- }%
+	\toprule
+	\textbf{Abbreviation} & \textbf{Description} & \textbf{Page} \tabularnewline\midrule\endhead
+	\bottomrule\endfoot
+}%
 \makenomenclature
 
 
-\newacronym{spdc}{SPDC}{Spontaneous parametric down-conversion}
-\newacronym{snspd}{SNSPD}{Superconducting nanowire single-photon detector}
+\newacronym{spdc}{SPDC}{spontaneous parametric down-conversion}
+\newacronym{snspd}{SNSPD}{superconducting nanowire single-photon detector}
 \newacronym{ktp}{KTP}{potassium titanyl phosphate}
 \newacronym{bbo}{BBO}{beta-barium borate}
 \newacronym{ln}{LN}{lithium niobate}
 \newacronym{qpm}{QPM}{quasi phase matching}
 \newacronym{bpm}{BPM}{birefringent phase matching}
-
+\newacronym{mmbe}{mmBE}{multi-mode Bose-Einstein}
+\newacronym{car}{CAR}{coincidence-to-Accidentals ratio}
+\newacronym{snr}{SNR}{signal-to-noise ratio}
+\newacronym{vot}{VoT}{variance of the transmittance}
 
 \makeglossaries
 
@@ -253,14 +264,14 @@
 				\draw[black, line width=1pt, 
 				{Latex[length=1.3mm, width=1.5mm]}-{Latex[length=1.3mm, width=1.5mm]}] 
 				(0,-12pt) -- (0,12pt);
-				},
-				% \draw[fill=white, draw = white] circle[radius=1pt];
+			},
+			% \draw[fill=white, draw = white] circle[radius=1pt];
 			mark=between positions 0.6 and 0.9 step 0.5cm with with{
 				\draw[black, line width=1pt, 
 				{Latex[length=1.3mm, width=1.5mm]}-{Latex[length=1.3mm, width=1.5mm]}] 
 				(0,-12pt) -- (0,12pt);
 			}
-				%\draw[fill=white, draw = white] circle[radius=1pt];
+			%\draw[fill=white, draw = white] circle[radius=1pt];
 		}
 	}
 }
@@ -269,58 +280,71 @@
 \newcommand{\vo}{\vec{o}\@ifnextchar{^}{\,}{}}
 \numberwithin{equation}{section}
 
+% TOC commands --------------
+
+\RedeclareSectionCommand[tocindent=0em,   tocnumwidth=2.5em, beforeskip=1.5ex]{chapter}
+\RedeclareSectionCommand[tocentryformat=\bfseries,tocindent=0em,tocnumwidth=2.5em, beforeskip=1.5ex]{section}
+\RedeclareSectionCommand[tocindent=2.5em,tocnumwidth=3.5em,   beforeskip=1.0ex]{subsection}
+
+
 \begin{document}
+	
+	% define layers in pgf plots
+	\pgfplotsset{
+		% define the layers you need.
+		% (Don't forget to add `main' somewhere in that list!!)
+		layers/my layer set/.define layer set={
+			background,
+			main,
+			foreground
+		}{
+			% you could state styles here which should be moved to
+			% corresponding layers, but that is not necessary here.
+			% That is why we don't state anything here
+		},
+		% activate the newly created layer set
+		set layers=my layer set,
+	}
+	
+	\setcounter{secnumdepth}{3}   % Keep numbering down to subsubsection
+	\setcounter{tocdepth}{2}      % TOC depth
+	\renewcommand{\thechapter}{}  % Remove chapter number
+	\renewcommand{\thesection}{\arabic{section}}
+	
+	\frontmatter
+	\include{cover}
+	
+	
+	\tableofcontents
+	
+	
+	\printglossaries
+	
+	\mainmatter
+	
+	\input{content/1_Introduction}
+	\input{content/2_Theory}
+	\newpage
+	\input{content/3_Experimental}
+	\input{content/4_Results}
+	\input{content/5_Simulation}
+	\newpage
+	\input{content/6_Conclusion}
+	%\input{testChat}
+	
+	\appendix
+	\include{content/A_Appendix}
 
-% define layers in pgf plots
-\pgfplotsset{
-        % define the layers you need.
-        % (Don't forget to add `main' somewhere in that list!!)
-        layers/my layer set/.define layer set={
-            background,
-            main,
-            foreground
-        }{
-            % you could state styles here which should be moved to
-            % corresponding layers, but that is not necessary here.
-            % That is why we don't state anything here
-        },
-        % activate the newly created layer set
-        set layers=my layer set,
-    }
-
-\setcounter{secnumdepth}{3}   % Keep numbering down to subsubsection
-\setcounter{tocdepth}{2}      % TOC depth
-\renewcommand{\thechapter}{}  % Remove chapter number
-\renewcommand{\thesection}{\arabic{section}}
-
-\frontmatter
-\include{cover}
-
-
-\tableofcontents
-
-
-\printglossaries
-
-\mainmatter
-
-\input{content/1_Introduction}
-\newpage
-\input{content/2_Theory}
-\input{content/3_Experimental}
-\input{content/4_Results}
-\input{content/5_Conclusion}
-\input{testChat}
-
-\backmatter
-\listoffigures
-
-\listoftables
-
-\printbibliography
-%\addcontentsline{toc}{section}{References}
-%\bibliographystyle{ieeetr}
-
-%\bibliography{refs}
-
+	
+	\backmatter
+	\listoffigures
+	
+	\listoftables
+	
+	\printbibliography
+	%\addcontentsline{toc}{section}{References}
+	%\bibliographystyle{ieeetr}
+	
+	%\bibliography{refs}
+	
 \end{document}

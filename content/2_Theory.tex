@@ -93,7 +93,7 @@ These correlations are evaluated by defining a temporal interval around the dete
 			xmin=-16,
 			xmax=16,
 			xlabel={Time Delay [ns]},
-			ylabel={Coincidence counts [Hz]},
+			ylabel={Histogram counts [Hz]},
 			xtick={-15,-10,-5,0,5,10,15},
 			bar width=2,
 			minor y tick num = 3,
@@ -184,7 +184,7 @@ These correlations are evaluated by defining a temporal interval around the dete
 \subsection{Model for transmittance estimation}
 %\vspace{-0.5em}
 When noise is present in the experimental setup, the question arises as to how precisely the parameters of interest can be determined using either the conventional or coincidence approach. As the objective of this work is to compare both methods in terms of the precision of the measurement rather than focusing on the estimated absolute values, it is the variance of the chosen parameter that is decisive. Since the results of this study will be applied in a transmission setup, the transmittance of the sample is chosen as the key parameter. \newline
-In the following, the formulas to calculate the \acrfull{vot} are derived both for the conventional and coincidence approach. The arm in which the sample is placed will be referred to as idler and the other arm, the reference arm, as signal. The case in which a sample is placed in the idler arm is denoted with the superscript '$\text{sam}$', where there is no sample with '$\text{ref}$'. \newline
+In the following, the formulas to calculate the variance of the transmittance are derived both for the conventional and coincidence approach. The arm in which the sample is placed will be referred to as idler and the other arm, the reference arm, as signal. The case in which a sample is placed in the idler arm is denoted with the superscript '$\text{sam}$', where there is no sample with '$\text{ref}$'. \newline
 Starting with the conventional approach, only the idler arm is required. Therefore, in absence of the sample, the number of total detected counts in this arm is: 
 \begin{equation}
 	N_{\text{tot}}^{\text{ref}} = \eta_{\text{idl}} \, N_g + N_{\text{noise}}^{\text{ref}}
@@ -206,7 +206,7 @@ $T$ can be calculated combining equations \ref{eq:SingleRef} and \ref{eq:SingleS
 \end{equation}
 As can be seen from the formula, four independent measurements must be conducted to retrieve the transmittance: two where only the dark counts are measured with and without the sample, and two with an active laser also with and without the sample. 
 \newpage
-Based on \autoref{eq:TransSingle} and error propagation, the \acrshort{vot} $\operatorname{Var}(T)$ can be calculated assuming that all four variables are independent of each other \cite{kuNotesUsePropagation1966}: 
+Based on \autoref{eq:TransSingle} and error propagation, the variance of the transmittance $\operatorname{Var}(T)$ can be calculated assuming that all four variables are independent of each other \cite{kuNotesUsePropagation1966}: 
 \begin{equation}
 	\begin{aligned}
 		\operatorname{Var}(T) 
@@ -223,7 +223,7 @@ Based on \autoref{eq:TransSingle} and error propagation, the \acrshort{vot} $\op
 	\end{aligned}
 	\label{eq:VarianceTransGen}
 \end{equation}
-When the partial derivatives are explicitly calculated using \autoref{eq:TransSingle} the final formula for the \acrshort{vot} is:
+When the partial derivatives are explicitly calculated using \autoref{eq:TransSingle} the final formula for the variance of the transmittance is:
 \begin{equation}
 		\operatorname{Var}(T) 
 		= \left( \frac{1}{\eta_{\text{idl}}\,N_g} \right)^{2}
@@ -303,7 +303,7 @@ Using equations \ref{eq:pureCoinc}, \ref{eq:AccCounts} and \ref{eq:totCoinc}, th
 	\label{eq:TransCoinc}
 \end{equation}
 In comparison to the conventional approach from \autoref{eq:TransSingle}, which necessitates four independent measurements, this approach requires only two: one with and one without the sample. This is due to the fact that  accidentals and coincidences can be obtained within a single measurement. \newline
-Since the objective is to compare the precision of the transmittance $T$ using the two different approaches, analogue to \autoref{eq:VarianceTransGen}, \acrshort{vot} can be calculated using error propagation and coincidence counts:
+Since the objective is to compare the precision of the transmittance $T$ using the two different approaches, analogue to \autoref{eq:VarianceTransGen}, variance of the transmittance can be calculated using error propagation and coincidence counts:
 \begin{equation}
 	\begin{aligned}
 		\operatorname{Var}(T) 
@@ -320,7 +320,7 @@ Since the objective is to compare the precision of the transmittance $T$ using t
 	\end{aligned}
 	\label{eq:VarianceTransGenCoinc}
 \end{equation}
-Using equations \ref{eq:pureCoinc} and \ref{eq:totCoinc}, an explicit expression for \acrshort{vot} can be obtained:
+Using equations \ref{eq:pureCoinc} and \ref{eq:totCoinc}, an explicit expression for variance of the transmittance can be obtained:
  \begin{equation}
  	\operatorname{Var}(T) 
  	= \left( \frac{1}{\eta_{\text{sig}}\,\eta_{\text{idl}}\,N_g} \right)^{2}
@@ -335,7 +335,7 @@ Using equations \ref{eq:pureCoinc} and \ref{eq:totCoinc}, an explicit expression
  	\label{eq:VarianceTransExplCoinc}
  \end{equation}
  
-The objective of this work is to ascertain parameter configurations in which the coincidence approach exhibits superiority in terms of precision, as measured by the magnitude of \acrshort{vot}, in comparison to the conventional approach. In order to model both variance formulas properly, it is necessary to experimentally investigate the statistics of each parameter of which the variance is calculated.
+The objective of this work is to ascertain parameter configurations in which the coincidence approach exhibits superiority in terms of precision, as measured by the magnitude of variance of the transmittance, in comparison to the conventional approach. In order to model both variance formulas properly, it is necessary to experimentally investigate the statistics of each parameter of which the variance is calculated.
 \subsection{Photon statistics}
 When investigating the statistical properties of photons, it is essential to recognize that different types of light sources exhibit distinct statistical distributions. These distributions are typically characterized by their respective variances, which serve as key indicators of the underlying photon statistics. A coherent laser source is often used as the reference standard, as it represents the most stable form of light emission within the picture of classical optics \cite{foxQuantumOpticsIntroduction2006}. In the following, two types of light sources with fundamentally different statistical distributions are examined in greater detail, namely coherent and thermal sources.
 

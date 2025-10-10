@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.8)  10 OCT 2025 10:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.8)  10 OCT 2025 16:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2370,6 +2370,31 @@ s/Logo IAP.png> <./Images/FSU_Logo.jpg>])
 
 
 ]
+
+Package glossaries Warning: Glossary entry `snr' has not been defined on input 
+line 27.
+
+
+Package glossaries Warning: Glossary entry `snr' has not been defined on input 
+line 27.
+
+
+Package glossaries Warning: Glossary entry `snr' has not been defined on input 
+line 27.
+
+
+Package glossaries Warning: Glossary entry `vot' has not been defined on input 
+line 36.
+
+
+Package glossaries Warning: Glossary entry `vot' has not been defined on input 
+line 36.
+
+
+Package glossaries Warning: Glossary entry `vot' has not been defined on input 
+line 36.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 36--37
 []|[][]\T1/lmr/m/n/10.95 4[][]--[][]6[][],
  []
@@ -2385,7 +2410,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
 
 ] (content/1_Introduction.tex
-Overfull \hbox (6.82394pt too wide) in paragraph at lines 3--14
+Overfull \hbox (6.82394pt too wide) in paragraph at lines 3--15
 \T1/lmr/m/n/10.95 Among the avail-able quan-tum light sources, [][][]spon-ta-ne
 ous para-met-ric down-conversion (SPDC)[][]
  []
@@ -2435,7 +2460,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [5{C:/Users/goesswein/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathe
 x.enc}]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 5548) has occurred while \output is active []
 
 
 
@@ -2446,7 +2471,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [8])
 
 [9] (content/3_Experimental.tex
-<Images/DupishSetupNew.pdf, id=302, 327.2225pt x 192.72pt>
+<Images/DupishSetupNew.pdf, id=295, 327.2225pt x 192.72pt>
 File: Images/DupishSetupNew.pdf Graphic file (type pdf)
 <use Images/DupishSetupNew.pdf>
 Package pdftex.def Info: Images/DupishSetupNew.pdf  used on input line 8.
@@ -2459,7 +2484,7 @@ Overfull \hbox (10.44997pt too wide) in paragraph at lines 12--12
  []
 
 ) (content/4_Results.tex
-<Images/CAR_Ratio.pdf, id=310, 562.55869pt x 417.36227pt>
+<Images/CAR_Ratio.pdf, id=303, 562.55869pt x 417.36227pt>
 File: Images/CAR_Ratio.pdf Graphic file (type pdf)
 <use Images/CAR_Ratio.pdf>
 Package pdftex.def Info: Images/CAR_Ratio.pdf  used on input line 8.
@@ -2470,7 +2495,7 @@ Underfull \vbox (badness 1199) has occurred while \output is active []
 
 
 [10 <./Images/DupishSetupNew.pdf>] Excluding 'comment' comment.
-<Images/SingleStatisticsIdler.pdf, id=420, 562.41129pt x 418.26013pt>
+<Images/SingleStatisticsIdler.pdf, id=413, 562.41129pt x 418.26013pt>
 File: Images/SingleStatisticsIdler.pdf Graphic file (type pdf)
 <use Images/SingleStatisticsIdler.pdf>
 Package pdftex.def Info: Images/SingleStatisticsIdler.pdf  used on input line 4
@@ -2485,13 +2510,13 @@ Overfull \hbox (10.44997pt too wide) in paragraph at lines 53--53
 [] 
  []
 
-<Images/SingleStatisticsSignal.pdf, id=535, 562.20305pt x 417.80699pt>
+<Images/SingleStatisticsSignal.pdf, id=528, 562.20305pt x 417.80699pt>
 File: Images/SingleStatisticsSignal.pdf Graphic file (type pdf)
 <use Images/SingleStatisticsSignal.pdf>
 Package pdftex.def Info: Images/SingleStatisticsSignal.pdf  used on input line 
 56.
 (pdftex.def)             Requested size: 304.24916pt x 226.10968pt.
-<Images/CoincStatistics.pdf, id=540, 562.08739pt x 419.40187pt>
+<Images/CoincStatistics.pdf, id=532, 562.08739pt x 419.40187pt>
 File: Images/CoincStatistics.pdf Graphic file (type pdf)
 <use Images/CoincStatistics.pdf>
 Package pdftex.def Info: Images/CoincStatistics.pdf  used on input line 67.
@@ -2499,17 +2524,17 @@ Package pdftex.def Info: Images/CoincStatistics.pdf  used on input line 67.
 
 
 [13 <./Images/SingleStatisticsSignal.pdf>]
-<Images/AccCountsStatistics.pdf, id=624, 552.37262pt x 418.26013pt>
+<Images/AccCountsStatistics.pdf, id=617, 552.37262pt x 418.26013pt>
 File: Images/AccCountsStatistics.pdf Graphic file (type pdf)
 <use Images/AccCountsStatistics.pdf>
-Package pdftex.def Info: Images/AccCountsStatistics.pdf  used on input line 82.
+Package pdftex.def Info: Images/AccCountsStatistics.pdf  used on input line 84.
 
 (pdftex.def)             Requested size: 304.24916pt x 230.38841pt.
-<Images/AccCountsTheoExpRelError.pdf, id=629, 562.2879pt x 418.26013pt>
+<Images/AccCountsTheoExpRelError.pdf, id=622, 562.2879pt x 418.26013pt>
 File: Images/AccCountsTheoExpRelError.pdf Graphic file (type pdf)
 <use Images/AccCountsTheoExpRelError.pdf>
 Package pdftex.def Info: Images/AccCountsTheoExpRelError.pdf  used on input lin
-e 92.
+e 94.
 (pdftex.def)             Requested size: 304.24916pt x 226.31662pt.
 
 
@@ -2519,17 +2544,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [15 <./Images/AccCountsStatistics.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 99--102
+Underfull \hbox (badness 10000) in paragraph at lines 101--104
 
  []
 
 
 
 [16 <./Images/AccCountsTheoExpRelError.pdf>]
-<Images/HeraldingEff.pdf, id=824, 556.41023pt x 418.07881pt>
+<Images/HeraldingEff.pdf, id=818, 556.41023pt x 418.07881pt>
 File: Images/HeraldingEff.pdf Graphic file (type pdf)
 <use Images/HeraldingEff.pdf>
-Package pdftex.def Info: Images/HeraldingEff.pdf  used on input line 118.
+Package pdftex.def Info: Images/HeraldingEff.pdf  used on input line 120.
 (pdftex.def)             Requested size: 304.24916pt x 228.60439pt.
 
 Underfull \vbox (badness 4479) has occurred while \output is active []
@@ -2537,18 +2562,18 @@ Underfull \vbox (badness 4479) has occurred while \output is active []
 
 
 [17 <./Images/HeraldingEff.pdf>]) (content/5_Simulation.tex
-<Images/SimulationSweepSNR.pdf, id=897, 563.30525pt x 419.40187pt>
+<Images/SimulationSweepSNR.pdf, id=888, 563.30525pt x 419.40187pt>
 File: Images/SimulationSweepSNR.pdf Graphic file (type pdf)
 <use Images/SimulationSweepSNR.pdf>
 Package pdftex.def Info: Images/SimulationSweepSNR.pdf  used on input line 36.
 (pdftex.def)             Requested size: 304.24916pt x 226.53122pt.
-<Images/SimulationSweepEffSig.pdf, id=902, 563.30556pt x 416.37816pt>
+<Images/SimulationSweepEffSig.pdf, id=891, 563.30556pt x 416.37816pt>
 File: Images/SimulationSweepEffSig.pdf Graphic file (type pdf)
 <use Images/SimulationSweepEffSig.pdf>
 Package pdftex.def Info: Images/SimulationSweepEffSig.pdf  used on input line 4
 3.
 (pdftex.def)             Requested size: 304.24916pt x 224.89803pt.
-<Images/SimulationSweepRateIdl.pdf, id=905, 563.11362pt x 419.15344pt>
+<Images/SimulationSweepRateIdl.pdf, id=894, 563.11362pt x 419.15344pt>
 File: Images/SimulationSweepRateIdl.pdf Graphic file (type pdf)
 <use Images/SimulationSweepRateIdl.pdf>
 Package pdftex.def Info: Images/SimulationSweepRateIdl.pdf  used on input line 
@@ -2582,7 +2607,7 @@ chapter A.
 
 pdfTeX warning: pdflatex.exe (file ./Images/DC_chAll.pdf): PDF inclusion: found
  PDF version <1.6>, but at most version <1.5> allowed
-<Images/DC_chAll.pdf, id=1053, page=1, 556.03786pt x 418.86676pt>
+<Images/DC_chAll.pdf, id=1042, page=1, 556.03786pt x 418.86676pt>
 File: Images/DC_chAll.pdf Graphic file (type pdf)
 <use Images/DC_chAll.pdf, page 1>
 Package pdftex.def Info: Images/DC_chAll.pdf , page1 used on input line 6.
@@ -2591,7 +2616,7 @@ Package pdftex.def Info: Images/DC_chAll.pdf , page1 used on input line 6.
 
 pdfTeX warning: pdflatex.exe (file ./Images/DC_chAll.pdf): PDF inclusion: found
  PDF version <1.6>, but at most version <1.5> allowed
-<Images/DC_chAll.pdf, id=1054, page=2, 558.30788pt x 418.86676pt>
+<Images/DC_chAll.pdf, id=1043, page=2, 558.30788pt x 418.86676pt>
 File: Images/DC_chAll.pdf Graphic file (type pdf)
 <use Images/DC_chAll.pdf, page 2>
 Package pdftex.def Info: Images/DC_chAll.pdf , page2 used on input line 9.
@@ -2600,18 +2625,24 @@ Package pdftex.def Info: Images/DC_chAll.pdf , page2 used on input line 9.
 
 pdfTeX warning: pdflatex.exe (file ./Images/DC_chAll.pdf): PDF inclusion: found
  PDF version <1.6>, but at most version <1.5> allowed
-<Images/DC_chAll.pdf, id=1055, page=3, 556.74234pt x 418.86676pt>
+<Images/DC_chAll.pdf, id=1044, page=3, 556.74234pt x 418.86676pt>
 File: Images/DC_chAll.pdf Graphic file (type pdf)
 <use Images/DC_chAll.pdf, page 3>
 Package pdftex.def Info: Images/DC_chAll.pdf , page3 used on input line 12.
 (pdftex.def)             Requested size: 143.43317pt x 107.91211pt.
+<Images/HistogramExample.pdf, id=1045, 562.54771pt x 347.13187pt>
+File: Images/HistogramExample.pdf Graphic file (type pdf)
+<use Images/HistogramExample.pdf>
+Package pdftex.def Info: Images/HistogramExample.pdf  used on input line 20.
+(pdftex.def)             Requested size: 304.24916pt x 187.74503pt.
 )
 
 [23
 
 
 
- <./Images/DC_chAll.pdf> <./Images/DC_chAll.pdf> <./Images/DC_chAll.pdf>]
+ <./Images/DC_chAll.pdf> <./Images/DC_chAll.pdf> <./Images/DC_chAll.pdf> <./Ima
+ges/HistogramExample.pdf>]
 
 [24
 
@@ -2689,10 +2720,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 74609 strings out of 468133
- 1797697 string characters out of 5428783
- 3003775 words of memory out of 5000000
- 102037 multiletter control sequences out of 15000+600000
+ 74559 strings out of 468133
+ 1797158 string characters out of 5428783
+ 3003428 words of memory out of 5000000
+ 101986 multiletter control sequences out of 15000+600000
  710935 words of font info for 94 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  108i,20n,117p,10901b,2418s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2717,9 +2748,9 @@ AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/goesswe
 in/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/goe
 sswein/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10
 .pfb>
-Output written on main.pdf (36 pages, 1145722 bytes).
+Output written on main.pdf (36 pages, 1164088 bytes).
 PDF statistics:
- 1484 PDF objects out of 1728 (max. 8388607)
- 133 named destinations out of 1000 (max. 500000)
- 261 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1511 PDF objects out of 1728 (max. 8388607)
+ 134 named destinations out of 1000 (max. 500000)
+ 266 words of extra memory for PDF output out of 10000 (max. 10000000)
 

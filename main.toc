@@ -10,7 +10,7 @@
 \contentsline {section}{\numberline {3}Experimental Setup}{10}{section.0.3}%
 \contentsline {section}{\numberline {4}Results}{11}{section.0.4}%
 \contentsline {subsection}{\numberline {4.1}Coincidence-to-accidentals ratio}{11}{subsection.0.4.1}%
-\contentsline {subsection}{\numberline {4.2}Dark counts}{12}{subsection.0.4.2}%
+\contentsline {subsection}{\numberline {4.2}Dark counts}{11}{subsection.0.4.2}%
 \contentsline {subsection}{\numberline {4.3}Single counts}{12}{subsection.0.4.3}%
 \contentsline {subsection}{\numberline {4.4}Coincidence counts}{13}{subsection.0.4.4}%
 \contentsline {subsection}{\numberline {4.5}Accidental counts}{14}{subsection.0.4.5}%

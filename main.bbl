@@ -907,6 +907,178 @@
       \verb C:\Users\goesswein\Downloads\ZoteroPortable\Data\profile\storage\ZRB3JMG7\Moreau et al. - 2019 - Imaging with quantum states of light.pdf
       \endverb
     \endentry
+    \entry{sabines-chesterkingSubShotNoiseTransmissionMeasurement2017}{article}{}{}
+      \name{author}{10}{}{%
+        {{hash=ed5d6309570df27310851f3be0c2c92e}{%
+           family={{Sabines-Chesterking}},
+           familyi={S\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=280911d60b469d5d5c8424c719c5934b}{%
+           family={Whittaker},
+           familyi={W\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=7c1b6178878f06802abf7fb0dd9a4424}{%
+           family={Joshi},
+           familyi={J\bibinitperiod},
+           given={S.\bibnamedelimi K.},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=64af43a7d0a461305951fbefc9ea79d5}{%
+           family={Birchall},
+           familyi={B\bibinitperiod},
+           given={P.\bibnamedelimi M.},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=a4d24f8e54f301a11cebcb5ced263521}{%
+           family={Moreau},
+           familyi={M\bibinitperiod},
+           given={P.\bibnamedelimi A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=b587629e92d2a035f01ba52be14d8a83}{%
+           family={McMillan},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=30c5758a3a431047dcfdc9a94cf4c1e1}{%
+           family={Cable},
+           familyi={C\bibinitperiod},
+           given={H.\bibnamedelimi V.},
+           giveni={H\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=18cc207f72bfd48604d2868dd2c914aa}{%
+           family={O'Brien},
+           familyi={O\bibinitperiod},
+           given={J.\bibnamedelimi L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=4b4a42bddc2969bfa0b83bc61b5e4353}{%
+           family={Rarity},
+           familyi={R\bibinitperiod},
+           given={J.\bibnamedelimi G.},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=6fd2a64985331b39ac1ed4c63fed3ca4}{%
+           family={Matthews},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi C.\bibnamedelimi F.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{b334a804b930379add050553d2ce14e8}
+      \strng{fullhash}{35a2a5c0f8c04619bb7fbc3dee35d362}
+      \strng{fullhashraw}{35a2a5c0f8c04619bb7fbc3dee35d362}
+      \strng{bibnamehash}{b334a804b930379add050553d2ce14e8}
+      \strng{authorbibnamehash}{b334a804b930379add050553d2ce14e8}
+      \strng{authornamehash}{b334a804b930379add050553d2ce14e8}
+      \strng{authorfullhash}{35a2a5c0f8c04619bb7fbc3dee35d362}
+      \strng{authorfullhashraw}{35a2a5c0f8c04619bb7fbc3dee35d362}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Harnessing the unique properties of quantum mechanics offers the possibility of delivering alternative technologies that can fundamentally outperform their classical counterparts. These technologies deliver advantages only when components operate with performance beyond specific thresholds. For optical quantum metrology, the biggest challenge that impacts on performance thresholds is optical loss. Here, we demonstrate how including an optical delay and an optical switch in a feed-forward configuration with a stable and efficient correlated photon-pair source reduces the detector efficiency required to enable quantum-enhanced sensing down to the detection level of single photons and without postselection. When the switch is active, we observe a factor of improvement in precision of 1.27 for transmission measurement on a per-input-photon basis compared to the performance of a laser emitting an ideal coherent state and measured with the same detection efficiency as our setup. When the switch is inoperative, we observe no quantum advantage.}
+      \field{journaltitle}{Physical Review Applied}
+      \field{month}{7}
+      \field{number}{1}
+      \field{title}{Sub-{{Shot-Noise Transmission Measurement Enabled}} by {{Active Feed-Forward}} of {{Heralded Single Photons}}}
+      \field{urlday}{15}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{8}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \field{pages}{014016}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevApplied.8.014016
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\goesswein\\Downloads\\ZoteroPortable\\Data\\profile\\storage\\ZCIZYGZT\\Sabines-Chesterking et al. - 2017 - Sub-Shot-Noise Transmission Measurement Enabled by Active Feed-Forward of Heralded Single Photons.pdf;C\:\\Users\\goesswein\\Downloads\\ZoteroPortable\\Data\\profile\\storage\\SFISGWNI\\PhysRevApplied.8.html
+      \endverb
+      \keyw{CoincidenceProof}
+    \endentry
+    \entry{sabines-chesterkingTwinbeamSubshotnoiseRasterscanning2019}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=ed5d6309570df27310851f3be0c2c92e}{%
+           family={{Sabines-Chesterking}},
+           familyi={S\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=304d36b7b05178400bc1dd9a4a6d0ecb}{%
+           family={McMillan},
+           familyi={M\bibinitperiod},
+           given={A.\bibnamedelimi R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=a4d24f8e54f301a11cebcb5ced263521}{%
+           family={Moreau},
+           familyi={M\bibinitperiod},
+           given={P.\bibnamedelimi A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=7c1b6178878f06802abf7fb0dd9a4424}{%
+           family={Joshi},
+           familyi={J\bibinitperiod},
+           given={S.\bibnamedelimi K.},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=acd5590f87c832789603c333b47498fe}{%
+           family={Knauer},
+           familyi={K\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5ab4485a694f7f4bef0d7cb1bad465cf}{%
+           family={Johnston},
+           familyi={J\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=4b4a42bddc2969bfa0b83bc61b5e4353}{%
+           family={Rarity},
+           familyi={R\bibinitperiod},
+           given={J.\bibnamedelimi G.},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=6fd2a64985331b39ac1ed4c63fed3ca4}{%
+           family={Matthews},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi C.\bibnamedelimi F.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Optica Publishing Group}%
+      }
+      \strng{namehash}{b334a804b930379add050553d2ce14e8}
+      \strng{fullhash}{df7e35b64e372dbd64ffd33d15a8bb93}
+      \strng{fullhashraw}{df7e35b64e372dbd64ffd33d15a8bb93}
+      \strng{bibnamehash}{b334a804b930379add050553d2ce14e8}
+      \strng{authorbibnamehash}{b334a804b930379add050553d2ce14e8}
+      \strng{authornamehash}{b334a804b930379add050553d2ce14e8}
+      \strng{authorfullhash}{df7e35b64e372dbd64ffd33d15a8bb93}
+      \strng{authorfullhashraw}{df7e35b64e372dbd64ffd33d15a8bb93}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{By exploiting the quantised nature of light, we demonstrate a sub-shot-noise scanning optical transmittance microscope. Our microscope demonstrates, with micron scale resolution, a factor of improvement in precision of 1.76(9) in transmittance estimation gained per probe photon relative to the theoretical model, a shot-noise-limited source of light, in an equivalent single-pass classical version of the same experiment using the same number of photons detected with a 90\% efficient detector. This would allow us to observe photosensitive samples with nearly twice the precision, without sacrificing image resolution or increasing optical power to improve signal-to-noise ratio. Our setup uses correlated twin-beams produced by parametric down-conversion, and a hybrid detection scheme comprising photon-counting-based feed-forward and a highly efficient CCD camera.}
+      \field{issn}{1094-4087}
+      \field{journaltitle}{Optics Express}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{21}
+      \field{title}{Twin-Beam Sub-Shot-Noise Raster-Scanning Microscope}
+      \field{urlday}{15}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{27}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{30810\bibrangedash 30818}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1364/OE.27.030810
+      \endverb
+      \verb{file}
+      \verb C:\Users\goesswein\Downloads\ZoteroPortable\Data\profile\storage\L7PRJ45P\Sabines-Chesterking et al. - 2019 - Twin-beam sub-shot-noise raster-scanning microscope.pdf
+      \endverb
+      \keyw{CCD cameras,CoincidenceProof,Ghost imaging,Image resolution,Imaging systems,Optical microscopy,Superconducting nanowire single photon detectors}
+    \endentry
     \entry{schneelochIntroductionAbsoluteBrightness2019}{article}{}{}
       \name{author}{9}{}{%
         {{hash=40e6b679a56fd4a9c0e65dccb8331523}{%

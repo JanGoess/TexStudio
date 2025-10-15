@@ -35,16 +35,18 @@ final
 \usepackage[automark,markcase=noupper]{scrlayer-scrpage}
 \pagestyle{scrheadings}
 
+% Define how marks are written:
+%\automark[section]{subsection} % left mark = section, right mark = subsection
+
 % Header content
 \ihead{\headmark}      % inner header: section (even pages) / subsection (odd pages)
 \chead{}               % no center header
 \ohead{\pagemark}      % outer header: page number
 
-% Footer stays empty by default unless you add \ifoot, \cfoot, \ofoot
-
 % Define how marks are written:
 \automark[section]{section}         % put section titles into \headmark (even pages)
 \automark*[subsection]{subsection}  % put subsection titles into \rightmark (odd pages)
+
 
 
 \RedeclareSectionCommand[tocindent=0pt]{section}

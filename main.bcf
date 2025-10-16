@@ -2404,6 +2404,9 @@
     <bcf:citekey order="18" intorder="1">foxQuantumOpticsIntroduction2006</bcf:citekey>
     <bcf:citekey order="19" intorder="1">mandelOpticalCoherenceQuantum1995</bcf:citekey>
     <bcf:citekey order="20" intorder="1">kimPhotoncountingStatisticsbasedSupport2022</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">foucheDetectionFalsealarmProbabilities2003</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">laiImpactAfterpulsingEffects2024</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">humerSimpleRobustMethod2015</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

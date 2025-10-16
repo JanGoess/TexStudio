@@ -271,6 +271,49 @@
       \endverb
       \keyw{Beam splitters,CrystalSPDC,Periodically poled lithium niobate,Photonic entanglement,Quantum information,Quantum key distribution,Second harmonic generation}
     \endentry
+    \entry{foucheDetectionFalsealarmProbabilities2003}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=abf22506b5d5077e27d21b7fb1324ffe}{%
+           family={Fouche},
+           familyi={F\bibinitperiod},
+           given={Daniel\bibnamedelima G.},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Optica Publishing Group}%
+      }
+      \strng{namehash}{abf22506b5d5077e27d21b7fb1324ffe}
+      \strng{fullhash}{abf22506b5d5077e27d21b7fb1324ffe}
+      \strng{fullhashraw}{abf22506b5d5077e27d21b7fb1324ffe}
+      \strng{bibnamehash}{abf22506b5d5077e27d21b7fb1324ffe}
+      \strng{authorbibnamehash}{abf22506b5d5077e27d21b7fb1324ffe}
+      \strng{authornamehash}{abf22506b5d5077e27d21b7fb1324ffe}
+      \strng{authorfullhash}{abf22506b5d5077e27d21b7fb1324ffe}
+      \strng{authorfullhashraw}{abf22506b5d5077e27d21b7fb1324ffe}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{For a direct-detection laser radar that uses a Geiger-mode detector, theory shows that the single-pulse detection probability is reduced by a factor exp(-K), where K is the mean number of primary electrons created by noise in the interval t between detector turn-on and arrival of laser photons reflected from the target. The corresponding false-alarm probability is at least 1 - exp(-K). For fixed-rate noise, one can improve the detection and false-alarm probabilities by reducing t. Moreover, when background-light noise is significant and dominates dark-current noise and when the laser signal is of the order of ten photoelectrons or more, the probabilities can be improved by reducing the amount of light falling on the detector, even if the laser signal is reduced by the same factor as the background light is. Additional analytical calculations show that identifying coincidences in data from as few as three pulses can reduce the false-alarm probability by orders of magnitude and, for some conditions, can also improve the detection probability.}
+      \field{issn}{2155-3165}
+      \field{journaltitle}{Applied Optics}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{number}{27}
+      \field{title}{Detection and False-Alarm Probabilities for Laser Radars That Use {{Geiger-mode}} Detectors}
+      \field{urlday}{16}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{42}
+      \field{year}{2003}
+      \field{urldateera}{ce}
+      \field{pages}{5388\bibrangedash 5398}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1364/AO.42.005388
+      \endverb
+      \keyw{Avalanche photodiodes,DC_Poiss,Detector arrays,Detectors,Laser energy,Quantum detectors,Radar}
+    \endentry
     \entry{foxQuantumOpticsIntroduction2006}{book}{}{}
       \name{author}{1}{}{%
         {{hash=680093a59b4a8752bda6dd5544fc97b4}{%
@@ -423,6 +466,73 @@
       \verb C\:\\Users\\goesswein\\Downloads\\ZoteroPortable\\Data\\profile\\storage\\VRMI8WAW\\Hayat et al. - 1999 - Theory of photon coincidence statistics in photon-correlated beams.pdf;C\:\\Users\\goesswein\\Downloads\\ZoteroPortable\\Data\\profile\\storage\\5882N7UW\\S0030401899003843.html
       \endverb
       \keyw{Accidental coincidence,Bit-error rate,Correlated photons,parametric downconversion,Photon coincidence,Renewal theory}
+    \endentry
+    \entry{humerSimpleRobustMethod2015}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=94e62f0bda50aa48a5fd45d2b70f2a95}{%
+           family={Humer},
+           familyi={H\bibinitperiod},
+           given={Gerhard},
+           giveni={G\bibinitperiod}}}%
+        {{hash=d6fc761fe4ecbdbb10360e55bddbd541}{%
+           family={Peev},
+           familyi={P\bibinitperiod},
+           given={Momtchil},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1764b586f09185df11a6bee89a7b589d}{%
+           family={Schaeff},
+           familyi={S\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod}}}%
+        {{hash=ee1fe52e9b4c67526d43eb9fa0a88c25}{%
+           family={Ramelow},
+           familyi={R\bibinitperiod},
+           given={Sven},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a85e620a143679cfbd2c854b9a6c1af2}{%
+           family={Stipčević},
+           familyi={S\bibinitperiod},
+           given={Mario},
+           giveni={M\bibinitperiod}}}%
+        {{hash=402dd2f506994639bc5e2ecfdf30e3ed}{%
+           family={Ursin},
+           familyi={U\bibinitperiod},
+           given={Rupert},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{fd57b76a281c854042f8d8200b685313}
+      \strng{fullhash}{d422eeae392b18a8a51ceac30bcaaa60}
+      \strng{fullhashraw}{d422eeae392b18a8a51ceac30bcaaa60}
+      \strng{bibnamehash}{fd57b76a281c854042f8d8200b685313}
+      \strng{authorbibnamehash}{fd57b76a281c854042f8d8200b685313}
+      \strng{authornamehash}{fd57b76a281c854042f8d8200b685313}
+      \strng{authorfullhash}{d422eeae392b18a8a51ceac30bcaaa60}
+      \strng{authorfullhashraw}{d422eeae392b18a8a51ceac30bcaaa60}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Single photon detectors are important for a wide range of applications each with their own specific requirements, which makes necessary the precise characterization of detectors. Here, we present a simple and cost-effective methodology of estimating the dark count rate, detection efficiency, and afterpulsing in single photon detectors purely based on their counting statistics. This methodology extends previous work [IEEE J. Quantum Electron., vol. 47, no. 9, pp. 1251--1256, Sep. 2011], [Electron. Lett., vol. 38, no. 23, pp. 1468--1469, Nov. 2002]: 1) giving upper and lower bounds of afterpulsing probability, 2) demonstrating that the simple linear approximation, put forward for the first time in [Electron. Lett. , vol. 38, no. 23, pp. 1468--1469, Nov. 2002], yields an estimate strictly exceeding the upper bound of this probability, and 3) assessing the error when using this estimate. We further discuss the requirements on photon counting statistics for applying the linear approximation to different classes of single photon detectors.}
+      \field{issn}{1558-2213}
+      \field{journaltitle}{Journal of Lightwave Technology}
+      \field{month}{7}
+      \field{number}{14}
+      \field{title}{A {{Simple}} and {{Robust Method}} for {{Estimating Afterpulsing}} in {{Single Photon Detectors}}}
+      \field{urlday}{16}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{33}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{3098\bibrangedash 3107}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/JLT.2015.2428053
+      \endverb
+      \verb{file}
+      \verb C:\Users\goesswein\Downloads\ZoteroPortable\Data\profile\storage\S7K62D9N\Humer et al. - 2015 - A Simple and Robust Method for Estimating Afterpulsing in Single Photon Detectors.pdf
+      \endverb
+      \keyw{Afterpulse_expDecay,Afterpulsing,Approximation methods,Detectors,Histograms,photodetectors,Photodetectors,photodiodes,Photodiodes,Photonics,Probability,Robustness,Time measurement}
     \endentry
     \entry{ishiganeLabelfreeMidinfraredPhotothermal2023}{article}{}{}
       \name{author}{6}{}{%
@@ -736,6 +846,77 @@
       \verb C\:\\Users\\goesswein\\Downloads\\ZoteroPortable\\Data\\profile\\storage\\JXCRS7QR\\Kwiat et al. - 1999 - Ultrabright source of polarization-entangled photons.pdf;C\:\\Users\\goesswein\\Downloads\\ZoteroPortable\\Data\\profile\\storage\\36Z899QV\\PhysRevA.60.html
       \endverb
       \keyw{CrystalSPDC}
+    \endentry
+    \entry{laiImpactAfterpulsingEffects2024}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=7c293ee80ea149f39f84b37827559652}{%
+           family={Lai},
+           familyi={L\bibinitperiod},
+           given={Yuanfan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=f4115800d6408ea10c4a599a7ea0abf6}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={Zongyao},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=7608dbf6c54dadf166f77046db3c64a6}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yong},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=bb8497dbec3c80fbf3021681d4558315}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jindong},
+           giveni={J\bibinitperiod}}}%
+        {{hash=dd8a09a0b95d649e7f85e3f8250c4f56}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Jianping},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3397f42a53a50372492f073f6b3025fe}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Zhengjun},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{63e51b5107412ef7b03fb2fe9496903e}
+      \strng{fullhash}{84c8eaa5b7c7bd8be0ec5a8c70dfbb2d}
+      \strng{fullhashraw}{84c8eaa5b7c7bd8be0ec5a8c70dfbb2d}
+      \strng{bibnamehash}{63e51b5107412ef7b03fb2fe9496903e}
+      \strng{authorbibnamehash}{63e51b5107412ef7b03fb2fe9496903e}
+      \strng{authornamehash}{63e51b5107412ef7b03fb2fe9496903e}
+      \strng{authorfullhash}{84c8eaa5b7c7bd8be0ec5a8c70dfbb2d}
+      \strng{authorfullhashraw}{84c8eaa5b7c7bd8be0ec5a8c70dfbb2d}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A single-photon detection system based on InGaAs SPADs is a high-precision optical measurement system capable of detecting quantum-level optical signals. However, the afterpulsing effect when using InGaAs SPADs severely limits their practical utility. The impact of afterpulsing effects on the performance of systems based on this type of detector can no longer be ignored. Therefore, this paper provides a detailed analysis of the measurement errors induced by afterpulsing effects and proposes a correction method based on a power-law model. This method analyzes the probability distribution of afterpulsing effects using the power-law model and improves the expressions for the system's average count rate and signal-to-noise ratio by calculating the average number of afterpulses within the average response time. The influence of afterpulse probability and dead time on the system's average count rate is also analyzed. This afterpulse correction method mitigates the measurement errors caused by afterpulsing effects, thereby enhancing the system's measurement accuracy.}
+      \field{issn}{2304-6732}
+      \field{journaltitle}{Photonics}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{11}
+      \field{title}{The {{Impact}} of {{Afterpulsing Effects}} in {{Single-Photon Detectors}} on the {{Performance Metrics}} of {{Single-Photon Detection Systems}}}
+      \field{urlday}{16}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{11}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{1074}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/photonics11111074
+      \endverb
+      \verb{file}
+      \verb C:\Users\goesswein\Downloads\ZoteroPortable\Data\profile\storage\KJ89PRMM\Lai et al. - 2024 - The Impact of Afterpulsing Effects in Single-Photon Detectors on the Performance Metrics of Single-P.pdf
+      \endverb
+      \keyw{Afterpulsing,afterpulsing effect,average count rate,InGaAs SPAD,signal-to-noise ratio}
     \endentry
     \entry{lemosQuantumImagingUndetected2014}{article}{}{}
       \name{author}{6}{}{%

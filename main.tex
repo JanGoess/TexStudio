@@ -245,7 +245,7 @@ linktocpage=true,
 \newacronym{qpm}{QPM}{quasi phase matching}
 \newacronym{bpm}{BPM}{birefringent phase matching}
 \newacronym{mmbe}{mmBE}{multi-mode Bose-Einstein}
-\newacronym{car}{CAR}{coincidence-to-Accidentals ratio}
+\newacronym{car}{CAR}{coincidence-to-accidentals ratio}
 %\newacronym{snr}{SNR}{signal-to-noise ratio}
 %\newacronym{vot}{VoT}{variance of the transmittance}
 
@@ -284,7 +284,7 @@ linktocpage=true,
 
 % TOC commands --------------
 
-\RedeclareSectionCommand[tocindent=0em,   tocnumwidth=2.5em, beforeskip=1.5ex]{chapter}
+\RedeclareSectionCommand[tocindent=0em,   tocnumwidth=2.5em, beforeskip=1.5ex, afterskip=1.5ex]{chapter}
 \RedeclareSectionCommand[tocentryformat=\bfseries,tocindent=0em,tocnumwidth=2.5em, beforeskip=1.5ex]{section}
 \RedeclareSectionCommand[tocindent=2.5em,tocnumwidth=3.5em,   beforeskip=1.0ex]{subsection}
 
@@ -316,11 +316,17 @@ linktocpage=true,
 	\frontmatter
 	\include{cover}
 	
-	
+	\renewcommand{\contentsname}{Table of Contents}
 	\tableofcontents
 	
 	
 	\printglossaries
+	
+	\listoffigures
+	
+	\listoftables
+	
+	\addtocontents{toc}{\protect\addvspace{20ex}}
 	
 	\mainmatter
 	
@@ -339,9 +345,6 @@ linktocpage=true,
 
 	
 	\backmatter
-	\listoffigures
-	
-	\listoftables
 	
 	\printbibliography
 	%\addcontentsline{toc}{section}{References}

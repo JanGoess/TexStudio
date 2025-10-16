@@ -1,5 +1,8 @@
 \babel@toc {english}{}\relax 
 \contentsline {chapter}{Glossary}{v}{section*.2}%
+\contentsline {chapter}{\nonumberline List of Figures}{vii}{chapter*.4}%
+\contentsline {chapter}{\nonumberline List of Tables}{ix}{chapter*.5}%
+\addvspace {20ex}
 \contentsline {section}{\numberline {1}Introduction}{1}{section.0.1}%
 \contentsline {section}{\numberline {2}Theory}{2}{section.0.2}%
 \contentsline {subsection}{\numberline {2.1}Spontaneous parametric down-conversion}{2}{subsection.0.2.1}%
@@ -11,14 +14,12 @@
 \contentsline {section}{\numberline {4}Results}{11}{section.0.4}%
 \contentsline {subsection}{\numberline {4.1}Coincidence-to-accidentals ratio}{11}{subsection.0.4.1}%
 \contentsline {subsection}{\numberline {4.2}Dark counts}{11}{subsection.0.4.2}%
-\contentsline {subsection}{\numberline {4.3}Single counts}{12}{subsection.0.4.3}%
-\contentsline {subsection}{\numberline {4.4}Coincidence counts}{13}{subsection.0.4.4}%
-\contentsline {subsection}{\numberline {4.5}Accidental counts}{14}{subsection.0.4.5}%
-\contentsline {subsection}{\numberline {4.6}Heralding efficiencies}{16}{subsection.0.4.6}%
-\contentsline {section}{\numberline {5}Simulation}{18}{section.0.5}%
-\contentsline {section}{\numberline {6}Conclusion}{21}{section.0.6}%
-\contentsline {chapter}{\numberline {A}Supplemental Information}{23}{appendix.A}%
-\contentsline {chapter}{\nonumberline List of Figures}{25}{chapter*.23}%
-\contentsline {chapter}{\nonumberline List of Tables}{27}{chapter*.24}%
-\contentsline {chapter}{\nonumberline Bibliography}{29}{chapter*.25}%
+\contentsline {subsection}{\numberline {4.3}Single counts}{13}{subsection.0.4.3}%
+\contentsline {subsection}{\numberline {4.4}Coincidence counts}{15}{subsection.0.4.4}%
+\contentsline {subsection}{\numberline {4.5}Accidental counts}{16}{subsection.0.4.5}%
+\contentsline {subsection}{\numberline {4.6}Heralding efficiencies}{18}{subsection.0.4.6}%
+\contentsline {section}{\numberline {5}Simulation}{20}{section.0.5}%
+\contentsline {section}{\numberline {6}Conclusion}{23}{section.0.6}%
+\contentsline {chapter}{\numberline {A}Supplemental Information}{25}{appendix.A}%
+\contentsline {chapter}{\nonumberline Bibliography}{27}{chapter*.28}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

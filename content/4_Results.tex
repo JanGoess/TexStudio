@@ -1,8 +1,8 @@
 \section{Results}
 
 \subsection{Coincidence-to-accidentals ratio}
-One issue that must be addressed when determining the statistics of the different parameters is that the \acrfull{car} depends on the exposure time. Therefore, before measuring the statistical distributions, an exposure time must be found for which the \acrshort{car} value remains constant. Thus, this value was measured for nine exposure times ranging from ten milliseconds to sixty seconds. The integration time was set to fifty times the exposure time for each measurement. Hence, ten histograms were saved for each exposure time and based on these histograms, the average \acrshort{car} value and its standard deviation were calculated. \newline
-The results are shown in \autoref{fig:CAR}. As the exposure time increases, it can be seen that the fluctuation of the \acrshort{car} value (i.e. its standard deviation) decreases. Furthermore, after an exposure time of one second, the \acrshort{car} value remains approximately constant. Therefore, this range from one second onwards is preferred for statistical analysis. However, as this requires many consecutive and lengthy measurements, the aim is to use the shortest possible exposure time at which the \acrshort{car} value remains constant. Therefore, one second will be used as the exposure time for upcoming measurements.
+One issue that must be addressed when determining the statistics of the different parameters is that the \acrfull{car} depends on the exposure time. Therefore, before measuring the statistical distributions, an exposure time must be found for which the \acrshort{car} value remains constant. Thus, this value was measured for nine exposure times ranging from ten milliseconds to sixty seconds. The integration time was set to ten times the exposure time for each measurement. Hence, ten histograms were saved for each exposure time and based on these histograms, the average \acrshort{car} value and its standard deviation were calculated. \newline
+The results are shown in \autoref{fig:CAR}. As the exposure time increases, it can be seen that the fluctuation of the \acrshort{car} value, i.e. its standard deviation, decreases. Furthermore, after an exposure time of one second, the \acrshort{car} value remains approximately constant. Therefore, this range from one second onwards is preferred for statistical analysis. However, as this requires many consecutive and lengthy measurements, the aim is to use the shortest possible exposure time at which the \acrshort{car} value remains constant. Therefore, one second will be used as the exposure time for upcoming measurements.
 \begin{figure}[bt!]
 	\centering
 	\includegraphics[width=.7\textwidth]{Images/CAR_Ratio.pdf}
@@ -10,11 +10,26 @@ The results are shown in \autoref{fig:CAR}. As the exposure time increases, it c
 	\label{fig:CAR}
 \end{figure}
 \subsection{Dark counts}
-exposure time: 100ms
-integration time: 5500s
-Repeats: 7
-number of data points for each repeat: 55000
-tbd..
+The first parameter to be determined is the statistical distribution of dark counts in both arms. This result is necessary for obtaining the variance of noise in the conventional approach in \autoref{eq:VarianceTransExpl}. For the measurement, the exposure time was set to one second, and the integration time was set to one thousand seconds. To obtain the intrinsic dark counts, both single-photon detectors were disconnected from the setup and the measurement was repeated five times. \newline
+The measurement results for the idler arm can be seen in \autoref{fig:DCIdl}. It shows the probability distribution for each dark count rate. Additionally, a Poisson distribution was fitted to the experimental data with the same average count rate. This was done because it is expected that the dark counts of single-photon detectors will exhibit a Poisson distribution \cite{foucheDetectionFalsealarmProbabilities2003}. However, the two distributions do not match, indicating that the experimentally obtained data does not follow a Poisson distribution. This is also confirmed by calculating the variance-to-mean ratio, which, in the case of a Poisson distribution, should equal one. The ratio was calculated for each of the five repeats and averaged to 1.78. This is shown in the black box of \autoref{fig:DCIdl}. 
+\begin{figure}[tb!]
+	\centering
+	\includegraphics[width=.7\textwidth]{Images/DC_Idl.pdf}
+	\caption{Dark counts of the IR single photon detector in the idler arm}
+	\label{fig:DCIdl}
+\end{figure}\newline
+This mismatch may be caused by the afterpulsing effect. This effect refers to spurious detection events that occur shortly after genuine photon detection, even though no new photons have arrived. These false counts arise from trapped charge carriers released after the detector resets, triggering a secondary avalanche. This effect is well-known in InGaAs single-photon detectors operating in the infrared, such as the one used in this experiment \cite{laiImpactAfterpulsingEffects2024}. Consequently, this effect introduces correlations between detection events that, according to Poisson statistics, should be independent and artificially increases the count rate. Therefore, the variance of counts is larger than expected for a Poisson process. \newline
+A strong indication that the mismatch is caused by afterpulsing is that the probability of afterpulsing events decreases exponentially with the detector's dead time. Since individual afterpulses could not be measured directly, the variance-to-mean ratio was measured instead. As the number of correlated events decreases as the probability of afterpulsing decreases, the variance-to-mean ratio should also decrease and approach one, as in a Poisson distribution \cite{humerSimpleRobustMethod2015}. The exponential decay of the variance-to-mean ratio is shown in the appendix in \autoref{fig:VoMDead}, thus confirming that the mismatch is caused by afterpulsing. \newline
+For the analysis of the dark counts in the signal arm, which are in the visible range, the same experimental settings as for the idler arm were used. The statistical distribution of the dark counts in the signal arm can be seen in \autoref{fig:DCSig}.
+\begin{figure}[tb!]
+	\centering
+	\includegraphics[width=.7\textwidth]{Images/DC_Sig.pdf}
+	\caption{Dark counts of the VIS single photon detector in the signal arm}
+	\label{fig:DCSig}
+\end{figure}
+As for the idler arm, a Poissonian fit was added to the figure. This shows that the distribution of dark counts matches the Poisson distribution very well. It is confirmed by considering the variance-to-mean ratio of the counts, shown in the black box, which was calculated for each of the five repeats. On average, it yields 0.985, indicating that it can be well approximated by a Poisson distribution.
+
+
 \begin{comment}
 	
 	

@@ -46,8 +46,8 @@ Another way to compensate the mismatch is called \acrfull{bpm} and uses anisotro
 			\node [font=\LARGE, color={rgb,255:red,255; green,0; blue,0}] at (16.25,12) {$k_{\text{i}}$};
 			\node [font=\LARGE, color=black!40!green] at (19.5,12) {$k_{\text{s}}$};
 			
-			\node [font=\LARGE] at (8,13.75) {$Energy\,\,conservation$};
-			\node [font=\LARGE] at (18,13.75) {$Momentum\,\,conservation$};
+			\node [font=\LARGE] at (8,13.75) {\textbf{Energy\,\,conservation}};
+			\node [font=\LARGE] at (18,13.75) {\textbf{Momentum\,\,conservation}};
 			
 			% Coordinates
 			\coordinate (A) at (7,6.5);
@@ -76,7 +76,7 @@ Another way to compensate the mismatch is called \acrfull{bpm} and uses anisotro
 		\end{tikzpicture}
 	}%
 	
-	\caption{Conservation processes of collinear Type-0 SPDC}
+	\caption{Conservation processes of collinear SPDC}
 	\label{fig:SPDC}
 \end{figure} 
 In this work, the temporal correlation between the signal and idler photons is most commonly used for coincidence measurements. A tool for visualizing the coincidences is a coincidence histogram. These histograms show the number of coincident events as a function of the delay between the arrival times of the photons at two single-photon detectors. \newline
@@ -187,13 +187,13 @@ When noise is present in the experimental setup, the question arises as to how p
 In the following, the formulas to calculate the variance of the transmittance are derived both for the conventional and coincidence approach. The arm in which the sample is placed will be referred to as idler and the other arm, the reference arm, as signal. The case in which a sample is placed in the idler arm is denoted with the superscript '$\text{sam}$', where there is no sample with '$\text{ref}$'. \newline
 Starting with the conventional approach, only the idler arm is required. Therefore, in absence of the sample, the number of total detected counts in this arm is: 
 \begin{equation}
-	N_{\text{tot}}^{\text{ref}} = \eta_{\text{idl}} \, N_g + N_{\text{noise}}^{\text{ref}}
+	N_{\text{tot}}^{\text{ref}} = \eta_{\text{idl}} \, N_{\mathrm{g}} + N_{\text{noise}}^{\text{ref}}
 	\label{eq:SingleRef}
 \end{equation}
-where $N_{\text{tot}}^{\text{ref}}$ is the total number of counts without a sample, $\eta_{\text{idl}}$ is the efficiency of the idler arm, $N_g$ is the number of generated photon pairs and $N_{\text{noise}}^{\text{ref}}$ is the number of counts when there are no photon pairs, which refer to noise consisting of e.g. dark counts of the detector or stray light. \newline
+where $N_{\text{tot}}^{\text{ref}}$ is the total number of counts without a sample, $\eta_{\text{idl}}$ is the efficiency of the idler arm, $N_{\mathrm{g}}$ is the number of generated photon pairs and $N_{\text{noise}}^{\text{ref}}$ is the number of counts when there are no photon pairs, which refer to noise consisting of e.g. dark counts of the detector or stray light. \newline
 When a sample is placed in the idler arm, the total number of counts changes according to the transmittance of the material. Therefore, \autoref{eq:SingleRef} is modified as follows:
 \begin{equation}
-	N_{\text{tot}}^{\text{sam}} = T \, \eta_{\text{idl}} \, N_g + N_{\text{noise}}^{\text{sam}}
+	N_{\text{tot}}^{\text{sam}} = T \, \eta_{\text{idl}} \, N_{\mathrm{g}} + N_{\text{noise}}^{\text{sam}}
 	\label{eq:SingleSam}
 \end{equation}
 where $N_{\text{tot}}^{\text{sam}}$ represents the total counts in presence of a sample and $T$ is the transmittance of the sample. \newline
@@ -226,7 +226,7 @@ Based on \autoref{eq:TransSingle} and error propagation, the variance of the tra
 When the partial derivatives are explicitly calculated using \autoref{eq:TransSingle} the final formula for the variance of the transmittance is:
 \begin{equation}
 		\operatorname{Var}(T) 
-		= \left( \frac{1}{\eta_{\text{idl}}\,N_g} \right)^{2}
+		= \left( \frac{1}{\eta_{\text{idl}}\,N_{\mathrm{g}}} \right)^{2}
 		\Bigg[
 		\operatorname{Var}\!\left(N_{\text{tot}}^{\text{sam}}\right) 
 		+ \operatorname{Var}\!\left(N_{\text{noise}}^{\text{sam}}\right) 
@@ -265,23 +265,23 @@ When the partial derivatives are explicitly calculated using \autoref{eq:TransSi
 When using the coincidence approach, the formulas for the transmittance and it's variance differ. In addition to the idler arm, the signal arm is required to detect correlated photons created by \acrshort{spdc}. Assuming perfectly correlated photon pairs, the formula for pure coincidence counts with and without a sample in the idler arm is as follows \cite{hayatTheoryPhotonCoincidence1999}:
 \begin{equation}
 	\begin{aligned}
-		N_{\text{cc}}^{\text{pure,sam}} &= T \,\eta_{\text{idl}} \,\eta_{\text{sig}} \, N_g, \\[0.5em]
-		N_{\text{cc}}^{\text{pure,ref}} &= \eta_{\text{idl}} \,\eta_{\text{sig}} \, N_g
+		N_{\text{cc,pure}}^{\text{sam}} &= T \,\eta_{\text{idl}} \,\eta_{\text{sig}} \, N_{\mathrm{g}} \\[0.5em]
+		N_{\text{cc,pure}}^{\text{ref}} &= \eta_{\text{idl}} \,\eta_{\text{sig}} \, N_{\mathrm{g}}
 	\end{aligned}
 	\label{eq:pureCoinc}
 \end{equation}
-where $\eta_{\text{sig/idl}}$ is the efficiency of signal and idler arm, $T$ is the transmittance of the sample and $N_g$ is the number of generated photon pairs. \newline
+where $\eta_{\text{sig/idl}}$ is the efficiency of signal and idler arm, $T$ is the transmittance of the sample and $N_{\mathrm{g}}$ is the number of generated photon pairs. \newline
 In the context of coincidence measurements, it is important to note that the detection of pure coincidences is not the only outcome of such measurements. In addition to these, what is called accidental counts are also detected. Consequently, instead of both photons originating from one pair being detected simultaneously, only one is detected in one arm and a noise photon is detected in the other.Another possibility is that two photons are detected concurrently in both arms, yet neither of them originates from a \acrshort{spdc}-pair. In both cases, the time tagging unit recognizes them as coincidence events. Hence, they are designated as accidental counts. \newline
 The following formula is used to model the accidental counts with sample $\left(R_{\text{ac}}^{\text{sam}} \right)$ and without $\left(R_{\text{ac}}^{\text{ref}} \right)$ \cite{hayatTheoryPhotonCoincidence1999}:
 \begin{equation}
 	\begin{aligned}
 		R_{\text{ac}}^{\text{sam}} 
-		&= \Big( T\,\eta_{\text{idl}} R_g + R_{\text{dc,idl}} - R_{\text{cc}}^{\text{pure,sam}} \Big) \,
-		\Big( \eta_{\text{sig}} R_g + R_{\text{dc,sig}} - R_{\text{cc}}^{\text{pure,sam}} \Big) \,
+		&= \Big( T\,\eta_{\text{idl}} R_{\mathrm{g}} + R_{\text{dc,idl}} - R_{\mathrm{cc,pure}}^{\mathrm{sam}} \Big) \,
+		\Big( \eta_{\text{sig}} R_{\mathrm{g}} + R_{\text{dc,sig}} - R_{\text{cc,pure}}^{\text{sam}} \Big) \,
 		\tau_{\text{cw}} \\[0.75em]
 		R_{\text{ac}}^{\text{ref}} 
-		&= \Big( \eta_{\text{idl}} R_g + R_{\text{dc,idl}} - R_{\text{cc}}^{\text{pure,ref}} \Big) \,
-		\Big( \eta_{\text{sig}} R_g + R_{\text{dc,sig}} - R_{\text{cc}}^{\text{pure,ref}} \Big) \,
+		&= \Big( \eta_{\text{idl}} R_{\mathrm{g}} + R_{\text{dc,idl}} - R_{\text{cc,pure}}^{\text{ref}} \Big) \,
+		\Big( \eta_{\text{sig}} R_{\mathrm{g}} + R_{\text{dc,sig}} - R_{\text{cc,pure}}^{\text{ref}} \Big) \,
 		\tau_{\text{cw}}
 	\end{aligned}
 	\label{eq:AccCounts}
@@ -290,16 +290,16 @@ where the variable $R$ denotes the rate of the respective parameters. The total 
 Therefore, the measured total coincidence events are the sum of pure and accidental coincidence events:
 \begin{equation}
 	\begin{aligned}
-		N_{\text{tot,cc}}^{\text{sam}} &= N_{\text{cc}}^{\text{pure,sam}} + N_{\text{ac}}^{\text{sam}}, \\[0.5em]
-		N_{\text{tot,cc}}^{\text{ref}} &= N_{\text{cc}}^{\text{pure,ref}} + N_{\text{ac}}^{\text{ref}}
+		N_{\text{cc,tot}}^{\text{sam}} &= N_{\text{cc,pure}}^{\text{sam}} + N_{\text{ac}}^{\text{sam}} \\[0.5em]
+		N_{\text{cc,tot}}^{\text{ref}} &= N_{\text{cc,pure}}^{\text{ref}} + N_{\text{ac}}^{\text{ref}}
 	\end{aligned}
 	\label{eq:totCoinc}
 \end{equation}
 Using equations \ref{eq:pureCoinc}, \ref{eq:AccCounts} and \ref{eq:totCoinc}, the transmittance $T$ in the coincidence approach can be obtained as follows:
 \begin{equation}
 	T = 
-	\frac{\,N_{\text{tot,cc}}^{\text{sam}} - N_{\text{ac}}^{\text{sam}}\,}
-	{\,N_{\text{tot,cc}}^{\text{ref}} - N_{\text{ac}}^{\text{ref}}\,}
+	\frac{\,N_{\text{cc,tot}}^{\text{sam}} - N_{\text{ac}}^{\text{sam}}\,}
+	{\,N_{\text{cc,tot}}^{\text{ref}} - N_{\text{ac}}^{\text{ref}}\,}
 	\label{eq:TransCoinc}
 \end{equation}
 In comparison to the conventional approach from \autoref{eq:TransSingle}, which necessitates four independent measurements, this approach requires only two: one with and one without the sample. This is due to the fact that  accidentals and coincidences can be obtained within a single measurement. \newline
@@ -309,12 +309,12 @@ Since the objective is to compare the precision of the transmittance $T$ using t
 		\operatorname{Var}(T) 
 		&= \sum_{i} \left( \frac{\partial T}{\partial X_i} \right)^{2} 
 		\operatorname{Var}\!\left(X_i\right) \\[0.5em]
-		&= \left( \frac{\partial T}{\partial N_{\text{tot,cc}}^{\text{sam}}} \right)^{2} 
-		\operatorname{Var}\!\left(N_{\text{tot,cc}}^{\text{sam}}\right)
+		&= \left( \frac{\partial T}{\partial N_{\text{cc,tot}}^{\text{sam}}} \right)^{2} 
+		\operatorname{Var}\!\left(N_{\text{cc,tot}}^{\text{sam}}\right)
 		+ \left( \frac{\partial T}{\partial N_{\text{ac}}^{\text{sam}}} \right)^{2} 
 		\operatorname{Var}\!\left(N_{\text{ac}}^{\text{sam}}\right) \\[0.5em]
-		&\quad + \left( \frac{\partial T}{\partial N_{\text{tot,cc}}^{\text{ref}}} \right)^{2} 
-		\operatorname{Var}\!\left(N_{\text{tot,cc}}^{\text{ref}}\right)
+		&\quad + \left( \frac{\partial T}{\partial N_{\text{cc,tot}}^{\text{ref}}} \right)^{2} 
+		\operatorname{Var}\!\left(N_{\text{cc,tot}}^{\text{ref}}\right)
 		+ \left( \frac{\partial T}{\partial N_{\text{ac}}^{\text{ref}}} \right)^{2} 
 		\operatorname{Var}\!\left(N_{\text{ac}}^{\text{ref}}\right)
 	\end{aligned}
@@ -323,12 +323,12 @@ Since the objective is to compare the precision of the transmittance $T$ using t
 Using equations \ref{eq:pureCoinc} and \ref{eq:totCoinc}, an explicit expression for variance of the transmittance can be obtained:
  \begin{equation}
  	\operatorname{Var}(T) 
- 	= \left( \frac{1}{\eta_{\text{sig}}\,\eta_{\text{idl}}\,N_g} \right)^{2}
+ 	= \left( \frac{1}{\eta_{\text{sig}}\,\eta_{\text{idl}}\,N_{\mathrm{g}}} \right)^{2}
  	\Bigg[
- 	\operatorname{Var}\!\left(N_{\text{tot,cc}}^{\text{sam}}\right) 
+ 	\operatorname{Var}\!\left(N_{\text{cc,tot}}^{\text{sam}}\right) 
  	+ \operatorname{Var}\!\left(N_{\text{ac}}^{\text{sam}}\right) 
  	+ T^{2} \Big[ 
- 	\operatorname{Var}\!\left(N_{\text{tot,cc}}^{\text{ref}}\right) 
+ 	\operatorname{Var}\!\left(N_{\text{cc,tot}}^{\text{ref}}\right) 
  	+ \operatorname{Var}\!\left(N_{\text{ac}}^{\text{ref}}\right) 
  	\Big]
  	\Bigg]
@@ -363,7 +363,7 @@ In the limit $N \to \infty$, it can be shown~\cite{foxQuantumOpticsIntroduction2
 	\mathcal{P}(n) = \frac{\langle n\rangle^{\,n}}{n!}\,e^{-\langle n\rangle}
 \end{equation}
 This result corresponds to a \textbf{Poisson distribution}, which is characteristic for coherent light sources. A distinctive property of the Poisson distribution is that the mean photon number $\langle n \rangle$ is equal to its variance, i.e. $\langle n \rangle = \operatorname{Var}(n)$. \newline
-Furthermore, it has been demonstrated that the coincidence counts of photon pairs generated via \acrshort{spdc} also follow a Poissonian distribution, since the \acrshort{spdc} process preserves the coherence of the incident pump laser~\cite{avenhausPhotonNumberStatistics2008,schneelochIntroductionAbsoluteBrightness2019,kimPhotoncountingStatisticsbasedSupport2022}. Consequently, the variance of the coincidence counts in \autoref{eq:VarianceTransExplCoinc} can likewise be approximated by their mean value, $ \operatorname{Var}(N_{\text{tot,cc}}) \approx \langle N_{\text{tot,cc}} \rangle$.
+Furthermore, it has been demonstrated that the coincidence counts of photon pairs generated via \acrshort{spdc} also follow a Poissonian distribution, since the \acrshort{spdc} process preserves the coherence of the incident pump laser~\cite{avenhausPhotonNumberStatistics2008,schneelochIntroductionAbsoluteBrightness2019,kimPhotoncountingStatisticsbasedSupport2022}. Consequently, the variance of the coincidence counts in \autoref{eq:VarianceTransExplCoinc} can likewise be approximated by their mean value, $ \operatorname{Var}(N_{\text{cc,tot}}) \approx \langle N_{\text{cc,tot}} \rangle$.
 
 \subsubsection{Thermal light}
 In contrast to coherent light sources, which exhibit Poissonian photon statistics, thermal light displays fundamentally different statistical properties. Thermal radiation arises from the random emission of photons in a hot body, where the optical field consists of a large number of independently oscillating modes. Each mode can occupy quantized energy levels depending on their angular frequency $\omega$: 

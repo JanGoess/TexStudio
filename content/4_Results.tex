@@ -5,7 +5,7 @@ One issue that must be addressed when determining the statistics of the differen
 The results are shown in \autoref{fig:CAR}. As the exposure time increases, it can be seen that the fluctuation of the \acrshort{car} value, i.e. its standard deviation, decreases. Furthermore, after an exposure time of one second, the \acrshort{car} value remains approximately constant. Therefore, this range from one second onwards is preferred for statistical analysis. However, as this requires many consecutive and lengthy measurements, the aim is to use the shortest possible exposure time at which the \acrshort{car} value remains constant. Therefore, one second will be used as the exposure time for upcoming measurements.
 \begin{figure}[bt!]
 	\centering
-	\includegraphics[width=.7\textwidth]{Images/CAR_Ratio.pdf}
+	\includegraphics[width=.9\textwidth]{Images/CAR_Ratio_2.pdf}
 	\caption{Coincidence-to-Accidentals ration for different exposure times}
 	\label{fig:CAR}
 \end{figure}
@@ -18,7 +18,7 @@ The measurement results for the idler arm can be seen in \autoref{fig:DCIdl}. It
 	\caption{Dark counts of the IR single photon detector in the idler arm}
 	\label{fig:DCIdl}
 \end{figure}\newline
-This mismatch may be caused by the afterpulsing effect. This effect refers to spurious detection events that occur shortly after genuine photon detection, even though no new photons have arrived. These false counts arise from trapped charge carriers released after the detector resets, triggering a secondary avalanche. This effect is well-known in InGaAs single-photon detectors operating in the infrared, such as the one used in this experiment \cite{laiImpactAfterpulsingEffects2024}. Consequently, this effect introduces correlations between detection events that, according to Poisson statistics, should be independent and artificially increases the count rate. Therefore, the variance of counts is larger than expected for a Poisson process. \newline
+This mismatch may be caused by the afterpulsing effect. This effect refers to spurious detection events that occur shortly after genuine photon detection, even though no new photons have arrived. These false counts arise from trapped charge carriers released after the detector resets, triggering a secondary avalanche. This effect is well-known in InGaAs single-photon detectors operating in the infrared, such as the one used in this experiment \cite{laiImpactAfterpulsingEffects2024}. Consequently, this effect can be interpreted as a bunching of detection events and hence those cannot be considered independet anymore. In analogy of the thermal light, this bunching results in a larger variance compared to a Poissonian distribution. \newline
 A strong indication that the mismatch is caused by afterpulsing is that the probability of afterpulsing events decreases exponentially with the detector's dead time. Since individual afterpulses could not be measured directly, the variance-to-mean ratio was measured instead. As the number of correlated events decreases as the probability of afterpulsing decreases, the variance-to-mean ratio should also decrease and approach one, as in a Poisson distribution \cite{humerSimpleRobustMethod2015}. The exponential decay of the variance-to-mean ratio is shown in the appendix in \autoref{fig:VoMDead}, thus confirming that the mismatch is caused by afterpulsing. \newline
 For the analysis of the dark counts in the signal arm, which are in the visible range, the same experimental settings as for the idler arm were used. The statistical distribution of the dark counts in the signal arm can be seen in \autoref{fig:DCSig}.
 \begin{figure}[tb!]
@@ -57,7 +57,7 @@ The results of the measurements are shown in \autoref{fig:StatIdl}. \newline
 The average photon number $\langle n\rangle$ is 65,107. Furthermore, the mode number $m_{theo}$, which was determined using the experimental variance value and \autoref{eq:VariancemmBE}, is 61,384. Based on these two values, a \acrshort{mmbe} and a Poisson distribution were modeled. As can be seen, the Poisson distribution significantly overestimates the peak of the experimental distribution. Additionally, the Poisson distribution decreases faster than the experimental distribution, so the edges of the distribution are not modeled correctly. On the other hand, the \acrshort{mmbe} fit agrees much better with the experimental distribution because it properly estimates the peak and the edges of the experimental distribution fall within the theoretical fit.
 \begin{figure}[tb!]
 	\centering
-	\includegraphics[width=.7\textwidth]{Images/SingleStatisticsIdler.pdf}
+	\includegraphics[width=.9\textwidth]{Images/SingleStatisticsIdler_2.pdf}
 	\caption{Photon statistics in the idler arm}
 	\label{fig:StatIdl}
 \end{figure}\newline
@@ -66,10 +66,10 @@ As a consistency check, the statistics of the photons in the signal arm were als
 The results can be seen in \autoref{fig:StatSig}. The approach for calculating the Poisson and \acrshort{mmbe} distribution is the same as for the idler photons. Similar to the idler arm, the \acrshort{mmbe} model more closely resembles the experimental distribution than the Poisson model because it overestimates the peak and underestimates the edges of the distribution. This is confirmed once more by calculating the variance-to-mean ratio, which yields an average of 1.9 and shows that the distribution is not Poissonian. \newline
 The count rate of the signal photons is roughly 30 times higher than the idler photons. One reason for this may be that the idler photon spectrum is much broader than the signal's. Consequently, the spatial cone of the emitted idler photons is larger. The focusing lens may have a smaller clear aperture than the spatial extent of the cone, resulting in some photons being clipped. Meanwhile, the focusing lens in the signal arm collects the entire spectrum. Another reason may be that, due to the broader spectrum in the idler arm, the chromatic aberration of the lens leads to different focal lengths, so not the entire spectrum is coupled into the fiber. \newline
 Since the mode number ($m_{theo}$) is directly related to the average photon number, a high count rate also results in a significantly larger mode number.
-\todo[inline]{Can I calculate $m_{theo}$ in another way??}
+%\todo[inline]{Can I calculate $m_{theo}$ in another way??}
 \begin{figure}[tb!]
 	\centering
-	\includegraphics[width=.7\textwidth]{Images/SingleStatisticsSignal.pdf}
+	\includegraphics[width=.9\textwidth]{Images/SingleStatisticsSignal_2.pdf}
 	\caption{Photon statistics in the signal arm}
 	\label{fig:StatSig}
 \end{figure}
@@ -80,7 +80,7 @@ The results of the measurements are shown in \autoref{fig:StatCoinc}. Similarly 
 Consequently, the variance of the coincidence counts in the model for the simulation can be substituted by the average coincidence counts.
 \begin{figure}[tb!]
 	\centering
-	\includegraphics[width=.7\textwidth]{Images/CoincStatistics.pdf}
+	\includegraphics[width=.9\textwidth]{Images/CoincStatistics_2.pdf}
 	\caption{Photon statistics of coincidence counts}
 	\label{fig:StatCoinc}
 \end{figure}
@@ -97,7 +97,7 @@ To obtain a quantitative measure of the distribution in addition to a qualitativ
 Within the limits of the standard deviation, the ratio corresponds to one, which is the ratio of a Poisson distribution. Therefore, the accidental counts can be assumed to have a Poisson distribution, and the variance can be substituted by the average accidental count.
 \begin{figure}[tb!]
 	\centering
-	\includegraphics[width=.7\textwidth]{Images/AccCountsStatistics.pdf}
+	\includegraphics[width=.9\textwidth]{Images/AccCountsStatistics_2.pdf}
 	\caption{Photon statistics of accidental counts}
 	\label{fig:StatAcc}
 \end{figure} \newline
@@ -107,7 +107,7 @@ According to \autoref{eq:AccCounts}, the accidental counts can be calculated at 
 As can be seen, the theoretical values always fall within the standard deviation of the experimental ones. However, it is more important to consider whether the average value of the experimentally obtained counts can be well approximated by the formula, and thus, the theoretical values. This is decisive as the theoretical value obtained from \autoref{eq:AccCounts} is the estimator of the accidental counts in the transmittance model. 
 \begin{figure}[tb!]
 	\centering
-	\includegraphics[width=.7\textwidth]{Images/AccCountsTheoExpRelError.pdf}
+	\includegraphics[width=.8\textwidth]{Images/AccCountsTheoExpStep4_2.pdf}
 	\caption{Comparison between theoretically and experimentally obtained accidental counts}
 	\label{fig:AccCompTheoExp}
 \end{figure}\newline
@@ -133,7 +133,7 @@ It should be noted that the efficiency of the signal arm remains unchanged when 
 Both heralding efficiencies are crucial to assess the quality of the experimental setup, as they provide direct information about optical loss in each arm. Efficiencies are also important when setting up the transmittance model, as they are crucial for analytically calculating coincidence and accidental counts.
 \begin{figure}[tb!]
 	\centering
-	\includegraphics[width=.7\textwidth]{Images/HeraldingEff.pdf}
+	\includegraphics[width=.8\textwidth]{Images/HeraldingEff_2.pdf}
 	\caption{Heralding efficiencies of the signal and idler arm}
 	\label{fig:HeralEff}
 \end{figure} \newline

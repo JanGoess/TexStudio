@@ -1441,6 +1441,23 @@
       \endverb
       \keyw{CrystalSPDC,Quantum Physics}
     \endentry
+    \entry{ThorlabsFBH140012HardCoated}{misc}{}{}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Thorlabs designs and manufactures components, instruments, and systems for the photonics industry. We provide a portfolio of over 22,000 stocked items, complimented by endless custom solutions enabled by vertical integration. Thorlabs is comprised of 22 wholly owned design and manufacturing entities across nine countries with a combined manufacturing footprint of more than one million square feet.}
+      \field{howpublished}{https://www.thorlabs.com}
+      \field{langid}{ngerman}
+      \field{title}{{Thorlabs - FBH1400-12 Hard-Coated Bandpass Filter, {Ø}25 mm, CWL = 1400 nm, FWHM = 12 nm}}
+      \field{urlday}{22}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\goesswein\Downloads\ZoteroPortable\Data\profile\storage\43XK8HDJ\www.thorlabs.com.html
+      \endverb
+      \keyw{T=0.9}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

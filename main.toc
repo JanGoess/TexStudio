@@ -18,8 +18,8 @@
 \contentsline {subsection}{\numberline {4.4}Coincidence counts}{15}{subsection.0.4.4}%
 \contentsline {subsection}{\numberline {4.5}Accidental counts}{16}{subsection.0.4.5}%
 \contentsline {subsection}{\numberline {4.6}Heralding efficiencies}{18}{subsection.0.4.6}%
-\contentsline {section}{\numberline {5}Simulation}{20}{section.0.5}%
+\contentsline {section}{\numberline {5}Simulation}{19}{section.0.5}%
 \contentsline {section}{\numberline {6}Conclusion}{23}{section.0.6}%
 \contentsline {chapter}{\numberline {A}Supplemental Information}{25}{appendix.A}%
-\contentsline {chapter}{\nonumberline Bibliography}{29}{chapter*.28}%
+\contentsline {chapter}{\nonumberline Bibliography}{27}{chapter*.28}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

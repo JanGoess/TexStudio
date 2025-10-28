@@ -2,11 +2,11 @@
 
 \subsection{Coincidence-to-accidentals ratio}
 One issue that must be addressed when determining the statistics of the different parameters is that the \acrfull{car} depends on the exposure time. Therefore, before measuring the statistical distributions, an exposure time must be found for which the \acrshort{car} value remains constant. Thus, this value was measured for nine exposure times ranging from ten milliseconds to sixty seconds. The integration time was set to ten times the exposure time for each measurement. Hence, ten histograms were saved for each exposure time and based on these histograms, the average \acrshort{car} value and its standard deviation were calculated. \newline
-The results are shown in \autoref{fig:CAR}. As the exposure time increases, it can be seen that the fluctuation of the \acrshort{car} value, i.e. its standard deviation, decreases. Furthermore, after an exposure time of one second, the \acrshort{car} value remains approximately constant. Therefore, this range from one second onwards is preferred for statistical analysis. However, as this requires many consecutive and lengthy measurements, the aim is to use the shortest possible exposure time at which the \acrshort{car} value remains constant. Therefore, one second will be used as the exposure time for upcoming measurements.
+The results are shown in \autoref{fig:CAR}. As the exposure time increases, it can be seen that the fluctuation of the \acrshort{car} value, i.e. its standard deviation, decreases. Furthermore, after an exposure time of one second, the \acrshort{car} value remains approximately constant. Therefore, this range from one second onwards is preferred for statistical analysis. However, as this requires many consecutive and lengthy measurements, the aim is to use the shortest possible exposure time at which the \acrshort{car} value remains constant. Therefore, one second will be used as the exposure time for the following measurements.
 \begin{figure}[bt!]
 	\centering
 	\includegraphics[width=.9\textwidth]{Images/CAR_Ratio_2.pdf}
-	\caption{Coincidence-to-Accidentals ration for different exposure times}
+	\caption{Coincidence-to-Accidentals ratio for different exposure times}
 	\label{fig:CAR}
 \end{figure}
 \subsection{Dark counts}
@@ -18,8 +18,8 @@ The measurement results for the idler arm can be seen in \autoref{fig:DCIdl}. It
 	\caption{Dark counts of the IR single photon detector in the idler arm}
 	\label{fig:DCIdl}
 \end{figure}\newline
-This mismatch may be caused by the afterpulsing effect. This effect refers to spurious detection events that occur shortly after genuine photon detection, even though no new photons have arrived. These false counts arise from trapped charge carriers released after the detector resets, triggering a secondary avalanche. This effect is well-known in InGaAs single-photon detectors operating in the infrared, such as the one used in this experiment \cite{laiImpactAfterpulsingEffects2024}. Consequently, this effect can be interpreted as a bunching of detection events and hence those cannot be considered independet anymore. In analogy of the thermal light, this bunching results in a larger variance compared to a Poissonian distribution. \newline
-A strong indication that the mismatch is caused by afterpulsing is that the probability of afterpulsing events decreases exponentially with the detector's dead time. Since individual afterpulses could not be measured directly, the variance-to-mean ratio was measured instead. As the number of correlated events decreases as the probability of afterpulsing decreases, the variance-to-mean ratio should also decrease and approach one, as in a Poisson distribution \cite{humerSimpleRobustMethod2015}. The exponential decay of the variance-to-mean ratio is shown in the appendix in \autoref{fig:VoMDead}, thus confirming that the mismatch is caused by afterpulsing. \newline
+This mismatch may be caused by the afterpulsing effect. This effect refers to detection events that occur shortly after genuine photon detection, even though no new photons have arrived. These false counts arise from trapped charge carriers released after the detector resets, triggering a secondary avalanche. This effect is well-known in InGaAs single-photon detectors operating in the infrared, such as the one used in this experiment \cite{laiImpactAfterpulsingEffects2024}. Consequently, this effect can be interpreted as a bunching of detection events and hence those cannot be considered independet anymore. In analogy of the thermal light, this bunching results in a larger variance compared to a Poissonian distribution. \newline
+A strong indication that the mismatch is caused by afterpulsing is that the probability of afterpulsing events decreases exponentially with the detector's dead time. Since individual afterpulses could not be measured directly, the variance-to-mean ratio was measured instead. As the number of correlated events decreases as the probability of afterpulsing decreases, the variance-to-mean ratio should also decrease and approach one, as in a Poisson distribution \cite{humerSimpleRobustMethod2015}. The exponential decay of the variance-to-mean ratio is shown in the appendix in \autoref{fig:VoMDead}, thus strengthening that the mismatch is caused by afterpulsing. \newline
 For the analysis of the dark counts in the signal arm, which are in the visible range, the same experimental settings as for the idler arm were used. The statistical distribution of the dark counts in the signal arm can be seen in \autoref{fig:DCSig}.
 \begin{figure}[tb!]
 	\centering
@@ -51,7 +51,7 @@ As for the idler arm, a Poissonian fit was added to the figure. This shows that 
 \subsection{Single counts}
 
 
-To correctly model \autoref{eq:VarianceTransExpl} and the variance of the total photon counts (i.e.,$\operatorname{Var}\!\left( N_{\text{tot}}^{\text{ref}} \right)$ and $\operatorname{Var}\!\left( N_{\text{tot}}^{\text{sam}} \right)$), the statistics of the idler arm were investigated experimentally. \newline
+To correctly model \autoref{eq:VarianceTransExpl} and the variance of the total photon counts, i.e. $\operatorname{Var}\!\left( N_{\text{tot}}^{\text{ref}} \right)$ and $\operatorname{Var}\!\left( N_{\text{tot}}^{\text{sam}} \right)$, the statistics of the idler arm were investigated experimentally. \newline
 For the measurement, the exposure time was set to one second and the integration time to one thousand seconds. Thus, each measurement yielded 1,000 data points for statistical analysis. The measurement was repeated five times to account for statistical fluctuations and determine an interval for the variance-to-mean ratio.
 The results of the measurements are shown in \autoref{fig:StatIdl}. \newline
 The average photon number $\langle n\rangle$ is 65,107. Furthermore, the mode number $m_{\mathrm{theo}}$, which was determined using the experimental variance value and \autoref{eq:VariancemmBE}, is 61,384. Based on these two values, a \acrshort{mmbe} and a Poisson distribution were modeled. As can be seen, the Poisson distribution significantly overestimates the peak of the experimental distribution. Additionally, the Poisson distribution decreases faster than the experimental distribution, so the edges of the distribution are not modeled correctly. On the other hand, the \acrshort{mmbe} fit agrees much better with the experimental distribution because it properly estimates the peak and the edges of the experimental distribution fall within the theoretical fit.
@@ -92,7 +92,9 @@ The histogram of the coincidences was used to retrieve the accidental counts. Th
 %To obtain just the accidental counts from each histogram, not only the two coincidence peaks, but also the two adjacent bins were neglected. This results in 6,300 accidental counts over the sixty time steps.
 \newline
 The statistical distribution is shown in \autoref{fig:StatAcc}. Similar to previous results, a Poisson distribution was modeled based on average accidental counts. As can be seen, the Poissonian fit closely matches the experimental distribution. \newline
-To obtain a quantitative measure of the distribution in addition to a qualitative one, the variance-to-mean ratio was again calculated. For each time step, 105 values were obtained for the accidental counts, and the variance-to-mean ratio was determined. Then, the average and standard deviation of the ratio were calculated for the sixty steps. The result is shown in the black box of \autoref{fig:StatAcc}. \newline
+To obtain a quantitative measure of the distribution in addition to a qualitative one, the variance-to-mean ratio was again calculated. 
+%For each time step, 105 values were obtained for the accidental counts, and the variance-to-mean ratio was determined. Then, the average and standard deviation of the ratio were calculated for the sixty steps. 
+The result is shown in the black box of \autoref{fig:StatAcc}. \newline
 Within the limits of the standard deviation, the ratio corresponds to one, which is the ratio of a Poisson distribution. Therefore, the accidental counts can be assumed to have a Poisson distribution, and the variance can be substituted by the average accidental count.
 \begin{figure}[tb!]
 	\centering
@@ -102,7 +104,9 @@ Within the limits of the standard deviation, the ratio corresponds to one, which
 \end{figure} \newline
 Additionally, it has to be validated if the formula for calculating the accidentals in \autoref{eq:AccCounts} matches the experimental data. For this evaluation, histograms from the statistical analysis were used, as well as the single counts in each arm, i.e., the exposure time is one second and the integration time is sixty seconds. \newline
 %The bin width was set to 1.4 ns and the coincidence window to 2.8 ns. \newline
-According to \autoref{eq:AccCounts}, the accidental counts can be calculated at each time step using the single counts, coincidence counts and the coincidence window. This value is then compared with accidental counts measured experimentally. Again, in each time step, 105 values for the accidental counts were retrieved. In \autoref{fig:AccCompTheoExp}, the theoretical values are compared with the experimental ones, where for the experimental counts the average and standard deviation is shown. \newline
+According to \autoref{eq:AccCounts}, the accidental counts can be calculated at each time step using the single counts, coincidence counts and the coincidence window. This value is then compared with accidental counts measured experimentally. 
+%Again, in each time step, 105 values for the accidental counts were retrieved. 
+In \autoref{fig:AccCompTheoExp}, the theoretical values are compared with the experimental ones, where for the experimental counts the average and standard deviation is shown. \newline
 As can be seen, the theoretical values always fall within the standard deviation of the experimental ones. However, it is more important to consider whether the average value of the experimentally obtained counts can be well approximated by the formula, and thus, the theoretical values. This is decisive as the theoretical value obtained from \autoref{eq:AccCounts} is the estimator of the accidental counts in the transmittance model. 
 \begin{figure}[tb!]
 	\centering
@@ -115,7 +119,8 @@ To determine the deviation between the theoretical value and the average of the 
 	\epsilon_{\text{err}} = \frac{R_{\text{acc}}^{\text{theo}}-R_{\text{acc}}^{\text{exp}}}{R_{\text{acc}}^{\text{exp}}}
 \end{equation}
 In the black box in \autoref{fig:AccCompTheoExp}, the mean value and standard deviation of the relative error for the sixty time steps is shown. As can be seen, the average relative error between the two values is 1.6 \%, so the formula can be used as a good approximation given the experimental uncertainties. \newline \newline
-As a consequence, all parameters that are important for the transmittance model showed close agreement with the theoretical assumptions. As a next step, the approved model can be used to determine conditions in which the coincidence approach offers an advantage compared to the conventional one. 
+Consequently, all important parameters for the transmittance model showed close agreement with the theoretical assumptions. 
+%As a next step, the approved model can be used to determine conditions in which the coincidence approach offers an advantage compared to the conventional one. 
 \subsection{Heralding efficiencies}
 Before applying the experimental results in the simulation, two more important parameters for the theoretical model need to be determined, which are the heralding efficiencies of each arm.\newline
 They can be defined as the probability of detecting a photon in one arm given that a detection event has occurred in the other arm. For example, the heralding efficiency of the signal arm $\eta_{\text{sig}}$, conditioned on an idler detection, can be calculated using equations \ref{eq:SingleRef}, \ref{eq:pureCoinc} and \ref{eq:totCoinc}:
@@ -137,7 +142,8 @@ Both heralding efficiencies are crucial to assess the quality of the experimenta
 	\label{fig:HeralEff}
 \end{figure} \newline
 Representative values for the efficiencies were measured experimentally in the setup as they will be used in the analytical formulas. The exposure time was set to one second and the integration time to one thousand seconds. At each time step, the single counts and histogram were retrieved, and the efficiencies were calculated using equations \ref{eq:EffSig} and \ref{eq:EffIdl}. The measurement was repeated six times to obtain a statistical distribution of the efficiencies. The results are shown in \autoref{fig:HeralEff}. \newline
-As can be seen, the efficiency of the idler arm is much smaller than that of the signal arm, at 0.09\% and 2.63\% respectively. The reasons for this difference may be the alignment of both arms and the different efficiencies of the single-photon detectors. The average value of the efficiencies and their standard deviation is displayed in the black box. As can be seen, the fluctuations of both values are quite small. \newline
+As can be seen, the efficiency of the idler arm is much smaller than that of the signal arm, with 0.09\% and 2.63\% respectively. The reasons for this difference may be the alignment of both arms and the different efficiencies of the single-photon detectors. The average value of the efficiencies and their standard deviation is displayed in the black box. \newline
+%As can be seen, the fluctuations of both values are quite small. 
 These two experimentally obtained efficiencies are used in the transmittance model to compare the conventional and coincidence approach in a simulation.
 
 

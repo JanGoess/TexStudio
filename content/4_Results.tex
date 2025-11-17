@@ -1,5 +1,5 @@
 \section{Results}
-
+For clarity, it should be noted that, in the following section, the integration time refers to the overall time span of a complete measurement. It comprises multiple individual acquisitions, each characterized by an exposure time that defines the duration of a single measurement event.
 \subsection{Coincidence-to-accidentals ratio}
 One issue that must be addressed when determining the statistics of the different parameters is that the \acrfull{car} depends on the exposure time. Therefore, before measuring the statistical distributions, an exposure time must be found for which the \acrshort{car} value remains constant. Thus, this value was measured for nine exposure times ranging from ten milliseconds to sixty seconds. The integration time was set to ten times the exposure time for each measurement. Hence, ten histograms were saved for each exposure time and based on these histograms, the average \acrshort{car} value and its standard deviation were calculated. \newline
 The results are shown in \autoref{fig:CAR}. As the exposure time increases, it can be seen that the fluctuation of the \acrshort{car} value, i.e. its standard deviation, decreases. Furthermore, after an exposure time of one second, the \acrshort{car} value remains approximately constant. Therefore, this range from one second onwards is preferred for statistical analysis. However, as this requires many consecutive and lengthy measurements, the aim is to use the shortest possible exposure time at which the \acrshort{car} value remains constant. Therefore, one second will be used as the exposure time for the following measurements.
@@ -64,7 +64,7 @@ The average photon number $\langle n\rangle$ is 65,107. Furthermore, the mode nu
 The black box shows the variance-to-mean ratio for the five repeated measurements. The mean value is 2.2, with a standard deviation of 0.1. Since this ratio is not equal to one, it confirms that the experimental distribution is not Poisson but has a higher variance. For the modeling of the variance of the single counts, this means that $\operatorname{Var}\!\left( N_{\text{tot}}^{\text{ref}} \right)$ and $\operatorname{Var}\!\left( N_{\text{tot}}^{\text{sam}} \right)$ can be approximated by the mean photon number multiplied with a factor of 2.2. \newline
 As a consistency check, the statistics of the photons in the signal arm were also measured, as they should exhibit a \acrshort{mmbe} distribution. The experimental parameters are kept the same as in the idler arm measurements. \newline
 The results can be seen in \autoref{fig:StatSig}. The approach for calculating the Poisson and \acrshort{mmbe} distribution is the same as for the idler photons. Similar to the idler arm, the \acrshort{mmbe} model more closely resembles the experimental distribution than the Poisson model because it overestimates the peak and underestimates the edges of the distribution. This is confirmed once more by calculating the variance-to-mean ratio, which yields an average of 1.9 and shows that the distribution is not Poissonian. \newline
-The count rate of the signal photons is roughly 30 times higher than the idler photons. One reason for this may be that the idler photon spectrum is much broader than the signal's. Consequently, the spatial cone of the emitted idler photons is larger. The focusing lens may have a smaller clear aperture than the spatial extent of the cone, resulting in some photons being clipped. Meanwhile, the focusing lens in the signal arm collects the entire spectrum. Another reason may be that, due to the broader spectrum in the idler arm, the chromatic aberration of the lens leads to different focal lengths, so not the entire spectrum is coupled into the fiber. Since the mode number ($m_{\mathrm{theo}}$) is directly related to the average photon number, a high count rate also results in a significantly larger mode number.
+The count rate of the signal photons is roughly 30 times higher than the idler photons. One reason for this may be that the idler photon spectrum is much broader than the signal's. Consequently, the spatial cone of the emitted idler photons is larger. The focusing lens may have a smaller clear aperture than the spatial extent of the cone, resulting in some photons being clipped. Meanwhile, the focusing lens in the signal arm collects the entire spectrum. Another reason may be that, due to the broader spectrum in the idler arm, the chromatic aberration of the lens leads to different focal lengths, so not the entire spectrum is coupled into the fiber. Since the mode number ($m_{\mathrm{theo}}$) is directly related to the average photon number, a higher count rate also results in a significantly larger mode number.
 %\todo[inline]{Can I calculate $m_{theo}$ in another way??}
 \begin{figure}[tb!]
 	\centering
@@ -76,7 +76,7 @@ The count rate of the signal photons is roughly 30 times higher than the idler p
 \subsection{Coincidence counts}
 To determine the statistics of the coincidence counts that are required to calculate the variance of the transmittance in \autoref{eq:VarianceTransExplCoinc}, five measurements were performed. The experimental parameters were kept the same as in the previous section for the singles. Therefore, an exposure time of one second and an integration time of one thousand seconds was used. For every step in time, a histogram was saved by the time-tagging unit. The bin width was set to 4.68 ns and the number of bins to 200. The coincidence window was set to $\tau_{\text{cw}} = $ 9.36 ns, which means that two bins were selected as coincidence counts.\newline
 The results of the measurements are shown in \autoref{fig:StatCoinc}. Similarly to the single counts, a Poisson distribution is modeled based on the average photon counts observed in the experiment. As can be seen, the experimental distribution is well approximated by the Poisson distribution. This is confirmed by considering the variance-to-mean ratio illustrated in the black box. An average value of 1.040 and a standard deviation of 0.035 are achieved for the five measurements. This coincides with the theoretical prediction in \autoref{sec:cohLight} that coincidence counts can be approximated by a Poisson distribution where the variance equals the mean. \newline
-Consequently, the variance of the coincidence counts in the model for the simulation can be substituted by the average coincidence counts.
+%Consequently, the variance of the coincidence counts in the model for the simulation can be substituted by the average coincidence counts.
 \begin{figure}[tb!]
 	\centering
 	\includegraphics[width=.9\textwidth]{Images/CoincStatistics_2.pdf}
@@ -116,7 +116,7 @@ As can be seen, the theoretical values always fall within the standard deviation
 \end{figure}\newline
 To determine the deviation between the theoretical value and the average of the experimental accidental counts, the relative error was calculated at each time step as follows:
 \begin{equation}
-	\epsilon_{\text{err}} = \frac{R_{\text{acc}}^{\text{theo}}-R_{\text{acc}}^{\text{exp}}}{R_{\text{acc}}^{\text{exp}}}
+	\epsilon_{\text{err}} = \frac{R_{\text{acc}}^{\text{theo}}-R_{\text{acc}}^{\text{exp}}}{R_{\text{acc}}^{\text{exp}}}.
 \end{equation}
 In the black box in \autoref{fig:AccCompTheoExp}, the mean value and standard deviation of the relative error for the sixty time steps is shown. As can be seen, the average relative error between the two values is 1.6 \%, so the formula can be used as a good approximation given the experimental uncertainties. \newline \newline
 Consequently, all important parameters for the transmittance model showed close agreement with the theoretical assumptions. 
@@ -125,12 +125,12 @@ Consequently, all important parameters for the transmittance model showed close 
 Before applying the experimental results in the simulation, two more important parameters for the theoretical model need to be determined, which are the heralding efficiencies of each arm.\newline
 They can be defined as the probability of detecting a photon in one arm given that a detection event has occurred in the other arm. For example, the heralding efficiency of the signal arm $\eta_{\text{sig}}$, conditioned on an idler detection, can be calculated using equations \ref{eq:SingleRef}, \ref{eq:pureCoinc} and \ref{eq:totCoinc}:
 \begin{equation}
-	\eta_{\text{sig}} = \frac{N_{\text{tot,cc}}-N_{\text{ac}}}{N_{\text{tot,idl}}-N_{\text{noise}}} = \frac{\eta_{\text{sig}}\eta_{\text{idl}}N_{\text{g}}}{\eta_{\text{idl}}N_{\text{g}}}
+	\eta_{\text{sig}} = \frac{N_{\text{tot,cc}}-N_{\text{ac}}}{N_{\text{tot,idl}}-N_{\text{noise}}} = \frac{\eta_{\text{sig}}\eta_{\text{idl}}N_{\text{g}}}{\eta_{\text{idl}}N_{\text{g}}}.
 	\label{eq:EffSig}
 \end{equation}
 Analogously, the heralding efficiency of the idler arm $\eta_{\text{idl}}$, conditioned on the signal detection, is given by:
 \begin{equation}
-	\eta_{\text{idl}} = \frac{N_{\text{tot,cc}}-N_{\text{ac}}}{N_{\text{tot,sig}}-N_{\text{noise}}} = \frac{\eta_{\text{sig}}\eta_{\text{idl}}N_{\text{g}}}{\eta_{\text{sig}}N_{\text{g}}}
+	\eta_{\text{idl}} = \frac{N_{\text{tot,cc}}-N_{\text{ac}}}{N_{\text{tot,sig}}-N_{\text{noise}}} = \frac{\eta_{\text{sig}}\eta_{\text{idl}}N_{\text{g}}}{\eta_{\text{sig}}N_{\text{g}}}.
 	\label{eq:EffIdl}
 \end{equation}
 It should be noted that the efficiency of the signal arm remains unchanged when a sample is placed in the idler arm. However, the efficiency of the idler arm itself decreases by a factor of $T$, the transmittance.\newline

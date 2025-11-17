@@ -18,7 +18,7 @@ final
 
 
 % details about your thesis
-\newcommand{\titel}{Parameter estimation of correlated photon pairs}
+\newcommand{\titel}{Parameter estimation with correlated photon pairs}
 \newcommand{\artderarbeit}{Bachelor thesis}  % {Bachelorarbeit,Masterarbeit}
 \newcommand{\autor}{Jan Gößwein}
 \newcommand{\studiengang}{AMP}  % {Informatik,Wirtschaftsinformatik,Medieninformatik}
@@ -26,7 +26,7 @@ final
 \newcommand{\erstgutachter}{Prof.\,Dr.~Norbert Koch}
 \newcommand{\zweitgutachter}{Prof.\,Dr.~Michael Mayle}
 \newcommand{\betreuer}{Masoud Safari Arabi}
-\newcommand{\unternehmen}{Insitute of Applied Physics}
+\newcommand{\unternehmen}{Institute of Applied Physics}
 \newcommand{\logo}{figures/TH-Nuernberg-RGB.png}
 \newcommand{\keywords}{hot, fuzz}
 
@@ -285,10 +285,10 @@ linktocpage=true,
 
 % TOC commands --------------
 
-\RedeclareSectionCommand[tocindent=0em,   tocnumwidth=2.5em, beforeskip=1.5ex, afterskip=1.5ex]{chapter}
-\RedeclareSectionCommand[tocentryformat=\bfseries,tocindent=0em,tocnumwidth=2.5em, beforeskip=1.5ex]{section}
-\RedeclareSectionCommand[tocindent=2.5em,tocnumwidth=3.5em,   beforeskip=1.0ex]{subsection}
-
+\RedeclareSectionCommand[tocindent=0em,   tocnumwidth=2.5em, beforeskip=0.5ex, afterskip=0.5ex]{chapter}
+\RedeclareSectionCommand[tocentryformat=\bfseries,tocindent=0em,tocnumwidth=2.5em, beforeskip=0.5ex]{section}
+\RedeclareSectionCommand[tocindent=2.5em,tocnumwidth=3.5em,   beforeskip=0.5ex]{subsection}
+\raggedbottom
 
 \begin{document}
 	
@@ -336,6 +336,7 @@ linktocpage=true,
 	\newpage
 	\input{content/3_Experimental}
 	\input{content/4_Results}
+	\newpage
 	\input{content/5_Simulation}
 	\newpage
 	\input{content/6_Conclusion}

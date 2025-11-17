@@ -5,18 +5,18 @@ The underlying process is as follows: an incident pump photon with frequency $\o
 To achieve efficient \acrshort{spdc} processes, the energy and momentum must be conserved. This means that the photon pair must interfere constructively and fulfill the phase-matching conditions \cite{gilabertebassetPerspectivesApplicationsQuantum2019} : 
 \begin{equation}
 	\begin{aligned}
-		\omega_{\text{p}} &= \omega_{\text{s}} + \omega_{\text{i}} \\
-		\myvect{k}_{\text{p}} &= \myvect{k}_{\text{s}} + \myvect{k}_{\text{i}} - \Delta \myvect{k}
+		%\omega_{\text{p}} &= \omega_{\text{s}} + \omega_{\text{i}} \\
+		\myvect{k}_{\text{p}} &= \myvect{k}_{\text{s}} + \myvect{k}_{\text{i}} - \Delta \myvect{k},
 	\end{aligned}
 \end{equation}
-where the indices p, s and i refer to the pump, signal and idler photon. $\Delta k$ represents the phase mismatch caused by dispersion, which limits the efficiency of the photon pair generation. A visualization of the conservation processes is shown in \autoref{fig:SPDC}. \newline
-Most experiments use crystals, such as \acrfull{ktp} and \acrfull{bbo}, or waveguides like \acrfull{ln}, because they exhibit second-order nonlinearity \cite{fiorentinoSpontaneousParametricDownconversion2007,kwiatUltrabrightSourcePolarizationentangled1999,tanzilliHighlyEfficientPhotonpair2000}.\newline
-There are two approaches to compensate for the mismatch.
-One is called \acrfull{qpm} and can be achieved in periodically poled crystals, e.g. \acrshort{ktp} or \acrshort{ln}, where the nonlinear response also changes periodically, which compensates the mismatch. It allows for a process called type-0 \acrshort{spdc} to happen, which means that all three photons (pump, signal, idler) have the same polarization. \newline
+where the indices p, s and i refer to the pump, signal and idler photon. $\Delta \myvect{k}$ represents the phase mismatch caused by dispersion, which limits the efficiency of the photon pair generation. A visualization of the conservation processes is shown in \autoref{fig:SPDC}. \newline
+Most experiments use crystals to generate \acrshort{spdc} photons, such as \acrfull{ktp} and \acrfull{bbo}, or waveguides like \acrfull{ln}, because they exhibit second-order nonlinearity \cite{fiorentinoSpontaneousParametricDownconversion2007,kwiatUltrabrightSourcePolarizationentangled1999,tanzilliHighlyEfficientPhotonpair2000}.\newline
+There are two approaches to compensate for the phase mismatch .
+One is called \acrfull{qpm} and can be achieved in periodically poled crystals, e.g. \acrshort{ktp} or \acrshort{ln}, where the nonlinear response changes periodically, which compensates the mismatch. It allows for a process called type-0 \acrshort{spdc} to happen, which means that all three photons (pump, signal, idler) have the same polarization. \newline
 Another way to compensate the mismatch is called \acrfull{bpm} and uses anisotropic materials, such as \acrshort{bbo}, as the refractive index changes with the polarization of the incident photon. The effect of using \acrshort{bpm} is that the extraordinary photon is always polarized perpendicular to the pump. Therefore, no type-0 \acrshort{spdc} can be achieved with this approach. The two other possible cases are called type-I and type-II \acrshort{spdc}. In type-I \acrshort{spdc} the signal and idler photons share the same polarization and are polarized perpendicular to the pump, while in type-II \acrshort{spdc} the signal and idler photons are polarized perpendicular to each other \cite{boydNonlinearOptics2008}. 
 \begin{figure}[!bt]
 	\centering
-	\resizebox{.65\textwidth}{!}{%
+	\resizebox{.7\textwidth}{!}{%
 		\begin{tikzpicture}
 			\tikzstyle{every node}=[font=\LARGE]
 			
@@ -41,10 +41,10 @@ Another way to compensate the mismatch is called \acrfull{bpm} and uses anisotro
 			\draw [ color={rgb,255:red,255; green,0; blue,0}, line width=2pt, -{Latex[length=4mm]}] (15,11.5) -- (17.5,11.5);
 			\draw [ color=black!40!green, line width=2pt, -{Latex[length=4mm]}] (17.5,11.5) -- (21.25,11.5);
 			
-			\node [font=\LARGE, color={rgb,255:red,0; green,0; blue,255}] at (17.5,9.5) {$k_{\text{p}}$};
-			\node [font=\LARGE, color={rgb,255:red,0; green,0; blue,0}] at (20.75,9.5) {$\Delta k$};
-			\node [font=\LARGE, color={rgb,255:red,255; green,0; blue,0}] at (16.25,12) {$k_{\text{i}}$};
-			\node [font=\LARGE, color=black!40!green] at (19.5,12) {$k_{\text{s}}$};
+			\node [font=\LARGE, color={rgb,255:red,0; green,0; blue,255}] at (17.5,9.5) {$\myvect{k}_{\text{p}}$};
+			\node [font=\LARGE, color={rgb,255:red,0; green,0; blue,0}] at (20.75,9.5) {$\Delta \myvect{k}$};
+			\node [font=\LARGE, color={rgb,255:red,255; green,0; blue,0}] at (16.25,12) {$\myvect{k}_{\text{i}}$};
+			\node [font=\LARGE, color=black!40!green] at (19.5,12) {$\myvect{k}_{\text{s}}$};
 			
 			\node [font=\LARGE] at (8,13.75) {\textbf{Energy\,\,conservation}};
 			\node [font=\LARGE] at (18,13.75) {\textbf{Momentum\,\,conservation}};
@@ -76,16 +76,16 @@ Another way to compensate the mismatch is called \acrfull{bpm} and uses anisotro
 		\end{tikzpicture}
 	}%
 	
-	\caption{Conservation processes of collinear SPDC}
+	\caption{Conservation processes of SPDC}
 	\label{fig:SPDC}
 \end{figure} \newline
-In this work, the temporal correlation between the signal and idler photons is used for coincidence measurements. A tool for visualizing the coincidences is a coincidence histogram. These show the number of coincident events as a function of the delay between the arrival times of the photons at two single-photon detectors. \newline
+In this work, the temporal correlation between the signal and idler photons is used for coincidence measurements. A tool for visualizing the coincidences is a coincidence histogram. This shows the number of coincident events as a function of the delay between the arrival times of the photons at two single-photon detectors. \newline
 Ideally, the temporal correlation of the photon pairs results in a distinct coincidence peak centered at zero delay if both detectors are the same distance from the \acrshort{spdc} source. 
 The width of this peak depends on several factors, including the resolution of the time-tagging electronics that create a timestamp for each detection event and also on the properties of the generated photon pair. \newline
 These correlations are evaluated by defining a temporal interval around the detection peak. Within this interval, detection events are considered true coincidences, meaning they originate from the same source. This interval is usually referred to as the coincidence window $\tau_{\text{cw}}$. Events that fall outside this window are usually attributed to uncorrelated background noise and are called accidental counts. A representative scheme of a coincidence histogram is shown in \autoref{fig:HistoExample} .
-\begin{figure}[h!]
+\begin{figure}[b!]
 	\centering
-	\resizebox{.6\textwidth}{!}{%
+	\resizebox{.5\textwidth}{!}{%
 	\begin{tikzpicture}
 		\begin{axis}[
 			ymin=0,
@@ -148,9 +148,9 @@ These correlations are evaluated by defining a temporal interval around the dete
 			% Vertical dashed line at x = 5
 			\draw[dashed, thick] (axis cs:4,0) -- (axis cs:4,650);
 			
-			\node at (axis cs:-9, 300) [anchor=south] {\textit{Accidentals}};
+			\node at (axis cs:-9, 300) [anchor=south] {\text{Accidentals}};
 			
-			\node at (axis cs:10, 300) [anchor=south] {\textit{Accidentals}};
+			\node at (axis cs:10, 300) [anchor=south] {\text{Accidentals}};
 			
 			\node at (axis cs:1.3, 525) [anchor=south] {$\tau_{\text{cw}}$};
 									
@@ -182,18 +182,23 @@ These correlations are evaluated by defining a temporal interval around the dete
 %\todo[inline]{histogram, correlations, how that works}
 %\newpage
 \subsection{Model for transmittance estimation}
-%\vspace{-0.5em}
-When noise is present in the experimental setup, the question arises as to how precisely the parameters of interest can be determined using either the conventional or coincidence approach. As the objective of this work is to compare both methods in terms of the precision of the measurement rather than focusing on the estimated absolute values, it is the variance of the chosen parameter that is decisive. Since the results of this study will be applied in a transmission setup, the transmittance of the sample is chosen as the key parameter. \newline
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=.8\textwidth]{Images/SetupsTheory}
+	\caption[Comparison of the transmission schemes]{(A): Scheme of the conventional setup, (B): Scheme of the coincidence setup; DM: dichroic mirror, Sam: sample, SPD: single photon detector, CC: coincidence counter}
+	\label{fig:CompSetups}
+\end{figure}
+When noise is present in the experimental setup, the question arises as to how precisely the parameters of interest can be determined using either the conventional or coincidence approach. As the objective of this work is to compare both methods in terms of the precision of the measurement rather than focusing on the estimated absolute values, it is the variance of the chosen parameter that is decisive. Since the results of this study will be applied in a transmission setup, the transmittance of the sample is chosen as the key parameter. A sketch of both the conventional and coincidence approach is shown in \autoref{fig:CompSetups}.\newline
 In the following, the formulas to calculate the variance of the transmittance are derived both for the conventional and coincidence approach. The arm in which the sample is placed will be referred to as idler and the other arm, the reference arm, as signal. The case in which a sample is placed in the idler arm is denoted with the superscript $\textit{sam}$, where there is no sample with $\textit{ref}$. \newline
 Starting with the conventional approach, only the idler arm is required. Therefore, in absence of the sample, the number of total detected counts in this arm is: 
 \begin{equation}
-	N_{\text{tot}}^{\text{ref}} = \eta_{\text{idl}} \, N_{\mathrm{g}} + N_{\text{noise}}^{\text{ref}}
+	N_{\text{tot}}^{\text{ref}} = \eta_{\text{idl}} \, N_{\mathrm{g}} + N_{\text{noise}}^{\text{ref}},
 	\label{eq:SingleRef}
 \end{equation}
-where $N_{\text{tot}}^{\text{ref}}$ is the total number of counts without a sample, $\eta_{\text{idl}}$ is the efficiency of the idler arm, $N_{\mathrm{g}}$ is the number of generated photon pairs and $N_{\text{noise}}^{\text{ref}}$ is the number of counts when there are no photon pairs, which refer to noise consisting of e.g. dark counts of the detector or stray light. \newline
+where $N_{\text{tot}}^{\text{ref}}$ is the total number of counts without a sample, $N_{\mathrm{g}}$ is the number of generated photon pairs and $N_{\text{noise}}^{\text{ref}}$ is the number of counts when there are no photon pairs, which refer to noise consisting of e.g. dark counts of the detector or stray light. $\eta_{\text{idl}}$ corresponds to the efficiency of the idler arm, which includes the detection and coupling efficiency, as well as the arm's alignment. \newline
 When a sample is placed in the idler arm, the total number of counts changes according to the transmittance of the material. Therefore, \autoref{eq:SingleRef} is modified as follows:
 \begin{equation}
-	N_{\text{tot}}^{\text{sam}} = T \, \eta_{\text{idl}} \, N_{\mathrm{g}} + N_{\text{noise}}^{\text{sam}}
+	N_{\text{tot}}^{\text{sam}} = T \, \eta_{\text{idl}} \, N_{\mathrm{g}} + N_{\text{noise}}^{\text{sam}},
 	\label{eq:SingleSam}
 \end{equation}
 where $N_{\text{tot}}^{\text{sam}}$ represents the total counts in presence of a sample and $T$ is the transmittance of the sample. \newline
@@ -201,11 +206,11 @@ $T$ can be calculated combining equations \ref{eq:SingleRef} and \ref{eq:SingleS
 \begin{equation}
 	T = 
 	\frac{\,N_{\text{tot}}^{\text{sam}} - N_{\text{noise}}^{\text{sam}}\,}
-	{\,N_{\text{tot}}^{\text{ref}} - N_{\text{noise}}^{\text{ref}}\,}
+	{\,N_{\text{tot}}^{\text{ref}} - N_{\text{noise}}^{\text{ref}}\,}.
 	\label{eq:TransSingle}
 \end{equation}
-As can be seen from the formula, four independent measurements must be conducted to retrieve the transmittance: two where only the dark counts are measured with and without the sample, and two with generated idler photons also with and without the sample. 
-\newpage
+As can be seen from the formula, four independent measurements must be conducted to retrieve the transmittance: two where only the dark counts are measured with and without the sample, and two with generated idler photons also with and without the sample. \newline
+%\newpage
 Based on \autoref{eq:TransSingle} and error propagation, the variance of the transmittance $\operatorname{Var}(T)$ can be calculated assuming that all four variables are independent of each other \cite{kuNotesUsePropagation1966}: 
 \begin{equation}
 	\begin{aligned}
@@ -219,7 +224,7 @@ Based on \autoref{eq:TransSingle} and error propagation, the variance of the tra
 		&\quad + \left( \frac{\partial T}{\partial N_{\text{tot}}^{\text{ref}}} \right)^{2} 
 		\operatorname{Var}\!\left( N_{\text{tot}}^{\text{ref}} \right)
 		+ \left( \frac{\partial T}{\partial N_{\text{noise}}^{\text{ref}}} \right)^{2} 
-		\operatorname{Var}\!\left( N_{\text{noise}}^{\text{ref}} \right)
+		\operatorname{Var}\!\left( N_{\text{noise}}^{\text{ref}} \right).
 	\end{aligned}
 	\label{eq:VarianceTransGen}
 \end{equation}
@@ -234,7 +239,7 @@ When the partial derivatives are explicitly calculated using \autoref{eq:TransSi
 		\operatorname{Var}\!\left(N_{\text{tot}}^{\text{ref}}\right) 
 		+ \operatorname{Var}\!\left(N_{\text{noise}}^{\text{ref}}\right) 
 		\Big]
-		\Bigg]
+		\Bigg].
 	\label{eq:VarianceTransExpl}
 \end{equation}
 \begin{comment}
@@ -265,33 +270,33 @@ When the partial derivatives are explicitly calculated using \autoref{eq:TransSi
 When using the coincidence approach, the formulas for the transmittance and it's variance differ. In addition to the idler arm, the signal arm is required to detect correlated photons created by \acrshort{spdc}. Assuming perfectly correlated photon pairs, the formula for pure coincidence counts with and without a sample in the idler arm is as follows \cite{hayatTheoryPhotonCoincidence1999}:
 \begin{equation}
 	\begin{aligned}
-		N_{\text{cc,pure}}^{\text{sam}} &= T \,\eta_{\text{idl}} \,\eta_{\text{sig}} \, N_{\mathrm{g}} \\[0.5em]
-		N_{\text{cc,pure}}^{\text{ref}} &= \eta_{\text{idl}} \,\eta_{\text{sig}} \, N_{\mathrm{g}}
+		N_{\text{cc,pure}}^{\text{sam}} &= T \,\eta_{\text{idl}} \,\eta_{\text{sig}} \, N_{\mathrm{g}}, \\[0.5em]
+		N_{\text{cc,pure}}^{\text{ref}} &= \eta_{\text{idl}} \,\eta_{\text{sig}} \, N_{\mathrm{g}},
 	\end{aligned}
 	\label{eq:pureCoinc}
 \end{equation}
 where $\eta_{\text{sig/idl}}$ is the efficiency of signal and idler arm, $T$ is the transmittance of the sample and $N_{\mathrm{g}}$ is the number of generated photon pairs. \newline
-In the context of coincidence measurements, it is important to note that the detection of pure coincidences is not the only outcome of such measurements. In addition to these, what is called accidental counts are also detected. Consequently, instead of both photons originating from one pair being detected simultaneously, only one is detected in one arm and a noise photon is detected in the other.Another possibility is that two photons are detected concurrently in both arms, yet neither of them originates from a \acrshort{spdc}-pair. In both cases, the time tagging unit recognizes them as coincidence events. Hence, they are designated as accidental counts. \newline
+In the context of coincidence measurements, it is important to note that the detection of pure coincidences is not the only outcome of such measurements. In addition to these, what is called accidental counts are also detected. Consequently, instead of both photons originating from one pair being detected simultaneously, only one is detected in one arm and a noise photon is detected in the other. Another possibility is that two photons are detected concurrently in both arms, yet neither of them originates from a \acrshort{spdc}-pair. In both cases, the time tagging unit recognizes them as coincidence events. Hence, they are designated as accidental counts. \newline
 The following formula is used to model the accidental counts with sample $\left(R_{\text{ac}}^{\text{sam}} \right)$ and without $\left(R_{\text{ac}}^{\text{ref}} \right)$ \cite{hayatTheoryPhotonCoincidence1999}:
 \begin{equation}
 	\begin{aligned}
 		R_{\text{ac}}^{\text{sam}} 
 		&= \Big( T\,\eta_{\text{idl}} R_{\mathrm{g}} + R_{\text{dc,idl}} - R_{\mathrm{cc,pure}}^{\mathrm{sam}} \Big) \,
 		\Big( \eta_{\text{sig}} R_{\mathrm{g}} + R_{\text{dc,sig}} - R_{\text{cc,pure}}^{\text{sam}} \Big) \,
-		\tau_{\text{cw}} \\[0.75em]
+		\tau_{\text{cw}}, \\[0.75em]
 		R_{\text{ac}}^{\text{ref}} 
 		&= \Big( \eta_{\text{idl}} R_{\mathrm{g}} + R_{\text{dc,idl}} - R_{\text{cc,pure}}^{\text{ref}} \Big) \,
 		\Big( \eta_{\text{sig}} R_{\mathrm{g}} + R_{\text{dc,sig}} - R_{\text{cc,pure}}^{\text{ref}} \Big) \,
-		\tau_{\text{cw}}
+		\tau_{\text{cw}},
 	\end{aligned}
 	\label{eq:AccCounts}
 \end{equation}
-where the variable $R$ denotes the rate of the respective parameters. The total number can be calculated by multiplying the rate by the exposure time. When the exposure time is set to one second, the rate and the total number coincide. $R_{\text{dc,idl/sig}}$ denotes the dark count rate in the idler/signal arm and $\tau_{cw}$ is the coincidence window.\newline
+where the variables $R_{\text{m}}^{\text{n}}$ denotes the rate of the respective parameters. The total number can be calculated by multiplying the rate by the exposure time. When the exposure time is set to one second, the rate and the total number coincide. $R_{\text{dc,idl/sig}}$ denotes the dark count rate in the idler/signal arm and $\tau_{cw}$ is the coincidence window.\newline
 Therefore, the measured total coincidence events are the sum of pure and accidental coincidence events:
 \begin{equation}
 	\begin{aligned}
-		N_{\text{cc,tot}}^{\text{sam}} &= N_{\text{cc,pure}}^{\text{sam}} + N_{\text{ac}}^{\text{sam}} \\[0.5em]
-		N_{\text{cc,tot}}^{\text{ref}} &= N_{\text{cc,pure}}^{\text{ref}} + N_{\text{ac}}^{\text{ref}}
+		N_{\text{cc,tot}}^{\text{sam}} &= N_{\text{cc,pure}}^{\text{sam}} + N_{\text{ac}}^{\text{sam}}, \\[0.5em]
+		N_{\text{cc,tot}}^{\text{ref}} &= N_{\text{cc,pure}}^{\text{ref}} + N_{\text{ac}}^{\text{ref}}.
 	\end{aligned}
 	\label{eq:totCoinc}
 \end{equation}
@@ -299,11 +304,11 @@ Using equations \ref{eq:pureCoinc}, \ref{eq:AccCounts} and \ref{eq:totCoinc}, th
 \begin{equation}
 	T = 
 	\frac{\,N_{\text{cc,tot}}^{\text{sam}} - N_{\text{ac}}^{\text{sam}}\,}
-	{\,N_{\text{cc,tot}}^{\text{ref}} - N_{\text{ac}}^{\text{ref}}\,}
+	{\,N_{\text{cc,tot}}^{\text{ref}} - N_{\text{ac}}^{\text{ref}}\,}.
 	\label{eq:TransCoinc}
 \end{equation}
 In comparison to the conventional approach from \autoref{eq:TransSingle}, which necessitates four independent measurements, this approach requires only two: one with and one without the sample. This is due to the fact that  accidentals and coincidences can be obtained within a single measurement. \newline
-Since the objective is to compare the precision of the transmittance $T$ using the two different approaches, analogue to \autoref{eq:VarianceTransGen}, variance of the transmittance can be calculated using error propagation and coincidence counts:
+Since the objective is to compare the precision of the transmittance $T$ using the two different approaches, analogue to \autoref{eq:VarianceTransGen}, the variance of the transmittance can be calculated using error propagation and coincidence counts:
 \begin{equation}
 	\begin{aligned}
 		\operatorname{Var}(T) 
@@ -316,7 +321,7 @@ Since the objective is to compare the precision of the transmittance $T$ using t
 		&\quad + \left( \frac{\partial T}{\partial N_{\text{cc,tot}}^{\text{ref}}} \right)^{2} 
 		\operatorname{Var}\!\left(N_{\text{cc,tot}}^{\text{ref}}\right)
 		+ \left( \frac{\partial T}{\partial N_{\text{ac}}^{\text{ref}}} \right)^{2} 
-		\operatorname{Var}\!\left(N_{\text{ac}}^{\text{ref}}\right)
+		\operatorname{Var}\!\left(N_{\text{ac}}^{\text{ref}}\right).
 	\end{aligned}
 	\label{eq:VarianceTransGenCoinc}
 \end{equation}
@@ -331,7 +336,7 @@ Using equations \ref{eq:pureCoinc} and \ref{eq:totCoinc}, an explicit expression
  	\operatorname{Var}\!\left(N_{\text{cc,tot}}^{\text{ref}}\right) 
  	+ \operatorname{Var}\!\left(N_{\text{ac}}^{\text{ref}}\right) 
  	\Big]
- 	\Bigg]
+ 	\Bigg].
  	\label{eq:VarianceTransExplCoinc}
  \end{equation}
  
@@ -343,24 +348,24 @@ When investigating the statistical properties of photons, it is essential to rec
 From a classical perspective, a coherent light field, such as that produced by a stable laser, may be regarded as a monochromatic electromagnetic wave with well-defined amplitude and phase. \newline
 When considering a light beam of constant power $P$, the photon flux is uniform in time. To describe the detection statistics, the observation time interval $T$ may be subdivided into a large number of subintervals of duration $\Delta t$. For each subinterval, the probability of detecting a single photon is small but finite. The probability of detecting two or more photons within a single subinterval can be neglected. \newline
 Since the intensity of the beam is constant, the detection probability is identical for each subinterval, and successive detection events are statistically independent.  \newline
-The probability of detecting $n$ photons within $N$ subintervals of the total observation time $T$ corresponds to the case where $n$ subintervals each contain exactly one photon, while the remaining $(N-n)$ subintervals contain none. This situation is described by the binomial distribution~\cite{foxQuantumOpticsIntroduction2006}:
+The probability of detecting $n$ photons within $N$ subintervals of the total observation time $T$ corresponds to the case where $n$ subintervals each contain exactly one photon, while the remaining $(N-n)$ subintervals contain none. This event is described by the binomial distribution~\cite{foxQuantumOpticsIntroduction2006}:
 \begin{equation}
-	\mathcal{P}(n) = \frac{N!}{n!\,(N-n)!}\,p^{n}(1-p)^{N-n}
+	\mathcal{P}(n) = \frac{N!}{n!\,(N-n)!}\,p^{n}(1-p)^{N-n},
 	\label{eq:BinomCoherent}
 \end{equation}
 where $p$ denotes the probability of detecting a photon in a single subinterval. This probability is equal to the average number of detected photons $\langle n\rangle$ in the observation interval divided by the number of subintervals $N$:
 \begin{equation}
-	p = \frac{\langle n\rangle}{N}
+	p = \frac{\langle n\rangle}{N}.
 \end{equation}
 Substituting this expression into \autoref{eq:BinomCoherent} yields:
 \begin{equation}
 	\mathcal{P}(n) = \frac{N!}{n!\,(N-n)!}\,
 	\left(\frac{\langle n\rangle}{N}\right)^{n}
-	\left(1-\frac{\langle n\rangle}{N}\right)^{N-n}
+	\left(1-\frac{\langle n\rangle}{N}\right)^{N-n}.
 \end{equation}
-In the limit $N \to \infty$, it can be shown that the probability of detecting $n$ photons in a coherent light beam reduces to ~\cite{foxQuantumOpticsIntroduction2006}:
+In the limit $N \to \infty$, it can be shown that the probability of detecting $n$ photons in a coherent light beam reduces to~\cite{foxQuantumOpticsIntroduction2006}:
 \begin{equation}
-	\mathcal{P}(n) = \frac{\langle n\rangle^{\,n}}{n!}\,e^{-\langle n\rangle}
+	\mathcal{P}(n) = \frac{\langle n\rangle^{\,n}}{n!}\,e^{-\langle n\rangle}.
 \end{equation}
 This result corresponds to a \textbf{Poisson distribution}, which is characteristic for coherent light sources. A distinctive property of the Poisson distribution is that the mean photon number $\langle n \rangle$ is equal to its variance, i.e. $\langle n \rangle = \operatorname{Var}(n)$. \newline
 Furthermore, it has been demonstrated that the coincidence counts of photon pairs generated via \acrshort{spdc} also follow a Poissonian distribution, since the \acrshort{spdc} process preserves the coherence of the incident pump laser~\cite{avenhausPhotonNumberStatistics2008,schneelochIntroductionAbsoluteBrightness2019,kimPhotoncountingStatisticsbasedSupport2022}. Consequently, the variance of the coincidence counts in \autoref{eq:VarianceTransExplCoinc} can likewise be approximated by their mean value, $ \operatorname{Var}(N_{\text{cc,tot}}) \approx \langle N_{\text{cc,tot}} \rangle$.
@@ -376,29 +381,29 @@ Using the quantization of energy levels and Planck's law,
 the probability of finding $n$ photons in a single mode is then governed by Boltzmann’s law:
 \begin{equation}
 	\mathcal{P}_{\omega}(n) = \frac{\exp\!\left(-n\hbar\omega / k_B T\right)}
-	{\sum_{m=0}^{\infty} \exp\!\left(-m\hbar\omega / k_B T\right)}
+	{\sum_{m=0}^{\infty} \exp\!\left(-m\hbar\omega / k_B T\right)}.
 	\label{eq:BoltzLaw}
 \end{equation}
 It can be shown that the mean photon number $\langle n\rangle$ can be expressed as:
 \begin{equation}
-	\langle n\rangle = \frac{1}{\exp\!\left(\hbar\omega / k_B T\right) -1}
+	\langle n\rangle = \frac{1}{\exp\!\left(\hbar\omega / k_B T\right) -1}.
 \end{equation}
 Substituting this expression into \autoref{eq:BoltzLaw}, the probability distribution can be rewritten as follows:
 \begin{equation}
-	\mathcal{P}_{\omega}(n) = \frac{1}{\langle n\rangle+1}\left(\frac{\langle n\rangle}{\langle n\rangle+1}\right)^n
+	\mathcal{P}_{\omega}(n) = \frac{1}{\langle n\rangle+1}\left(\frac{\langle n\rangle}{\langle n\rangle+1}\right)^n.
 	\label{eq:smBE}
 \end{equation}
 This distribution is referred to as single-mode \textbf{Bose-Einstein distribution} \cite{foxQuantumOpticsIntroduction2006}. \newline
 In practice, thermal light sources generally populate a large number of independent modes. Consequently, the multi-mode expansion of the Bose-Einstein distribution must be considered. Assuming that $m$ modes of the field are occupied and that the thermal light is fully unpolarized, the \acrfull{mmbe} distribution can be expressed as~\cite{mandelOpticalCoherenceQuantum1995}:
 \begin{equation}
 	\mathcal{P}_m(n) = \frac{(n+m-1)!}{(m-1)!\,n!}\,
-	\frac{\langle n\rangle^{\,n}}{\left(1+\langle n\rangle/m\right)^{m}\,\left(\langle n\rangle+m\right)^{n}} 
+	\frac{\langle n\rangle^{\,n}}{\left(1+\langle n\rangle/m\right)^{m}\,\left(\langle n\rangle+m\right)^{n}}. 
 	\label{eq:mmBE}
 \end{equation}
 The combinatorial prefactor accounts for the number of ways in which $n$ photons can be distributed among $m$ modes, while the remaining factor describes the joint probability associated with the $m$ occupied modes. As a consistency check, it is readily verified that for $m=1$ the expression reduces to the single-mode Bose-Einstein distribution given in \autoref{eq:smBE}.  \newline
 The variance of the photon number in the \acrshort{mmbe} distribution is given by:
 \begin{equation}
-	\operatorname{Var}(n) = \langle n\rangle\left(1+\frac{\langle n\rangle}{m}\right)
+	\operatorname{Var}(n) = \langle n\rangle\left(1+\frac{\langle n\rangle}{m}\right).
 	\label{eq:VariancemmBE}
 \end{equation}
 When compared to the variance of a Poissonian distribution, which is equal to its mean value, it is evident that the \acrshort{mmbe} distribution always exhibits larger fluctuations. Hence, thermal light is intrinsically super-Poissonian. This property is commonly described in terms of photon bunching, meaning that photons tend to arrive in groups more frequently than would be expected for the random distribution characteristic of coherent (Poissonian) light. \newline

@@ -10,7 +10,7 @@ The results are shown in \autoref{fig:CAR}. As the exposure time increases, it c
 	\label{fig:CAR}
 \end{figure}
 \subsection{Dark counts}
-The first parameter to be determined is the statistical distribution of dark counts in both arms. This result is necessary for obtaining the variance of noise in the conventional approach in \autoref{eq:VarianceTransExpl}. For the measurement, the exposure time was set to one second, and the integration time was set to one thousand seconds. To obtain the intrinsic dark counts, both single-photon detectors were disconnected from the setup and the measurement was repeated five times. \newline
+The first parameters to be determined are the statistical distributions of dark counts in both arms. This result is necessary for obtaining the variance of noise in the conventional approach in \autoref{eq:VarianceTransExpl}. For the measurement, the exposure time was set to one second, and the integration time was set to one thousand seconds. To obtain the intrinsic dark counts, both single-photon detectors were disconnected from the setup and the measurement was repeated five times. \newline
 The measurement results for the idler arm can be seen in \autoref{fig:DCIdl}. It shows the probability distribution for each dark count rate. Additionally, a Poisson distribution was fitted to the experimental data with the same average count rate. This was done because it is expected that the dark counts of single-photon detectors will exhibit a Poisson distribution \cite{foucheDetectionFalsealarmProbabilities2003}. However, the two distributions do not match, indicating that the experimentally obtained data does not follow a Poisson distribution. This is also confirmed by calculating the variance-to-mean ratio, which, in the case of a Poisson distribution, should equal one. The ratio was calculated for each of the five repeats and averaged to 1.78. This is shown in the black box of \autoref{fig:DCIdl}. 
 \begin{figure}[tb!]
 	\centering
@@ -18,7 +18,7 @@ The measurement results for the idler arm can be seen in \autoref{fig:DCIdl}. It
 	\caption{Dark counts of the IR single photon detector in the idler arm}
 	\label{fig:DCIdl}
 \end{figure}\newline
-This mismatch may be caused by the afterpulsing effect. This effect refers to detection events that occur shortly after genuine photon detection, even though no new photons have arrived. These false counts arise from trapped charge carriers released after the detector resets, triggering a secondary avalanche. This effect is well-known in InGaAs single-photon detectors operating in the infrared, such as the one used in this experiment \cite{laiImpactAfterpulsingEffects2024}. Consequently, this effect can be interpreted as a bunching of detection events and hence those cannot be considered independet anymore. In analogy of the thermal light, this bunching results in a larger variance compared to a Poissonian distribution. \newline
+This mismatch may be caused by the afterpulsing effect. It refers to detection events that occur shortly after genuine photon detection, even though no new photons have arrived. These false counts arise from trapped charge carriers released after the detector resets, triggering a secondary avalanche. This effect is well-known in InGaAs single-photon detectors operating in the infrared, such as the one used in this experiment \cite{laiImpactAfterpulsingEffects2024}. Consequently, this effect can be interpreted as a bunching of detection events, meaning they cannot be considered independent anymore. In analogy of the thermal light, this bunching results in a larger variance compared to a Poissonian distribution. \newline
 A strong indication that the mismatch is caused by afterpulsing is that the probability of afterpulsing events decreases exponentially with the detector's dead time. Since individual afterpulses could not be measured directly, the variance-to-mean ratio was measured instead. As the number of correlated events decreases as the probability of afterpulsing decreases, the variance-to-mean ratio should also decrease and approach one, as in a Poisson distribution \cite{humerSimpleRobustMethod2015}. The exponential decay of the variance-to-mean ratio is shown in the appendix in \autoref{fig:VoMDead}, thus strengthening that the mismatch is caused by afterpulsing. \newline
 For the analysis of the dark counts in the signal arm, which are in the visible range, the same experimental settings as for the idler arm were used. The statistical distribution of the dark counts in the signal arm can be seen in \autoref{fig:DCSig}.
 \begin{figure}[tb!]
@@ -107,7 +107,7 @@ Additionally, it has to be validated if the formula for calculating the accident
 According to \autoref{eq:AccCounts}, the accidental counts can be calculated at each time step using the single counts, coincidence counts and the coincidence window. This value is then compared with accidental counts measured experimentally. 
 %Again, in each time step, 105 values for the accidental counts were retrieved. 
 In \autoref{fig:AccCompTheoExp}, the theoretical values are compared with the experimental ones, where for the experimental counts the average and standard deviation is shown. \newline
-As can be seen, the theoretical values always fall within the standard deviation of the experimental ones. However, it is more important to consider whether the average value of the experimentally obtained counts can be well approximated by the formula, and thus, the theoretical values. This is decisive as the theoretical value obtained from \autoref{eq:AccCounts} is the estimator of the accidental counts in the transmittance model. 
+As can be seen, the theoretical values always fall within the standard deviation of the experimental ones. However, it is more important to consider whether the average value of the experimentally obtained counts can be well approximated by the theoretical formula. This is decisive as the theoretical value obtained from \autoref{eq:AccCounts} is the estimator of the accidental counts in the transmittance model. 
 \begin{figure}[tb!]
 	\centering
 	\includegraphics[width=.8\textwidth]{Images/AccCountsTheoExpStep4_2.pdf}
@@ -118,7 +118,7 @@ To determine the deviation between the theoretical value and the average of the 
 \begin{equation}
 	\epsilon_{\text{err}} = \frac{R_{\text{acc}}^{\text{theo}}-R_{\text{acc}}^{\text{exp}}}{R_{\text{acc}}^{\text{exp}}}.
 \end{equation}
-In the black box in \autoref{fig:AccCompTheoExp}, the mean value and standard deviation of the relative error for the sixty time steps is shown. As can be seen, the average relative error between the two values is 1.6 \%, so the formula can be used as a good approximation given the experimental uncertainties. \newline \newline
+In the black box in \autoref{fig:AccCompTheoExp}, the mean value and standard deviation of the relative error for the sixty time steps is shown. As can be seen, the average relative error between the two values is 1.6 \%, so the formula can be used as a good approximation given the experimental uncertainties. \newline
 Consequently, all important parameters for the transmittance model showed close agreement with the theoretical assumptions. 
 %As a next step, the approved model can be used to determine conditions in which the coincidence approach offers an advantage compared to the conventional one. 
 \subsection{Heralding efficiencies}
@@ -133,7 +133,7 @@ Analogously, the heralding efficiency of the idler arm $\eta_{\text{idl}}$, cond
 	\eta_{\text{idl}} = \frac{N_{\text{tot,cc}}-N_{\text{ac}}}{N_{\text{tot,sig}}-N_{\text{noise}}} = \frac{\eta_{\text{sig}}\eta_{\text{idl}}N_{\text{g}}}{\eta_{\text{sig}}N_{\text{g}}}.
 	\label{eq:EffIdl}
 \end{equation}
-It should be noted that the efficiency of the signal arm remains unchanged when a sample is placed in the idler arm. However, the efficiency of the idler arm itself decreases by a factor of $T$, the transmittance.\newline
+%It should be noted that the efficiency of the signal arm remains unchanged when a sample is placed in the idler arm. However, the efficiency of the idler arm itself decreases by a factor of $T$, the transmittance.\newline
 Both heralding efficiencies are crucial to assess the quality of the experimental setup, as they provide direct information about optical loss in each arm. Efficiencies are also important when setting up the transmittance model, as they are crucial for analytically calculating coincidence and accidental counts.
 \begin{figure}[tb!]
 	\centering
@@ -141,7 +141,7 @@ Both heralding efficiencies are crucial to assess the quality of the experimenta
 	\caption{Heralding efficiencies of the signal and idler arm}
 	\label{fig:HeralEff}
 \end{figure} \newline
-Representative values for the efficiencies were measured experimentally in the setup as they will be used in the analytical formulas. The exposure time was set to one second and the integration time to one thousand seconds. At each time step, the single counts and histogram were retrieved, and the efficiencies were calculated using equations \ref{eq:EffSig} and \ref{eq:EffIdl}. The measurement was repeated six times to obtain a statistical distribution of the efficiencies. The results are shown in \autoref{fig:HeralEff}. \newline
+Representative values for the efficiencies were measured experimentally in the setup as they will be used in the analytical formulas. The exposure time was set to one second and the integration time to one thousand seconds. At each time step, the single counts and histograms were retrieved, and the efficiencies were calculated using equations \ref{eq:EffSig} and \ref{eq:EffIdl}. The measurement was repeated six times to obtain a statistical distribution of the efficiencies. The results are shown in \autoref{fig:HeralEff}. \newline
 As can be seen, the efficiency of the idler arm is much smaller than that of the signal arm, with 0.09\% and 2.63\% respectively. The reasons for this difference may be the alignment of both arms and the different efficiencies of the single-photon detectors. The average value of the efficiencies and their standard deviation is displayed in the black box. \newline
 %As can be seen, the fluctuations of both values are quite small. 
 These two experimentally obtained efficiencies are used in the transmittance model to compare the conventional and coincidence approach in a simulation.

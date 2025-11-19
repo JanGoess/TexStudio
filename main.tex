@@ -160,7 +160,6 @@ text width=12em, text centered, rounded corners, minimum height=3em]
 \usepackage[backend=biber,style=numeric-comp]{biblatex}
 \addbibresource{references.bib}
 
-
 % pdf hyperref
 \usepackage[
 bookmarks=true,
@@ -174,7 +173,7 @@ pdfsubject={\titel},
 pdfkeywords={\keywords},
 pdfpagelabels=true,
 colorlinks=true,
-linkcolor=red,
+linkcolor=cyan,
 urlcolor=magenta,
 anchorcolor=black,
 citecolor=cyan,
@@ -184,6 +183,7 @@ plainpages=false,
 hypertexnames=true,
 linktocpage=true,
 ]{hyperref}
+
 
 % configure your listings style
 \usepackage{listings}
@@ -289,6 +289,13 @@ linktocpage=true,
 \RedeclareSectionCommand[tocentryformat=\bfseries,tocindent=0em,tocnumwidth=2.5em, beforeskip=0.5ex]{section}
 \RedeclareSectionCommand[tocindent=2.5em,tocnumwidth=3.5em,   beforeskip=0.5ex]{subsection}
 \raggedbottom
+
+\AtBeginDocument{
+	\renewcommand{\equationautorefname}{equation}
+	\renewcommand{\figureautorefname}{figure}
+	\renewcommand{\tableautorefname}{table}
+}
+
 
 \begin{document}
 	
